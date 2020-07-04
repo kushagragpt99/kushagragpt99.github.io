@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rmarkdown | Alison Hill</title>
-    <link>https://alison.rbind.io/tags/rmarkdown/</link>
-      <atom:link href="https://alison.rbind.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <title>rmarkdown | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/rmarkdown/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>rmarkdown</title>
-      <link>https://alison.rbind.io/tags/rmarkdown/</link>
+      <link>https://kushagragpt99.github.io/tags/rmarkdown/</link>
     </image>
     
     <item>
       <title>How I Taught Tidymodels, Virtually</title>
-      <link>https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/</link>
+      <link>https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/</guid>
+      <guid>https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/</guid>
       <description>&lt;p&gt;A few weeks ago, I wrapped up teaching 
 &lt;a href=&#34;https://www.tidymodels.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; for the third time. We say third time&amp;rsquo;s the charm, right? Even during a global pandemic? I don&amp;rsquo;t know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.&lt;/p&gt;
 &lt;h2 id=&#34;but-why&#34;&gt;But why?&lt;/h2&gt;
 &lt;p&gt;Why teach tidymodels virtually? I&amp;rsquo;ve already taught it as a 
-&lt;a href=&#34;https://alison.rbind.io/project/tidyml&#34;&gt;2-day workshop&lt;/a&gt; at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
-&lt;a href=&#34;https://alison.rbind.io/talk/2020-rmedicine-tidyml/&#34;&gt;R / Medicine conference&lt;/a&gt; (still on, and 100% virtual!).&lt;/p&gt;
+&lt;a href=&#34;https://kushagragpt99.github.io/project/tidyml&#34;&gt;2-day workshop&lt;/a&gt; at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
+&lt;a href=&#34;https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/&#34;&gt;R / Medicine conference&lt;/a&gt; (still on, and 100% virtual!).&lt;/p&gt;
 &lt;p&gt;I had three main goals:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;First, I wanted to do a good job for the R / Medicine conference workshop in August. This seemed like an interesting teaching challenge. One of the best compliments I&amp;rsquo;ve ever gotten from a colleague is that I &amp;ldquo;teach with heart&amp;rdquo; — so the challenge was, can a virtual workshop have a ❤️?&lt;/li&gt;
@@ -170,8 +170,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu8ddd347995e1b8316aad5f226eef880e_1335197_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu8ddd347995e1b8316aad5f226eef880e_1335197_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -179,8 +179,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu8ddd347995e1b8316aad5f226eef880e_932227_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu8ddd347995e1b8316aad5f226eef880e_932227_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -188,8 +188,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu8ddd347995e1b8316aad5f226eef880e_2521546_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu8ddd347995e1b8316aad5f226eef880e_2521546_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -197,8 +197,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu8ddd347995e1b8316aad5f226eef880e_1994290_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu8ddd347995e1b8316aad5f226eef880e_1994290_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -206,8 +206,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu8ddd347995e1b8316aad5f226eef880e_365121_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu8ddd347995e1b8316aad5f226eef880e_365121_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
 
@@ -295,11 +295,11 @@
     
     <item>
       <title>How I Teach R Markdown</title>
-      <link>https://alison.rbind.io/post/2020-05-28-how-i-teach-r-markdown/</link>
+      <link>https://kushagragpt99.github.io/post/2020-05-28-how-i-teach-r-markdown/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2020-05-28-how-i-teach-r-markdown/</guid>
+      <guid>https://kushagragpt99.github.io/post/2020-05-28-how-i-teach-r-markdown/</guid>
       <description>
-&lt;script src=&#34;https://alison.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kushagragpt99.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ah, &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt;. I love teaching R Markdown. But this was not a love at first sight story. When I first started teaching with R at Oregon Health &amp;amp; Science University many moons ago, my students used R Markdown for their homework assignments and in-class labs. This is a great way to start for beginners, to be honest- just use it! I found that most people are not very disoriented by a file that mixes text and code; a concern I had at first and one that I’ve heard voiced by other educators. It seems natural to use if it is your first exposure to &lt;em&gt;all the data science things&lt;/em&gt;, especially if you’ve never used an R script.&lt;/p&gt;
@@ -358,9 +358,9 @@
     
     <item>
       <title>Sharing on Short Notice</title>
-      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <link>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</link>
       <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -372,9 +372,9 @@
     
     <item>
       <title>Communicating with R Markdown Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</guid>
       <description>
 
 
@@ -390,9 +390,9 @@
     
     <item>
       <title>R Markdown for Medicine Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</link>
       <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</guid>
       <description>
 
 
@@ -402,9 +402,9 @@
     
     <item>
       <title>Meet blogdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</link>
       <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</guid>
       <description>
 
 
@@ -414,9 +414,9 @@
     
     <item>
       <title>Meet bookdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</link>
       <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</guid>
       <description>
 
 
@@ -426,9 +426,9 @@
     
     <item>
       <title>Meet flexdashboard</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</link>
       <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</guid>
       <description>
 
 
@@ -438,9 +438,9 @@
     
     <item>
       <title>Meet xaringan</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
       <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
       <description>
 
 
@@ -450,9 +450,9 @@
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -460,27 +460,27 @@
     
     <item>
       <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-biostats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-biostats/</guid>
       <description>&lt;p&gt;Part of a year-long curricula on open science, data, and research practice for incoming graduate students in the biomedical sciences, developed in collaboration with OHSU School of MedicineGraduate Studies. This course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
       <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-cs-stats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-cs-stats/</guid>
       <description></description>
     </item>
     

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sarah Karalunas | Alison Hill</title>
-    <link>https://alison.rbind.io/authors/sarah-karalunas/</link>
-      <atom:link href="https://alison.rbind.io/authors/sarah-karalunas/index.xml" rel="self" type="application/rss+xml" />
+    <title>Sarah Karalunas | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/sarah-karalunas/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/sarah-karalunas/index.xml" rel="self" type="application/rss+xml" />
     <description>Sarah Karalunas</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Sarah Karalunas</title>
-      <link>https://alison.rbind.io/authors/sarah-karalunas/</link>
+      <link>https://kushagragpt99.github.io/authors/sarah-karalunas/</link>
     </image>
     
     <item>
       <title>Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</title>
-      <link>https://alison.rbind.io/publication/2017-subtyping/</link>
+      <link>https://kushagragpt99.github.io/publication/2017-subtyping/</link>
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2017-subtyping/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2017-subtyping/</guid>
       <description></description>
     </item>
     

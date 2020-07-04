@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Talks &amp; Workshops | Alison Hill</title>
-    <link>https://alison.rbind.io/talk/</link>
-      <atom:link href="https://alison.rbind.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <title>All Talks &amp; Workshops | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/talk/</link>
+      <atom:link href="https://kushagragpt99.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>All Talks &amp; Workshops</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Thu, 27 Aug 2020 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 27 Aug 2020 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>All Talks &amp; Workshops</title>
-      <link>https://alison.rbind.io/talk/</link>
+      <link>https://kushagragpt99.github.io/talk/</link>
     </image>
     
     <item>
       <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</link>
+      <link>https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/</link>
       <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/</guid>
       <description>
-&lt;script src=&#34;https://alison.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kushagragpt99.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;This four-hour workshop will provide a gentle introduction to machine learning with R using the modern suite of predictive modeling packages called &lt;a href=&#34;https://github.com/tidymodels&#34;&gt;tidymodels&lt;/a&gt;. We will build, evaluate, compare, and tune predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting, the holdout method, the bias-variance trade-off, ensembling, cross-validation, and feature engineering. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like &lt;a href=&#34;https://tidymodels.github.io/parsnip&#34;&gt;parsnip&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/rsample&#34;&gt;rsample&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/recipes/&#34;&gt;recipes&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/yardstick/&#34;&gt;yardstick&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/tune/&#34;&gt;tune&lt;/a&gt;, and &lt;a href=&#34;https://tidymodels.github.io/workflows/&#34;&gt;workflows&lt;/a&gt;.&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Sharing on Short Notice</title>
-      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <link>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</link>
       <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -41,9 +41,9 @@
     
     <item>
       <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://alison.rbind.io/talk/2020-rsc-tidyml/</link>
+      <link>https://kushagragpt99.github.io/talk/2020-rsc-tidyml/</link>
       <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2020-rsc-tidyml/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2020-rsc-tidyml/</guid>
       <description>&lt;p&gt;This two-day workshop provided a gentle introduction to supervised machine learning: concepts, methods, and R code. Participants learned how to train and assess predictive models with several common machine learning algorithms, as well as how to do feature engineering to improve the predictive accuracy of their models. We focused on teaching intuitive explanations of the models and best practices for predictive modeling. Along the way, we introduced several core 
 &lt;a href=&#34;https://github.com/tidymodels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; packages, which provide a grammar for modeling that makes it easy to the right thing, and harder to accidentally do the wrong thing.&lt;/p&gt;
 </description>
@@ -51,9 +51,9 @@
     
     <item>
       <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
-      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</link>
       <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</guid>
       <description>&lt;p&gt;Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the &lt;code&gt;ggplot2&lt;/code&gt; package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the &lt;code&gt;tidyr&lt;/code&gt; package.&lt;/p&gt;
 &lt;p&gt;You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using &lt;code&gt;ggplot2&lt;/code&gt;. To brush up (or start learning now), you may want to play with the free RStudio.cloud 
 &lt;a href=&#34;https://rstudio.cloud/learn/primers/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data visualization primer&lt;/a&gt; (you may use an existing Google or GitHub account to log in). Or of course you can check out 
@@ -65,9 +65,9 @@
     
     <item>
       <title>The Art of Literate Projecting</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</link>
       <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</guid>
       <description>
 
 
@@ -77,9 +77,9 @@
     
     <item>
       <title>Communicating with R Markdown Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</guid>
       <description>
 
 
@@ -95,9 +95,9 @@
     
     <item>
       <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://alison.rbind.io/talk/2019-rladies-melbourne/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</link>
       <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rladies-melbourne/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</guid>
       <description>&lt;p&gt;In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;latest-event&#34;&gt;Latest event&lt;/h1&gt;
@@ -108,9 +108,9 @@
     
     <item>
       <title>R Markdown for Medicine Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</link>
       <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</guid>
       <description>
 
 
@@ -120,9 +120,9 @@
     
     <item>
       <title>Teaching Students to Talk about Data Science</title>
-      <link>https://alison.rbind.io/talk/2019-jsm-talk-ds/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</link>
       <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-jsm-talk-ds/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</guid>
       <description>
 
 
@@ -132,9 +132,9 @@
     
     <item>
       <title>Summer of blogdown: Day 04</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</link>
       <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -143,9 +143,9 @@
     
     <item>
       <title>Summer of blogdown: Day 03</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</link>
       <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -154,9 +154,9 @@
     
     <item>
       <title>Summer of blogdown: Day 02</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</link>
       <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -165,9 +165,9 @@
     
     <item>
       <title>Summer of blogdown: Day 01</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</link>
       <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -176,9 +176,9 @@
     
     <item>
       <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://alison.rbind.io/talk/2019-sdss-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</link>
       <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-sdss-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</guid>
       <description>
 
 
@@ -188,9 +188,9 @@
     
     <item>
       <title>Meet blogdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</link>
       <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</guid>
       <description>
 
 
@@ -200,9 +200,9 @@
     
     <item>
       <title>Meet bookdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</link>
       <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</guid>
       <description>
 
 
@@ -212,9 +212,9 @@
     
     <item>
       <title>Meet flexdashboard</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</link>
       <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</guid>
       <description>
 
 
@@ -224,9 +224,9 @@
     
     <item>
       <title>Meet xaringan</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
       <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
       <description>
 
 
@@ -236,9 +236,9 @@
     
     <item>
       <title>Data Visualization in the Tidyverse</title>
-      <link>https://alison.rbind.io/talk/2018-uo-plotoff/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</link>
       <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-uo-plotoff/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</guid>
       <description>&lt;p&gt;Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tidy data is the start of your data wrangling journey, not the end&lt;/li&gt;
@@ -250,18 +250,18 @@
     
     <item>
       <title>Big Magic with R: Creative Learning Beyond Fear</title>
-      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</link>
       <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</guid>
       <description>&lt;p&gt;Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners. Along the way, she will share recommended resources and evidence-based strategies for project-based learning. Alison’s background working with both new and advanced R users gives her a unique perspective on this topic.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</link>
       <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</guid>
       <description>&lt;p&gt;Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Following this, Eric Earl (Senior RA in the DCAN Labs) will show a case study of visualization in neuroimaging research.&lt;/p&gt;
@@ -270,9 +270,9 @@
     
     <item>
       <title>Labhub Workshop</title>
-      <link>https://alison.rbind.io/talk/2017-ohsu-labhub/</link>
+      <link>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2017-ohsu-labhub/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</guid>
       <description>
 
 
@@ -294,10 +294,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
 &lt;/a&gt;
 
 
@@ -349,18 +349,18 @@
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/talk/2017-pdxr-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2017-pdxr-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</guid>
       <description>&lt;p&gt;See project links for more details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://alison.rbind.io/talk/2016-ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2016-ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</guid>
       <description>
 
 
@@ -382,10 +382,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
 &lt;/a&gt;
 
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Robin Champieux | Alison Hill</title>
-    <link>https://alison.rbind.io/authors/robin-champieux/</link>
-      <atom:link href="https://alison.rbind.io/authors/robin-champieux/index.xml" rel="self" type="application/rss+xml" />
+    <title>Robin Champieux | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/robin-champieux/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/robin-champieux/index.xml" rel="self" type="application/rss+xml" />
     <description>Robin Champieux</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Fri, 08 Dec 2017 16:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Fri, 08 Dec 2017 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Robin Champieux</title>
-      <link>https://alison.rbind.io/authors/robin-champieux/</link>
+      <link>https://kushagragpt99.github.io/authors/robin-champieux/</link>
     </image>
     
     <item>
       <title>Labhub Workshop</title>
-      <link>https://alison.rbind.io/talk/2017-ohsu-labhub/</link>
+      <link>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2017-ohsu-labhub/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</guid>
       <description>
 
 
@@ -38,10 +38,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
 &lt;/a&gt;
 
 
@@ -93,9 +93,9 @@
     
     <item>
       <title>Labhub</title>
-      <link>https://alison.rbind.io/project/labhub/</link>
+      <link>https://kushagragpt99.github.io/project/labhub/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <guid>https://kushagragpt99.github.io/project/labhub/</guid>
       <description>&lt;p&gt;In this workshop, Dr. Alison Hill and Robin Champieux demonstrated tools and methods for building transparency within a lab, and onboarding new graduate students and postdocs. We provided a 
 &lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template GitHub repository&lt;/a&gt; and code of conduct designed to facilitate a healthy and productive learning and research environment. You are encouraged to use these tools to communicate expectations, document protocols, receive feedback, and facilitate the long-term value of students’ and trainees’ contributions.&lt;/p&gt;
 &lt;p&gt;Labhub is a &lt;em&gt;work in progress&lt;/em&gt;. We created 

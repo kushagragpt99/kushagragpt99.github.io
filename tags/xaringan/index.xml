@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>xaringan | Alison Hill</title>
-    <link>https://alison.rbind.io/tags/xaringan/</link>
-      <atom:link href="https://alison.rbind.io/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
+    <title>xaringan | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/xaringan/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
     <description>xaringan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Fri, 04 Oct 2019 18:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Fri, 04 Oct 2019 18:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>xaringan</title>
-      <link>https://alison.rbind.io/tags/xaringan/</link>
+      <link>https://kushagragpt99.github.io/tags/xaringan/</link>
     </image>
     
     <item>
       <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
-      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</link>
       <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</guid>
       <description>&lt;p&gt;Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the &lt;code&gt;ggplot2&lt;/code&gt; package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the &lt;code&gt;tidyr&lt;/code&gt; package.&lt;/p&gt;
 &lt;p&gt;You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using &lt;code&gt;ggplot2&lt;/code&gt;. To brush up (or start learning now), you may want to play with the free RStudio.cloud 
 &lt;a href=&#34;https://rstudio.cloud/learn/primers/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data visualization primer&lt;/a&gt; (you may use an existing Google or GitHub account to log in). Or of course you can check out 
@@ -28,9 +28,9 @@
     
     <item>
       <title>The Art of Literate Projecting</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</link>
       <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</guid>
       <description>
 
 
@@ -40,9 +40,9 @@
     
     <item>
       <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://alison.rbind.io/talk/2019-rladies-melbourne/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</link>
       <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rladies-melbourne/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</guid>
       <description>&lt;p&gt;In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;latest-event&#34;&gt;Latest event&lt;/h1&gt;
@@ -53,9 +53,9 @@
     
     <item>
       <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://alison.rbind.io/talk/2019-sdss-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</link>
       <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-sdss-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</guid>
       <description>
 
 
@@ -65,9 +65,9 @@
     
     <item>
       <title>Meet xaringan</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
       <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
       <description>
 
 
@@ -77,9 +77,9 @@
     
     <item>
       <title>Data Visualization in the Tidyverse</title>
-      <link>https://alison.rbind.io/talk/2018-uo-plotoff/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</link>
       <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-uo-plotoff/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</guid>
       <description>&lt;p&gt;Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tidy data is the start of your data wrangling journey, not the end&lt;/li&gt;
@@ -91,9 +91,9 @@
     
     <item>
       <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</link>
       <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</guid>
       <description>&lt;p&gt;Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Following this, Eric Earl (Senior RA in the DCAN Labs) will show a case study of visualization in neuroimaging research.&lt;/p&gt;
@@ -102,9 +102,9 @@
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
-      <link>https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
+      <link>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
+      <guid>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
       <description>
 
 
@@ -172,9 +172,9 @@
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -182,9 +182,9 @@
     
     <item>
       <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
       <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>

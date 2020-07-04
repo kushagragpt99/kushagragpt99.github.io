@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>flexdashboard | Alison Hill</title>
-    <link>https://alison.rbind.io/tags/flexdashboard/</link>
-      <atom:link href="https://alison.rbind.io/tags/flexdashboard/index.xml" rel="self" type="application/rss+xml" />
+    <title>flexdashboard | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/flexdashboard/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/flexdashboard/index.xml" rel="self" type="application/rss+xml" />
     <description>flexdashboard</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 11:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 11:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>flexdashboard</title>
-      <link>https://alison.rbind.io/tags/flexdashboard/</link>
+      <link>https://kushagragpt99.github.io/tags/flexdashboard/</link>
     </image>
     
     <item>
       <title>Meet flexdashboard</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</link>
       <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</guid>
       <description>
 
 
@@ -26,9 +26,9 @@
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>

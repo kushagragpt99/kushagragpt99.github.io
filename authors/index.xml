@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Alison Hill</title>
-    <link>https://alison.rbind.io/authors/</link>
-      <atom:link href="https://alison.rbind.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Authors</title>
-      <link>https://alison.rbind.io/authors/</link>
+      <link>https://kushagragpt99.github.io/authors/</link>
     </image>
     
   </channel>

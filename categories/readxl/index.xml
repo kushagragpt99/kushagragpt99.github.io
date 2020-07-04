@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>readxl | Alison Hill</title>
-    <link>https://alison.rbind.io/categories/readxl/</link>
-      <atom:link href="https://alison.rbind.io/categories/readxl/index.xml" rel="self" type="application/rss+xml" />
+    <title>readxl | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/categories/readxl/</link>
+      <atom:link href="https://kushagragpt99.github.io/categories/readxl/index.xml" rel="self" type="application/rss+xml" />
     <description>readxl</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>readxl</title>
-      <link>https://alison.rbind.io/categories/readxl/</link>
+      <link>https://kushagragpt99.github.io/categories/readxl/</link>
     </image>
     
     <item>
       <title>Read Data with Multiple Header Rows into R</title>
-      <link>https://alison.rbind.io/post/2018-02-23-read-multiple-header-rows/</link>
+      <link>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2018-02-23-read-multiple-header-rows/</guid>
+      <guid>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</guid>
       <description>
 
 

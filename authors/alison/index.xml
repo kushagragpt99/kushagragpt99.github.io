@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alison Hill</title>
-    <link>https://alison.rbind.io/authors/alison/</link>
-      <atom:link href="https://alison.rbind.io/authors/alison/index.xml" rel="self" type="application/rss+xml" />
-    <description>Alison Hill</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate>
+    <title>alison | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/alison/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/alison/index.xml" rel="self" type="application/rss+xml" />
+    <description>alison</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
-      <title>Alison Hill</title>
-      <link>https://alison.rbind.io/authors/alison/</link>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>alison</title>
+      <link>https://kushagragpt99.github.io/authors/alison/</link>
     </image>
     
     <item>
       <title>Sharing on Short Notice</title>
-      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <link>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</link>
       <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -28,9 +28,9 @@
     
     <item>
       <title>The Art of Literate Projecting</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</link>
       <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</guid>
       <description>
 
 
@@ -40,9 +40,9 @@
     
     <item>
       <title>Communicating with R Markdown Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</guid>
       <description>
 
 
@@ -58,9 +58,9 @@
     
     <item>
       <title>R Markdown for Medicine Workshop</title>
-      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</link>
       <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</guid>
       <description>
 
 
@@ -70,9 +70,9 @@
     
     <item>
       <title>Teaching Students to Talk about Data Science</title>
-      <link>https://alison.rbind.io/talk/2019-jsm-talk-ds/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</link>
       <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-jsm-talk-ds/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</guid>
       <description>
 
 
@@ -82,9 +82,9 @@
     
     <item>
       <title>Summer of blogdown: Day 04</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</link>
       <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -93,9 +93,9 @@
     
     <item>
       <title>Summer of blogdown: Day 03</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</link>
       <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -104,9 +104,9 @@
     
     <item>
       <title>Summer of blogdown: Day 02</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</link>
       <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -115,9 +115,9 @@
     
     <item>
       <title>Summer of blogdown: Day 01</title>
-      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</link>
       <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</guid>
       <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
 &lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
 &lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
@@ -126,9 +126,9 @@
     
     <item>
       <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://alison.rbind.io/talk/2019-sdss-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</link>
       <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-sdss-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</guid>
       <description>
 
 
@@ -138,9 +138,9 @@
     
     <item>
       <title>A Spoonful of Hugo: Troubleshooting Your Build</title>
-      <link>https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/</link>
+      <link>https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/</guid>
+      <guid>https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -158,7 +158,7 @@
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt;, &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;, and &lt;a href=&#34;https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/&#34;&gt;Hugo page bundles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt;, &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;, and &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/&#34;&gt;Hugo page bundles&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The following are a few steps that I always start with to troubleshoot any blogdown/Hugo/Netlify problems. These steps would solve what I would anecdotally estimate as ~50% of blogdown problems that I see posted in the &lt;a href=&#34;https://github.com/rstudio/blogdown/issues&#34;&gt;GitHub repository&lt;/a&gt; and on the &lt;a href=&#34;https://community.rstudio.com/tags/blogdown&#34;&gt;community site&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;update-hugo&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#1: Update Hugo&lt;/h1&gt;
@@ -182,7 +182,7 @@ Figure 2: Check your theme’s minimum Hugo version
 &lt;p&gt;Check your version again post-update:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.55.6&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you are using Netlify to build your site using Hugo, you’ll want this version to match that- the best way to do that is with a &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you are using Netlify to build your site using Hugo, you’ll want this version to match that- the best way to do that is with a &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;change-the-baseurl&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#2: Change the baseurl&lt;/h1&gt;
@@ -239,10 +239,10 @@ Figure 4: Hugo universal theme
 &lt;p&gt;If you can render your site locally but your published site looks different, try the drag-and-drop method:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://arm.rbind.io/slides/img/netlify-new-site.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Use the “Serve Site” Addin, then drag-and-drop the &lt;code&gt;public/&lt;/code&gt; folder straight into Netlify. What does this do? You can now see your public site…that you built…with your local version of Hugo. Netlify is doing none of the site building here.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-10-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-10-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;p&gt;One of the first benefits of this approach is that it ensures that you are able to actually &lt;em&gt;generate&lt;/em&gt; a &lt;code&gt;public/&lt;/code&gt; folder locally! I have seen folks struggle to deploy the wrong repo. This simple step can force you to make sure to use the “Serve Site” Addin to generate the &lt;code&gt;public/&lt;/code&gt; folder, and that the repo you are trying to link to Netlify actually contains a Hugo site because you must physically move the &lt;code&gt;public/&lt;/code&gt; folder. But this method can also help you diagnose other problems too.&lt;/p&gt;
 &lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does not render&lt;/strong&gt; on Netlify, you have work to do locally. I can’t tell you what it is as it can be a number of things, but you can be sure that your problem is not just the Netlify build- it is your local build too.&lt;/p&gt;
-&lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does render&lt;/strong&gt; perfectly on Netlify, but you are getting a Netlify build error, then you likely have a Hugo version problem. It might be that the version you are running locally is more recent than the version run by Netlify by default to actually build your site. The good news is there is a quick fix for this! The solution is to upgrade the Hugo version Netlify is using- see my advice &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;here for how to do that&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does render&lt;/strong&gt; perfectly on Netlify, but you are getting a Netlify build error, then you likely have a Hugo version problem. It might be that the version you are running locally is more recent than the version run by Netlify by default to actually build your site. The good news is there is a quick fix for this! The solution is to upgrade the Hugo version Netlify is using- see my advice &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;here for how to do that&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you are happy with how your site looks but you are missing content and/or seeing old deleted content, then you may need the next few strategies to troubleshoot.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;torch-public&#34; class=&#34;section level1&#34;&gt;
@@ -253,7 +253,7 @@ Figure 4: Hugo universal theme
 &lt;p&gt;“you are strongly recommended to delete the &lt;code&gt;/public/&lt;/code&gt; directory before you rebuild the site for publishing every time, because Hugo never deletes it”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Also, this has a bonus of reinforcing for you exactly what the “Serve Site” Addin &lt;em&gt;does&lt;/em&gt; - it regenerates the &lt;code&gt;public/&lt;/code&gt; folder. This is also the folder that, if you are using &lt;a href=&#34;post/2019-02-19-hugo-netlify-toml/&#34;&gt;Netlify to build your site&lt;/a&gt;, is in your &lt;code&gt;.gitignore&lt;/code&gt; file because Netlify (+ Hugo) generates this file “fresh” with each push to your GitHub repository.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alison.rbind.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-11-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-11-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;peruse-public&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#5: Peruse &lt;code&gt;public/&lt;/code&gt;&lt;/h1&gt;
@@ -306,9 +306,9 @@ publishDate: &amp;#39;2019-03-04&amp;#39;&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>A Spoonful of Hugo: Page Bundles</title>
-      <link>https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/</link>
+      <link>https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/</guid>
+      <guid>https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/</guid>
       <description>
 
 
@@ -316,7 +316,7 @@ publishDate: &amp;#39;2019-03-04&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt; and &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt; and &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is my third post in this series and it is breaking news.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dZCdA82qa8d4xVIwm3/giphy.gif&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;hugo-page-bundles&#34; class=&#34;section level1&#34;&gt;
@@ -359,7 +359,7 @@ post/2015-07-24-bye-world/index.Rmd&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bundle-me-blogdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Bundle Me, blogdown!&lt;/h1&gt;
-&lt;p&gt;First, read the previous post on setting up a &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;. Since using Hugo page bundles depends on Hugo v0.32 or higher, you should go ahead and update hugo then update your netlify.toml with your updated version:&lt;/p&gt;
+&lt;p&gt;First, read the previous post on setting up a &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;. Since using Hugo page bundles depends on Hugo v0.32 or higher, you should go ahead and update hugo then update your netlify.toml with your updated version:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::update_hugo()
 blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let’s use the &lt;a href=&#34;https://usethis.r-lib.org/&#34;&gt;&lt;strong&gt;usethis&lt;/strong&gt; package&lt;/a&gt;.&lt;/p&gt;
@@ -397,12 +397,12 @@ options(
   blogdown.new_bundle = TRUE,
   blogdown.title_case = TRUE
 )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For the blogdown-specific options, any of these prepopulate content in your “New Post” Addin (I told you to use this &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;). There is a handy &lt;a href=&#34;https://bookdown.org/yihui/blogdown/global-options.html&#34;&gt;table&lt;/a&gt; from the blogdown book, summarized here:&lt;/p&gt;
+&lt;p&gt;For the blogdown-specific options, any of these prepopulate content in your “New Post” Addin (I told you to use this &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;). There is a handy &lt;a href=&#34;https://bookdown.org/yihui/blogdown/global-options.html&#34;&gt;table&lt;/a&gt; from the blogdown book, summarized here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;blogdown.author&lt;/code&gt; = author of new posts&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.ext&lt;/code&gt; = default extension of new posts (can also be “.md” or “.Rmarkdown”)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.subdir&lt;/code&gt; = theme-specific, you need to know your theme and content folder here&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;blogdown.yaml.empty&lt;/code&gt; = I told you to do that &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blogdown.yaml.empty&lt;/code&gt; = I told you to do that &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.new_bundle&lt;/code&gt; = what this whole post is about!&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.title_case&lt;/code&gt; = “nEed More coFFee” –&amp;gt; “Need More Coffee” (it tidies all your post titles to title case)&lt;/li&gt;
 &lt;/ul&gt;
@@ -426,7 +426,7 @@ options(
 &lt;pre&gt;&lt;code&gt;[permalinks]
     post = &amp;quot;/:year/:month/:day/:slug/&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The default here from Hugo was &lt;code&gt;/post/:year-:month-:day-:slug/:slug/&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;A small note: if you want to add relative links from a blog post to another post in your same blog. So &lt;code&gt;[this](/post/2019-02-19-hugo-archetypes/)&lt;/code&gt; becomes &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A small note: if you want to add relative links from a blog post to another post in your same blog. So &lt;code&gt;[this](/post/2019-02-19-hugo-archetypes/)&lt;/code&gt; becomes &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now, add images and data files to your ❤️’s content! But you may want to do one more thing…&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;update-metadata&#34; class=&#34;section level1&#34;&gt;
@@ -448,9 +448,9 @@ options(
     
     <item>
       <title>A Spoonful of Hugo: The netlify.toml File</title>
-      <link>https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/</link>
+      <link>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</link>
       <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/</guid>
+      <guid>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</guid>
       <description>
 
 
@@ -458,7 +458,7 @@ options(
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;https://alison.rbind.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
+&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
 &lt;p&gt;This is my second post in this series, and it is a relatively quick one. Just do this. This one is a no-brainer.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -549,9 +549,9 @@ options(
     
     <item>
       <title>A Spoonful of Hugo: Archetypes</title>
-      <link>https://alison.rbind.io/post/2019-02-19-hugo-archetypes/</link>
+      <link>https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2019-02-19-hugo-archetypes/</guid>
+      <guid>https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/</guid>
       <description>
 
 
@@ -695,9 +695,9 @@ categories = []
     
     <item>
       <title>Meet blogdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</link>
       <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</guid>
       <description>
 
 
@@ -707,9 +707,9 @@ categories = []
     
     <item>
       <title>Meet bookdown</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</link>
       <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</guid>
       <description>
 
 
@@ -719,9 +719,9 @@ categories = []
     
     <item>
       <title>Meet flexdashboard</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</link>
       <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</guid>
       <description>
 
 
@@ -731,9 +731,9 @@ categories = []
     
     <item>
       <title>Meet xaringan</title>
-      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
       <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
       <description>
 
 
@@ -743,9 +743,9 @@ categories = []
     
     <item>
       <title>Read Data with Multiple Header Rows into R</title>
-      <link>https://alison.rbind.io/post/2018-02-23-read-multiple-header-rows/</link>
+      <link>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2018-02-23-read-multiple-header-rows/</guid>
+      <guid>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</guid>
       <description>
 
 
@@ -1072,26 +1072,26 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Big Magic with R: Creative Learning Beyond Fear</title>
-      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <link>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</link>
       <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</guid>
       <description>&lt;p&gt;Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners. Along the way, she will share recommended resources and evidence-based strategies for project-based learning. Alison’s background working with both new and advanced R users gives her a unique perspective on this topic.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</title>
-      <link>https://alison.rbind.io/publication/2017-subtyping/</link>
+      <link>https://kushagragpt99.github.io/publication/2017-subtyping/</link>
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2017-subtyping/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2017-subtyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
-      <link>https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
+      <link>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
+      <guid>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
       <description>
 
 
@@ -1159,17 +1159,17 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://alison.rbind.io/publication/2017-blogdown/</link>
+      <link>https://kushagragpt99.github.io/publication/2017-blogdown/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2017-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2017-blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Labhub Workshop</title>
-      <link>https://alison.rbind.io/talk/2017-ohsu-labhub/</link>
+      <link>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2017-ohsu-labhub/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</guid>
       <description>
 
 
@@ -1191,10 +1191,10 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
 &lt;/a&gt;
 
 
@@ -1246,9 +1246,9 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Labhub</title>
-      <link>https://alison.rbind.io/project/labhub/</link>
+      <link>https://kushagragpt99.github.io/project/labhub/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <guid>https://kushagragpt99.github.io/project/labhub/</guid>
       <description>&lt;p&gt;In this workshop, Dr. Alison Hill and Robin Champieux demonstrated tools and methods for building transparency within a lab, and onboarding new graduate students and postdocs. We provided a 
 &lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template GitHub repository&lt;/a&gt; and code of conduct designed to facilitate a healthy and productive learning and research environment. You are encouraged to use these tools to communicate expectations, document protocols, receive feedback, and facilitate the long-term value of students’ and trainees’ contributions.&lt;/p&gt;
 &lt;p&gt;Labhub is a &lt;em&gt;work in progress&lt;/em&gt;. We created 
@@ -1258,9 +1258,9 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/project/up-running-blogdown/</link>
+      <link>https://kushagragpt99.github.io/project/up-running-blogdown/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/up-running-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/project/up-running-blogdown/</guid>
       <description>&lt;p&gt;We will cover:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The &lt;strong&gt;blogdown&lt;/strong&gt; R package&lt;/li&gt;
@@ -1295,10 +1295,10 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2550&#34; height=&#34;3300&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2550&#34; height=&#34;3300&#34;&gt;
 &lt;/a&gt;
 
 
@@ -1310,18 +1310,18 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/talk/2017-pdxr-blogdown/</link>
+      <link>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2017-pdxr-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</guid>
       <description>&lt;p&gt;See project links for more details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/</link>
+      <link>https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1692,17 +1692,17 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
     
     <item>
       <title>Quantitative Analysis of Disfluency in Children with Autism Spectrum Disorder or Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2017-mazes-asd-sli/</link>
+      <link>https://kushagragpt99.github.io/publication/2017-mazes-asd-sli/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2017-mazes-asd-sli/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2017-mazes-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <link>https://kushagragpt99.github.io/project/code-your-graph/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <guid>https://kushagragpt99.github.io/project/code-your-graph/</guid>
       <description>
 
 
@@ -1724,10 +1724,10 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
 &lt;/a&gt;
 
 
@@ -1739,9 +1739,9 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
     
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://alison.rbind.io/talk/2016-ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/talk/2016-ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</guid>
       <description>
 
 
@@ -1763,10 +1763,10 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://alison.rbind.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://alison.rbind.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
 &lt;/a&gt;
 
 
@@ -1778,51 +1778,51 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
     
     <item>
       <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-biostats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-biostats/</guid>
       <description>&lt;p&gt;Part of a year-long curricula on open science, data, and research practice for incoming graduate students in the biomedical sciences, developed in collaboration with OHSU School of MedicineGraduate Studies. This course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
       <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-cs-stats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-cs-stats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2016-primer-on-asd/</link>
+      <link>https://kushagragpt99.github.io/publication/2016-primer-on-asd/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2016-primer-on-asd/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2016-primer-on-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uh and Um in Children With Autism Spectrum Disorders or Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</link>
+      <link>https://kushagragpt99.github.io/publication/2016-uh-and-um-asd-sli/</link>
       <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2016-uh-and-um-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obesity and Autism</title>
-      <link>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</link>
+      <link>https://kushagragpt99.github.io/publication/2015-obesity-in-asd-multisite/</link>
       <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2015-obesity-in-asd-multisite/</guid>
       <description>&lt;p&gt;METHODS: Participants were 5053 children with confirmed diagnosis of ASD in the Autism Speaks Autism Treatment Network. Measured values for weight and height were used to calculate BMI percentiles; Centers for Disease Control and Prevention criteria for BMI for gender and age were used to define overweight and obesity (85th and 95th percentiles, respectively).&lt;/p&gt;
 &lt;p&gt;RESULTS: In children age 2 to 17 years, 33.6% were overweight and 18% were obese. Compared with a general US population sample, rates of unhealthy weight were significantly higher among children with ASDs ages 2 to 5 years and among those of non-Hispanic white origin. Multivariate analyses revealed that older age, Hispanic or Latino ethnicity, lower parent education levels, and sleep and affective problems were all significant predictors of obesity.&lt;/p&gt;
 &lt;p&gt;CONCLUSIONS: Our results indicate that the prevalence of unhealthy weight is significantly greater among children with ASD compared with the general population, with differences present as early as ages 2 to 5 years. Because obesity is more prevalent among older children in the general population, these findings raise the question of whether there are different trajectories of weight gain among children with ASDs, possibly beginning in early childhood.&lt;/p&gt;
@@ -1831,81 +1831,81 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
     
     <item>
       <title>Memory in language-impaired children with and without autism</title>
-      <link>https://alison.rbind.io/publication/2015-memory-in-li-asd/</link>
+      <link>https://kushagragpt99.github.io/publication/2015-memory-in-li-asd/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2015-memory-in-li-asd/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2015-memory-in-li-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2015-translational/</link>
+      <link>https://kushagragpt99.github.io/publication/2015-translational/</link>
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2015-translational/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2015-translational/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aggressive Behavior Problems in Children with Autism Spectrum Disorders: Prevalence and Correlates in a Large Clinical Sample</title>
-      <link>https://alison.rbind.io/publication/2014-aggression-in-asd/</link>
+      <link>https://kushagragpt99.github.io/publication/2014-aggression-in-asd/</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2014-aggression-in-asd/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2014-aggression-in-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2014-handbook/</link>
+      <link>https://kushagragpt99.github.io/publication/2014-handbook/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2014-handbook/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2014-handbook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Overweight and Obesity: Prevalence and Correlates in a Large Clinical Sample of Children with Autism Spectrum Disorder</title>
-      <link>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</link>
+      <link>https://kushagragpt99.github.io/publication/2014-obesity-in-asd-oregon/</link>
       <pubDate>Sun, 02 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2014-obesity-in-asd-oregon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of Autism Spectrum Disorder</title>
-      <link>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</link>
+      <link>https://kushagragpt99.github.io/publication/2014-asd-epidemiology-in-practice/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2014-asd-epidemiology-in-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantifying Repetitive Speech in Autism Spectrum Disorders and Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</link>
+      <link>https://kushagragpt99.github.io/publication/2013-repetitive-speech-in-asd-sli/</link>
       <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2013-repetitive-speech-in-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>‘It’s Not That We Hate You’: Understanding Children’s Gender Attitudes and Expectancies About Peer Relationships</title>
-      <link>https://alison.rbind.io/publication/2011-gender-attitudes/</link>
+      <link>https://kushagragpt99.github.io/publication/2011-gender-attitudes/</link>
       <pubDate>Tue, 08 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2011-gender-attitudes/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2011-gender-attitudes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Different Attentional Cues on Responding to Joint Attention in Younger Siblings of Children with Autism Spectrum Disorders</title>
-      <link>https://alison.rbind.io/publication/2007-rja-in-sibs/</link>
+      <link>https://kushagragpt99.github.io/publication/2007-rja-in-sibs/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2007-rja-in-sibs/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2007-rja-in-sibs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Item-specific Processing Reduces False Memories</title>
-      <link>https://alison.rbind.io/publication/2004-false-memories/</link>
+      <link>https://kushagragpt99.github.io/publication/2004-false-memories/</link>
       <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/publication/2004-false-memories/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2004-false-memories/</guid>
       <description></description>
     </item>
     

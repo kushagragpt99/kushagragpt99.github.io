@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jackie Wirz | Alison Hill</title>
-    <link>https://alison.rbind.io/authors/jackie-wirz/</link>
-      <atom:link href="https://alison.rbind.io/authors/jackie-wirz/index.xml" rel="self" type="application/rss+xml" />
+    <title>Jackie Wirz | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/jackie-wirz/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/jackie-wirz/index.xml" rel="self" type="application/rss+xml" />
     <description>Jackie Wirz</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alison Hill 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alison.rbind.io/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Jackie Wirz</title>
-      <link>https://alison.rbind.io/authors/jackie-wirz/</link>
+      <link>https://kushagragpt99.github.io/authors/jackie-wirz/</link>
     </image>
     
     <item>
       <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
       <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
