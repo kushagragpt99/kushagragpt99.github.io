@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>software | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/software/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/software/</link>
+      <atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <description>software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>software</title>
-      <link>https://kushagragpt99.github.io/tags/software/</link>
+      <link>/tags/software/</link>
     </image>
     
     <item>
       <title>palmerpenguins</title>
-      <link>https://kushagragpt99.github.io/project/palmerpenguins/</link>
+      <link>/project/palmerpenguins/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/palmerpenguins/</guid>
+      <guid>/project/palmerpenguins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bakeoff</title>
-      <link>https://kushagragpt99.github.io/project/bakeoff/</link>
+      <link>/project/bakeoff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/bakeoff/</guid>
+      <guid>/project/bakeoff/</guid>
       <description></description>
     </item>
     

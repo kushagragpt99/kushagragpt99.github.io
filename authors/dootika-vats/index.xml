@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dootika Vats | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/dootika-vats/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/dootika-vats/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dootika Vats</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>Dootika Vats</title>
+      <link>https://kushagragpt99.github.io/authors/dootika-vats/</link>
+    </image>
+    
+    <item>
+      <title>Replicated Batch Means for Parallel MCMC</title>
+      <link>https://kushagragpt99.github.io/project/rbm/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/rbm/</guid>
+      <description>&lt;p&gt;Markov chain Monte Carlo (MCMC) produces a correlated sample for estimating expectations concerning a target distribution. Output analysis of these estimates requires estimating the MCMC central limit theorem asymptotic variance. We study a steady-state simulation estimator called replicated batch means (RBM) and their lugsail counterparts, designed explicitly for producing accurate estimates for small sample settings for parallel Markov chains. We prove that the RBM class of estimators show strong consistency and link its conditions to strong consistency of single-chain batch means estimators. We obtain the bias and variance expressions for the replicated estimators and study their asymptotic properties. We also derive the exact form of the asymptotic covariance matrix for a bivariate normal Gibbs sampler. Finite sample superiority of RBM over other estimators is illustrated through a highly correlated bivariate normal Gibbs sampler.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

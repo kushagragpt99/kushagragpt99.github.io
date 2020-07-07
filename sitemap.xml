@@ -3,66 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/categories/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/machine-learning/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/tidymodels/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/categories/workshop/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/palmerpenguins/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/r/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/software/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kushagragpt99.github.io/post/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
@@ -73,7 +13,17 @@
   </url>
   
   <url>
+    <loc>https://kushagragpt99.github.io/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kushagragpt99.github.io/tags/rmarkdown/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,58 +33,8 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/blogdown/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/bookdown/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/stat545.com/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/tidymodels.org/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/website/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/categories/website/</loc>
-    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/alison/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/desiree-de-leon/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/categories/talk/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/categories/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -148,23 +48,53 @@
   </url>
   
   <url>
+    <loc>https://kushagragpt99.github.io/tags/tidymodels/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kushagragpt99.github.io/categories/tidymodels/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2020-rsc-tidyml/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/kushagra/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/project/tidyml/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/aadil-hayat/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/workshop/</loc>
-    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/talk/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/dataflow-graphs/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/deep-learning/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/talk/2019-tensorflow/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/tensorflow/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -173,122 +103,172 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/data-visualization/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/talk/2019-basic_dl/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/ggplot2/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/raunak-shah/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/oz2019/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/dootika-vats/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/kushagra-gupta/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/tidy-data/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/mcmc/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/xaringan/</loc>
-    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/project/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/categories/keynote/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/replicated-batch-means/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/project/rbm/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/categories/stats/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</loc>
-    <lastmod>2019-09-26T18:15:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/aditya-gulati/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/education/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/aviral-aggarwal/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/project/education.rstudio.com/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/fhe/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/project/fhe/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/r-markdown/</loc>
-    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/libtorch/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/project/rmd4medicine/</loc>
-    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/categories/misc/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/tags/talk/</loc>
-    <lastmod>2019-06-18T22:43:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/vikrant-malik/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</loc>
-    <lastmod>2019-06-18T22:43:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/arshad-rahman/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/categories/blogdown/</loc>
-    <lastmod>2019-06-13T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/bayesian-inference/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</loc>
-    <lastmod>2019-06-13T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/interval-regression/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</loc>
-    <lastmod>2019-06-12T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/project/qr/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</loc>
-    <lastmod>2019-06-11T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/project/weibull/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</loc>
-    <lastmod>2019-06-10T09:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/debasis-kundu/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/medha-agarwal/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/weibull-distribution/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/inforl/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/categories/ml/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/project/mrl/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/multi-agent-rl/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/utsav-singh/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/variational-autoencoders/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/alison/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/blogdown/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/categories/blogdown/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -328,31 +308,6 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/flexdashboard/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</loc>
-    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kushagragpt99.github.io/accolades/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -383,8 +338,63 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</loc>
-    <lastmod>2018-10-29T16:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/abhinav-airan/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/apurv-gupta/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/data-science/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/project/techmeet/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/esha-gupta/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/project/eits/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/globular-star-clusters/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/harish-rajagopal/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/harsh-sinha/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/image-segmentation/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/p-net/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/u-net/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -408,18 +418,53 @@
   </url>
   
   <url>
+    <loc>https://kushagragpt99.github.io/tags/autoencoder/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/project/kvpy/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/avik-pal/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/collaborative-filtering/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/online-recommendation-engine/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kushagragpt99.github.io/license/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</loc>
-    <lastmod>2018-06-02T08:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/authors/ahsan-barkati/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</loc>
-    <lastmod>2018-04-06T16:00:00+00:00</lastmod>
+    <loc>https://kushagragpt99.github.io/tags/bidirectional-lstm/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/project/nyo/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/yatin-dandi/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -518,6 +563,11 @@
   </url>
   
   <url>
+    <loc>https://kushagragpt99.github.io/tags/xaringan/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kushagragpt99.github.io/categories/xaringan/</loc>
     <lastmod>2017-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -540,51 +590,6 @@
   <url>
     <loc>https://kushagragpt99.github.io/authors/yihui-xie/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</loc>
-    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/research/</loc>
-    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/robin-champieux/</loc>
-    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/science/</loc>
-    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/github/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/labhub/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/reproducibility/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/up-running-blogdown/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -620,101 +625,6 @@
   <url>
     <loc>https://kushagragpt99.github.io/authors/rosemary-ingham/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/code-your-graph/</loc>
-    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</loc>
-    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/dataviz/</loc>
-    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/julianne-myers/</loc>
-    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/advanced-r-markdown/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/bakeoff/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/blogdown-book/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/book/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/course/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/categories/course/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/ohsu-biostats/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/jackie-wirz/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/ohsu-dataviz/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/ohsu-cs-stats/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/rladies-xaringan/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/statistics/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/steven-bedrick/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/project/summer-of-blogdown/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/tidyverse/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -913,7 +823,19 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/authors/kushagra/</loc>
+    <loc>https://kushagragpt99.github.io/tags/markov-process/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/monte-carlo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/reinforcement-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/talk/2019-rl/</loc>
   </url>
   
 </urlset>

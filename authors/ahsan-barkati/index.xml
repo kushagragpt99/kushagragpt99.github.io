@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ahsan Barkati | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/ahsan-barkati/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/ahsan-barkati/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ahsan Barkati</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>Ahsan Barkati</title>
+      <link>https://kushagragpt99.github.io/authors/ahsan-barkati/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Large Scale Logistics Platform</title>
+      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
+Technical details :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a state of the art algorithm for online collaborative filtering based on Fast Matrix Factorization for Online Recommendation with Implicit Feedback (He et al.) using Numpy.&lt;/li&gt;
+&lt;li&gt;Integrated element-wise Alternating Least Squares (eALS) based incremental update strategy for online learning.&lt;/li&gt;
+&lt;li&gt;Developed an online collaborative filtering based deep recommender algorithm based on AutoEncoder in tensorflow.&lt;/li&gt;
+&lt;li&gt;Used the VADER model in NLTK for sentiment analysis of comments.&lt;/li&gt;
+&lt;li&gt;Improved results of algorithm by using interaction count and sentiment dependent weighting scheme for the observed data and a frequency aware weighting scheme for the missing data.&lt;/li&gt;
+&lt;li&gt;Built multiple Kafka consumers and producer for parallely consuming real time interaction data of comments, likes and views to produce online recommendations for users.&lt;/li&gt;
+&lt;li&gt;Used locust to simulate parallel user interaction to test recommendation algorithm.&lt;/li&gt;
+&lt;li&gt;Used an eventually consistent engagement database (Couchbase) for storing user and item based data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sub-Project: ​​Identification and Classification of toxic comments.
+Technical Details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented  a Bidirectional LSTM based model using Keras for flagging toxic comments based on six metrics.&lt;/li&gt;
+&lt;li&gt;Built Kafka consumer and producer data-pipelines for recording and processing new comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://kushagragpt99.github.io/talk/2019-rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-rl/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;382&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on reinforcement learning. This talk was targeted for sophomores and junior undergraduates with some statistical background on Markov process and Monte Carlo. It covers the components of an RL model, namely policy, value function and agent&amp;rsquo;s representation of the environment. Next, it covers the basics of Markov reward process and the Bellman expectation equation, necessary to mathematically define the update procedure of the RL agent. This talk also covers the basic algorithms of training the RL agent, namely policy and value iteration. Towards the end, it touches upon the model-free methods of RL and explains the underlying mechanism behind model-free learning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

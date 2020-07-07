@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensorflow | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/tensorflow/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>tensorflow</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>tensorflow</title>
+      <link>https://kushagragpt99.github.io/tags/tensorflow/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to tensorflow</title>
+      <link>https://kushagragpt99.github.io/talk/2019-tensorflow/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-tensorflow/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;252&#34; height=&#34;448&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on machine learning frameworks. This talk was targeted for sophomores and junior undergraduates with some background on deep learning. It explains dataflow graphs (which represents tensorflow computations) and the basic terminologies and functions. Next, it covers basic implementation in tensorflow through a toy problem on MNIST dataset, also covering the neural network and the dataflow graph for the problem. It also covers the installation procedure of the GPU and CPU-only version.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

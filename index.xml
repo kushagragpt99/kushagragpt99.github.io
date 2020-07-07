@@ -5,33 +5,12 @@
     <link>https://kushagragpt99.github.io/</link>
       <atom:link href="https://kushagragpt99.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Kushagra Gupta</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 27 Aug 2020 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Kushagra Gupta</title>
       <link>https://kushagragpt99.github.io/</link>
     </image>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/</link>
-      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/</guid>
-      <description>
-&lt;script src=&#34;https://kushagragpt99.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;This four-hour workshop will provide a gentle introduction to machine learning with R using the modern suite of predictive modeling packages called &lt;a href=&#34;https://github.com/tidymodels&#34;&gt;tidymodels&lt;/a&gt;. We will build, evaluate, compare, and tune predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting, the holdout method, the bias-variance trade-off, ensembling, cross-validation, and feature engineering. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like &lt;a href=&#34;https://tidymodels.github.io/parsnip&#34;&gt;parsnip&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/rsample&#34;&gt;rsample&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/recipes/&#34;&gt;recipes&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/yardstick/&#34;&gt;yardstick&lt;/a&gt;, &lt;a href=&#34;https://tidymodels.github.io/tune/&#34;&gt;tune&lt;/a&gt;, and &lt;a href=&#34;https://tidymodels.github.io/workflows/&#34;&gt;workflows&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>palmerpenguins</title>
-      <link>https://kushagragpt99.github.io/project/palmerpenguins/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/palmerpenguins/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>How I Taught Tidymodels, Virtually</title>
@@ -374,54 +353,6 @@
 &lt;p&gt;If you are curious to see some of the materials I’ve used to teach R Markdown, click on the &lt;code&gt;rmarkdown&lt;/code&gt; button just below this post! 🚀&lt;/p&gt;
 &lt;p&gt;But remember: there is no one way to learn R Markdown, and no one way to teach it either. I love seeing the creativity of the community when introducing the R Markdown family- so keep them coming!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/Q86zzvI3UUCADQCF0h/giphy.gif&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>stat545.com</title>
-      <link>https://kushagragpt99.github.io/project/stat545.com/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/stat545.com/</guid>
-      <description>&lt;p&gt;This online book contains a full course where users can learn to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;explore, groom, visualize, and analyze data,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;make all of that reproducible, reusable, and shareable,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;using R.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I led the effort, along with course author 
-&lt;a href=&#34;https://jennybryan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jenny Bryan&lt;/a&gt; and RStudio intern 
-&lt;a href=&#34;https://grace.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grace Lawley&lt;/a&gt;, to port a vintage R Markdown website into bookdown. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to design the style of the bookdown website.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>tidymodels.org</title>
-      <link>https://kushagragpt99.github.io/project/tidymodels.org/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/tidymodels.org/</guid>
-      <description>&lt;p&gt;The tidymodels framework is a collection of R packages for modeling and machine learning using tidyverse principles. This website was built with Hugo, using a theme I developed and maintain. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to design the style of the website.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sharing on Short Notice</title>
-      <link>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</link>
-      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2020-sharing-short-notice/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Educators create a lot of files for teaching- slides, exercises, solutions, assignments, data, figures- that all ultimately need to be shared with other people. Having a link for sharing your teaching materials can save you time and pain, but it is hard to get started if you’ve never shared your resources online before. In this webinar, we’ll give a tour of the R Markdown ecosystem for educators that you can start to use right away. We’ll show how it can help you make your teaching more shareable, reproducible, and resilient.&lt;/p&gt;
-&lt;p&gt;Read the accompanying Q&amp;amp;A blog post on the 
-&lt;a href=&#34;https://education.rstudio.com/blog/2020/04/sharing-on-short-notice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio Education blog&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1081,23 +1012,42 @@ penguin_folds %&amp;gt;%
     </item>
     
     <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/talk/2020-rsc-tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2020-rsc-tidyml/</guid>
-      <description>&lt;p&gt;This two-day workshop provided a gentle introduction to supervised machine learning: concepts, methods, and R code. Participants learned how to train and assess predictive models with several common machine learning algorithms, as well as how to do feature engineering to improve the predictive accuracy of their models. We focused on teaching intuitive explanations of the models and best practices for predictive modeling. Along the way, we introduced several core 
-&lt;a href=&#34;https://github.com/tidymodels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; packages, which provide a grammar for modeling that makes it easy to the right thing, and harder to accidentally do the wrong thing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/tidyml/</guid>
-      <description>&lt;p&gt;These workshops provide a gentle introduction to supervised machine learning: concepts, methods, and R code. Participants learn how to train and assess predictive models with several common machine learning algorithms, as well as how to do feature engineering to improve the predictive accuracy of their models. We focus on teaching intuitive explanations of the models and best practices for predictive modeling. Along the way, we introduce several core 
-&lt;a href=&#34;https://github.com/tidymodels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; packages, which provide a grammar for modeling that makes it easy to the right thing, and harder to accidentally do the wrong thing.&lt;/p&gt;
-&lt;p&gt;See the workshop websites for more, including links to the GitHub repositories for all workshop materials.&lt;/p&gt;
+      <title>Introduction to tensorflow</title>
+      <link>https://kushagragpt99.github.io/talk/2019-tensorflow/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-tensorflow/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;252&#34; height=&#34;448&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on machine learning frameworks. This talk was targeted for sophomores and junior undergraduates with some background on deep learning. It explains dataflow graphs (which represents tensorflow computations) and the basic terminologies and functions. Next, it covers basic implementation in tensorflow through a toy problem on MNIST dataset, also covering the neural network and the dataflow graph for the problem. It also covers the installation procedure of the GPU and CPU-only version.&lt;/p&gt;
 </description>
     </item>
     
@@ -1174,164 +1124,118 @@ penguin_folds %&amp;gt;%
     </item>
     
     <item>
-      <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</link>
-      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</guid>
-      <description>&lt;p&gt;Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the &lt;code&gt;ggplot2&lt;/code&gt; package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the &lt;code&gt;tidyr&lt;/code&gt; package.&lt;/p&gt;
-&lt;p&gt;You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using &lt;code&gt;ggplot2&lt;/code&gt;. To brush up (or start learning now), you may want to play with the free RStudio.cloud 
-&lt;a href=&#34;https://rstudio.cloud/learn/primers/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data visualization primer&lt;/a&gt; (you may use an existing Google or GitHub account to log in). Or of course you can check out 
-&lt;a href=&#34;https://rladiessydney.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Sydney&lt;/a&gt;&amp;rsquo;s own 
-&lt;a href=&#34;https://rladiessydney.org/post/2018/12/20/vizwhiz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VizW(h)iz Module&lt;/a&gt; of 
-&lt;a href=&#34;https://rladiessydney.org/ryouwithme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#RYouWithMe&lt;/a&gt;!&lt;/p&gt;
+      <title>Introduction to Deep Learning</title>
+      <link>https://kushagragpt99.github.io/talk/2019-basic_dl/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-basic_dl/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;basic_ml.png&#34; &gt;
+
+
+  &lt;img src=&#34;basic_ml.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on introduction to deep learning. This talk is targeted for freshers and sophomores (both UG and PG). It covered topics like the most popular convex cost functions, activation functions and gradient descent, along with a hands-on coding experience of these topics. It served as a medium of introducing deep learning to the campus community and as a starting step to explore more complex topics.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>The Art of Literate Projecting</title>
-      <link>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</link>
-      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</guid>
-      <description>
-
-
-&lt;p&gt;“Literate programming” is an approach to writing software programs that weaves together the source code and documentation at the time of creation. The idea is to create programs that are easier for users to understand. But they are also easier for programmers to work on and maintain. In this talk, I will describe how data scientists can be inspired by this programming approach and start what I refer to as “literate projecting.” Literate projects are not only more pleasant to work on — they are also easier for others to discover and explore. In my experiences as a researcher and now a data scientist at RStudio, I’ve had the pleasure to work on many literate projects, and I’ve felt the pain of working on illiterate ones too. What is the difference? What are the benefits? Based on my experiences, I’ll share good literate projecting practices that have the potential to shift your mindset and reshape your workflow.&lt;/p&gt;
+      <title>Replicated Batch Means for Parallel MCMC</title>
+      <link>https://kushagragpt99.github.io/project/rbm/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/rbm/</guid>
+      <description>&lt;p&gt;Markov chain Monte Carlo (MCMC) produces a correlated sample for estimating expectations concerning a target distribution. Output analysis of these estimates requires estimating the MCMC central limit theorem asymptotic variance. We study a steady-state simulation estimator called replicated batch means (RBM) and their lugsail counterparts, designed explicitly for producing accurate estimates for small sample settings for parallel Markov chains. We prove that the RBM class of estimators show strong consistency and link its conditions to strong consistency of single-chain batch means estimators. We obtain the bias and variance expressions for the replicated estimators and study their asymptotic properties. We also derive the exact form of the asymptotic covariance matrix for a bivariate normal Gibbs sampler. Finite sample superiority of RBM over other estimators is illustrated through a highly correlated bivariate normal Gibbs sampler.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Communicating with R Markdown Workshop</title>
-      <link>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</link>
-      <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-ysc-workshop/</guid>
-      <description>
+      <title>Fully Homomorphic Encryptio Library</title>
+      <link>https://kushagragpt99.github.io/project/fhe/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
+      <description>&lt;!-- 
 
 
-&lt;p&gt;A full-day workshop for &lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; users who want to get more out of &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt; (and friends). In this workshop, you will create, publish, and share some beautiful data products. You’ll learn to make:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Parameterized reports&lt;/li&gt;
-&lt;li&gt;Version-controlled R Markdown projects&lt;/li&gt;
-&lt;li&gt;Templates within a package&lt;/li&gt;
-&lt;li&gt;Shareable &lt;a href=&#34;https://rstudio.github.io/distill/basics.html&#34;&gt;scientific/technical articles&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/xaringan.html&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34;&gt;dashboards&lt;/a&gt;, and &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/websites.html&#34;&gt;websites&lt;/a&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;unet.PNG&#34; &gt;
+
+
+  &lt;img src=&#34;unet.PNG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+ --&gt;
+&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, geneerating an encrypted results which matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a leveled FHE library (which can evaluate circuits with a bounded depth) based on the 
+&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing paralle computations and automatic differentiation, making it significantly fast and easy to use particularly for machine learning models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interval Regression using Bayesian Inference</title>
+      <link>https://kushagragpt99.github.io/project/qr/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/qr/</guid>
+      <description>&lt;p&gt;In Fall 2019, I was working with Prof.Vats and Prof. Arshad Rahman (in Economics department) on developing Bayesian models for interval data. I was introduced to interval regression in my summer project on Bayesian estimation of Weibull distribution while reading Prof.Kundu&amp;rsquo;s paper on interval-censored data with Weibull lifetime. I researched on various paradigms that solve interval regression, covering quantile regression (QR), meta-heuristic algorithms, information theory, convex analysis, and set arithmetic linear models. I found QR to be a promising approach as traditional QR settings can extend to interval data in the following way - we can modify the quantile loss function to have three parts based on the partition by the interval endpoints, as opposed to a binary partition by traditional QR, with certain added assumptions. The change is that the dot product of parameters and covariates lying in the interval has a zero loss as the dependent variable can lie anywhere in the interval. The assumptions can be modelled in a Bayesian setting with appropriate priors. As part of my project, I built Bayesian frameworks for various paradigms of interval regression.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference on 3 parameter Weibull Distribution</title>
+      <link>https://kushagragpt99.github.io/project/weibull/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/weibull/</guid>
+      <description>&lt;p&gt;In the summer of 2019, I (in a team of 2) was working with Prof.Kundu on developing Bayesian methodologies for parameter estimation of a 3-Weibull distribution \cite{weibull}. Maximum likelihood estimators are inconsistent and inefficient for this problem when the shape parameter is less than one due to the likelihood function exploding to infinity. However, the Bayesian setting with gamma priors solves this problem as the posterior breaks into a product of proper densities, which is convenient for MCMC sampling. We found the posterior to be log-concave and similar to a gamma distribution and, thus, approximated the parameters and confidence intervals using this observation. Our Bayesian implementation reduced the mean square errors significantly as compared to the maximum likelihood method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning</title>
+      <link>https://kushagragpt99.github.io/project/mrl/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
+&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</link>
-      <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</guid>
-      <description>&lt;p&gt;In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;latest-event&#34;&gt;Latest event&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://alison.netlify.com/rlm-sad-plot-better/unsw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This talk&lt;/a&gt; was most recently given at the University of South Wales on 2019/10/04.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>education.rstudio.com</title>
-      <link>https://kushagragpt99.github.io/project/education.rstudio.com/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/education.rstudio.com/</guid>
-      <description>&lt;p&gt;RStudio’s mission is:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“To equip everyone, regardless of means, to participate in a global economy that rewards data literacy.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Our education team supports this mission broadly by supporting people who want to learn R (or learn new things in R), and those who want to teach them. This website is designed for both. This website was built with Hugo, using a theme I developed and maintain. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to create the original artwork we used for the website.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Markdown for Medicine Workshop</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</link>
-      <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rmed-rmd4medicine/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>R Markdown for Medicine</title>
-      <link>https://kushagragpt99.github.io/project/rmd4medicine/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/rmd4medicine/</guid>
-      <description>&lt;p&gt;Starting with a mock clinical trial dataset, we’ll use R Markdown to combine prose, R code, and figures and tables created with R code into a nicely formatted and reproducible final manuscript.&lt;/p&gt;
-&lt;p&gt;For the 
-&lt;a href=&#34;https://r-medicine.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 R / Medicine conference&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teaching Students to Talk about Data Science</title>
-      <link>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</link>
-      <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</guid>
-      <description>
-
-
-&lt;p&gt;Data science educators have a unique opportunity to teach students the skills they need in their future careers. We know that practical skills matter, like being able to wrangle, explore, analyze, and visualize data (preferably using code), but what is easy to overlook is teaching students how to communicate about data science with other people. Being able to communicate about data, code, and insights gained are important skills we can strengthen in the classroom to make a real impact on students. I will talk about three ways to help strengthen data science communication skills that matter: self-reflection, iteration, and broadcasting. Self-reflection involves asking students to reflect on concepts and/or code that they struggled with to increase engagement with materials and independent problem-solving. Iteration involves revisiting old concepts/code, identifying areas for improvement, and making them better, either independently or in collaboration with peers or other experts/advanced users. Broadcasting involves practice (practice, practice, practice) “wrapping up” code with words into coherent narratives about what a data analysis or visualization means.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 04</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</link>
-      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 03</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</link>
-      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 02</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 01</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</link>
-      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</link>
-      <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</guid>
-      <description>
-
-
-
 </description>
     </item>
     
@@ -1893,54 +1797,6 @@ categories = []
     </item>
     
     <item>
-      <title>Meet blogdown</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</link>
-      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-blogdown/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Meet bookdown</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</link>
-      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Meet flexdashboard</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</link>
-      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-flexdashboard/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Meet xaringan</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
-      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
       <title>Accolades</title>
       <link>https://kushagragpt99.github.io/accolades/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -1981,7 +1837,7 @@ categories = []
     </item>
     
     <item>
-      <title>Talks &amp; Workshops</title>
+      <title>Talks</title>
       <link>https://kushagragpt99.github.io/talks/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/talks/</guid>
@@ -1989,15 +1845,56 @@ categories = []
     </item>
     
     <item>
-      <title>Data Visualization in the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</link>
-      <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</guid>
-      <description>&lt;p&gt;Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:&lt;/p&gt;
+      <title>Data Science Hackathon, Inter IIT Tech Meeth 2018</title>
+      <link>https://kushagragpt99.github.io/project/techmeet/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
+      <description>&lt;p&gt;Our team won the solver medal in the competition. The problem involved data analysis and inference from dataset(s) for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eye in the Sky</title>
+      <link>https://kushagragpt99.github.io/project/eits/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/eits/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+&lt;p&gt;My contributions to the project :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Tidy data is the start of your data wrangling journey, not the end&lt;/li&gt;
-&lt;li&gt;There is not a single &amp;ldquo;tidy&amp;rdquo; version of a dataset&lt;/li&gt;
-&lt;li&gt;Tidy data &lt;em&gt;does&lt;/em&gt; make you more nimble!&lt;/li&gt;
+&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2332,6 +2229,46 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
+      <title>Autoencoder Recommendation Engine</title>
+      <link>https://kushagragpt99.github.io/project/kvpy/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/kvpy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>LICENSE: CC-BY-SA</title>
       <link>https://kushagragpt99.github.io/license/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
@@ -2346,22 +2283,28 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Big Magic with R: Creative Learning Beyond Fear</title>
-      <link>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</link>
-      <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2018-cascadia-bigmagic/</guid>
-      <description>&lt;p&gt;Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners. Along the way, she will share recommended resources and evidence-based strategies for project-based learning. Alison’s background working with both new and advanced R users gives her a unique perspective on this topic.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</link>
-      <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</guid>
-      <description>&lt;p&gt;Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Following this, Eric Earl (Senior RA in the DCAN Labs) will show a case study of visualization in neuroimaging research.&lt;/p&gt;
+      <title>Machine Learning for Large Scale Logistics Platform</title>
+      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
+Technical details :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a state of the art algorithm for online collaborative filtering based on Fast Matrix Factorization for Online Recommendation with Implicit Feedback (He et al.) using Numpy.&lt;/li&gt;
+&lt;li&gt;Integrated element-wise Alternating Least Squares (eALS) based incremental update strategy for online learning.&lt;/li&gt;
+&lt;li&gt;Developed an online collaborative filtering based deep recommender algorithm based on AutoEncoder in tensorflow.&lt;/li&gt;
+&lt;li&gt;Used the VADER model in NLTK for sentiment analysis of comments.&lt;/li&gt;
+&lt;li&gt;Improved results of algorithm by using interaction count and sentiment dependent weighting scheme for the observed data and a frequency aware weighting scheme for the missing data.&lt;/li&gt;
+&lt;li&gt;Built multiple Kafka consumers and producer for parallely consuming real time interaction data of comments, likes and views to produce online recommendations for users.&lt;/li&gt;
+&lt;li&gt;Used locust to simulate parallel user interaction to test recommendation algorithm.&lt;/li&gt;
+&lt;li&gt;Used an eventually consistent engagement database (Couchbase) for storing user and item based data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sub-Project: ​​Identification and Classification of toxic comments.
+Technical Details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented  a Bidirectional LSTM based model using Keras for flagging toxic comments based on six metrics.&lt;/li&gt;
+&lt;li&gt;Built Kafka consumer and producer data-pipelines for recording and processing new comments.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -2449,158 +2392,6 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/publication/2017-blogdown/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Labhub Workshop</title>
-      <link>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</link>
-      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</guid>
-      <description>
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
-
-
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;The landscape of scientific communication is changing dramatically.  Diverse stakeholders, including major funders and universities are demonstrating a growing interest and investment in open scientific principles and practices.  Researchers, students, and the institutions that support them are needing to navigate new expectations, workflows, and policies against a backdrop of relatively unchanged means and measures of scientific success.&lt;/p&gt;
-&lt;p&gt;Sound complicated?  Join us on December 8th from 3:00 to 4:00 PM for a panel discussion with OHSU leaders and early career researchers on the evolving landscape of scientific communication.  We’ll explore the drivers behind the calls for “openness”, what this means in practice, and the real world compatibility and tensions between open science and student, researcher, and institutional success.&lt;/p&gt;
-&lt;p&gt;Confirmed panelists include:&lt;/p&gt;
-&lt;p&gt;Dr. Gary Westbrook, Vollum Institute Senior Scientist and Director of the Neuroscience Graduate Program&lt;/p&gt;
-&lt;p&gt;Dr. Bita Moghaddam, Chair of the Department of Behavioral Neuroscience&lt;/p&gt;
-&lt;p&gt;Dr. Abhinav Nellore, Assistant Professor, Biomedical Engineering and the Department of Surgery&lt;/p&gt;
-&lt;p&gt;Dr. Alison Hill, Associate Professor, Center for Spoken Language Understanding&lt;/p&gt;
-&lt;p&gt;The panel will be followed by food, drinks, and two hands on workshops from 4:00 - 5:30:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;ohsu-os-labhub-workshop.png&#34; &gt;
-
-
-  &lt;img src=&#34;ohsu-os-labhub-workshop.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;In this workshop, Dr. Alison Hill and Robin Champieux demonstrated tools and methods for building transparency within a lab, and onboarding new graduate students and postdocs. We provided a 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template GitHub repository&lt;/a&gt; and code of conduct designed to facilitate a healthy and productive learning and research environment. You are encouraged to use these tools to communicate expectations, document protocols, receive feedback, and facilitate the long-term value of students’ and trainees’ contributions.&lt;/p&gt;
-&lt;p&gt;Labhub is a &lt;em&gt;work in progress&lt;/em&gt;. We created 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this repository&lt;/a&gt; as an education and demonstration tool for faculty, postdocs, and students curious about how documentation, open science workflows, and tools like Github can contribute to a healthy and productive research environment. Your ideas and contributions are welcome!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Labhub</title>
-      <link>https://kushagragpt99.github.io/project/labhub/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/labhub/</guid>
-      <description>&lt;p&gt;In this workshop, Dr. Alison Hill and Robin Champieux demonstrated tools and methods for building transparency within a lab, and onboarding new graduate students and postdocs. We provided a 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template GitHub repository&lt;/a&gt; and code of conduct designed to facilitate a healthy and productive learning and research environment. You are encouraged to use these tools to communicate expectations, document protocols, receive feedback, and facilitate the long-term value of students’ and trainees’ contributions.&lt;/p&gt;
-&lt;p&gt;Labhub is a &lt;em&gt;work in progress&lt;/em&gt;. We created 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this repository&lt;/a&gt; as an education and demonstration tool for faculty, postdocs, and students curious about how documentation, open science workflows, and tools like Github can contribute to a healthy and productive research environment. Your ideas and contributions are welcome!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://kushagragpt99.github.io/project/up-running-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/up-running-blogdown/</guid>
-      <description>&lt;p&gt;We will cover:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;blogdown&lt;/strong&gt; R package&lt;/li&gt;
-&lt;li&gt;Hugo themes&lt;/li&gt;
-&lt;li&gt;Adding content to personalize your site&lt;/li&gt;
-&lt;li&gt;Posting&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t want to blog? / just want to knit?&lt;/li&gt;
-&lt;li&gt;Customizing themes&lt;/li&gt;
-&lt;li&gt;Troubleshooting common problems&lt;/li&gt;
-&lt;li&gt;Deployment options and recommendations&lt;/li&gt;
-&lt;li&gt;Domain options available through RStudio/rbind&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you are planning on attending this workshop, please click on the HTML link above for how to prepare before the workshop.&lt;/p&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
-
-
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2550&#34; height=&#34;3300&#34;&gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2017-pdxr-blogdown/</guid>
-      <description>&lt;p&gt;See project links for more details.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -2985,159 +2776,6 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
     </item>
     
     <item>
-      <title>Code Your Graph Workshop</title>
-      <link>https://kushagragpt99.github.io/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/code-your-graph/</guid>
-      <description>
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
-
-
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Code Your Graph Workshop</title>
-      <link>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/</guid>
-      <description>
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
-
-
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2016-ohsu-dataviz/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Advanced R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
-      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
-&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>https://kushagragpt99.github.io/project/bakeoff/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/bakeoff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/blogdown-book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/blogdown-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-biostats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-biostats/</guid>
-      <description>&lt;p&gt;Part of a year-long curricula on open science, data, and research practice for incoming graduate students in the biomedical sciences, developed in collaboration with OHSU School of MedicineGraduate Studies. This course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
-      <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-cs-stats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-cs-stats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RLadies xaringan theme</title>
-      <link>https://kushagragpt99.github.io/project/rladies-xaringan/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/rladies-xaringan/</guid>
-      <description>
-
-
-&lt;p&gt;Here is a demo slide deck using the theme:&lt;/p&gt;
-&lt;iframe src=&#34;https://alison.rbind.io/slides/rladies-demo-slides.html#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
-&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown</title>
-      <link>https://kushagragpt99.github.io/project/summer-of-blogdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/summer-of-blogdown/</guid>
-      <description>&lt;p&gt;Four daily 1-hour sessions plus 30-60 minutes of homework for 3 nights. See links to each day&amp;rsquo;s materials, including slides and homeworks, below.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Epidemiology of autism spectrum disorders</title>
       <link>https://kushagragpt99.github.io/publication/2016-primer-on-asd/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
@@ -3242,6 +2880,46 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
       <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/publication/2004-false-memories/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://kushagragpt99.github.io/talk/2019-rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-rl/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;382&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on reinforcement learning. This talk was targeted for sophomores and junior undergraduates with some statistical background on Markov process and Monte Carlo. It covers the components of an RL model, namely policy, value function and agent&amp;rsquo;s representation of the environment. Next, it covers the basics of Markov reward process and the Bellman expectation equation, necessary to mathematically define the update procedure of the RL agent. This talk also covers the basic algorithms of training the RL agent, namely policy and value iteration. Towards the end, it touches upon the model-free methods of RL and explains the underlying mechanism behind model-free learning.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FHE | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/fhe/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/fhe/index.xml" rel="self" type="application/rss+xml" />
+    <description>FHE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>FHE</title>
+      <link>https://kushagragpt99.github.io/tags/fhe/</link>
+    </image>
+    
+    <item>
+      <title>Fully Homomorphic Encryptio Library</title>
+      <link>https://kushagragpt99.github.io/project/fhe/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
+      <description>&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;unet.PNG&#34; &gt;
+
+
+  &lt;img src=&#34;unet.PNG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+ --&gt;
+&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, geneerating an encrypted results which matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a leveled FHE library (which can evaluate circuits with a bounded depth) based on the 
+&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing paralle computations and automatic differentiation, making it significantly fast and easy to use particularly for machine learning models.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

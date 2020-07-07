@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image segmentation | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/image-segmentation/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/image-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>image segmentation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>image segmentation</title>
+      <link>https://kushagragpt99.github.io/tags/image-segmentation/</link>
+    </image>
+    
+    <item>
+      <title>Eye in the Sky</title>
+      <link>https://kushagragpt99.github.io/project/eits/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/eits/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+&lt;p&gt;My contributions to the project :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhinav Airan | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/abhinav-airan/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/abhinav-airan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abhinav Airan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>Abhinav Airan</title>
+      <link>https://kushagragpt99.github.io/authors/abhinav-airan/</link>
+    </image>
+    
+    <item>
+      <title>Data Science Hackathon, Inter IIT Tech Meeth 2018</title>
+      <link>https://kushagragpt99.github.io/project/techmeet/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
+      <description>&lt;p&gt;Our team won the solver medal in the competition. The problem involved data analysis and inference from dataset(s) for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

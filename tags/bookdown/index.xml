@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bookdown | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/bookdown/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/bookdown/</link>
+      <atom:link href="/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
     <description>bookdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>bookdown</title>
-      <link>https://kushagragpt99.github.io/tags/bookdown/</link>
+      <link>/tags/bookdown/</link>
     </image>
     
     <item>
       <title>stat545.com</title>
-      <link>https://kushagragpt99.github.io/project/stat545.com/</link>
+      <link>/project/stat545.com/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/stat545.com/</guid>
+      <guid>/project/stat545.com/</guid>
       <description>&lt;p&gt;This online book contains a full course where users can learn to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -37,22 +37,10 @@
     </item>
     
     <item>
-      <title>Meet bookdown</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</link>
-      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-bookdown/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
       <title>Advanced R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
+      <link>/project/advanced-r-markdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
+      <guid>/project/advanced-r-markdown/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>

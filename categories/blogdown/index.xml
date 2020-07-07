@@ -5,56 +5,12 @@
     <link>https://kushagragpt99.github.io/categories/blogdown/</link>
       <atom:link href="https://kushagragpt99.github.io/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <description>blogdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 13 Jun 2019 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>blogdown</title>
       <link>https://kushagragpt99.github.io/categories/blogdown/</link>
     </image>
-    
-    <item>
-      <title>Summer of blogdown: Day 04</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</link>
-      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-04/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 03</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</link>
-      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-03/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 02</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-02/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 01</title>
-      <link>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</link>
-      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-summer-of-blogdown-01/</guid>
-      <description>&lt;p&gt;A hands-on workshop to creating a personal website using blogdown and the Hugo Academic theme.&lt;/p&gt;
-&lt;p&gt;Four daily 1-hour sessions (see slides) plus 30-60 minutes of homework for 3 nights.&lt;/p&gt;
-&lt;p&gt;See the project link for all the days of the summer of blogdown.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>A Spoonful of Hugo: Troubleshooting Your Build</title>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>talk | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/talk/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/talk/</link>
+      <atom:link href="/tags/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>talk</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 29 Jul 2019 14:00:01 -0700</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>talk</title>
-      <link>https://kushagragpt99.github.io/tags/talk/</link>
+      <link>/tags/talk/</link>
     </image>
     
     <item>
       <title>Teaching Students to Talk about Data Science</title>
-      <link>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</link>
+      <link>/talk/2019-jsm-talk-ds/</link>
       <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-jsm-talk-ds/</guid>
+      <guid>/talk/2019-jsm-talk-ds/</guid>
       <description>
 
 

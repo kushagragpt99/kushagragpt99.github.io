@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>variational autoencoders | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/tags/variational-autoencoders/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/variational-autoencoders/index.xml" rel="self" type="application/rss+xml" />
+    <description>variational autoencoders</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>variational autoencoders</title>
+      <link>https://kushagragpt99.github.io/tags/variational-autoencoders/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning</title>
+      <link>https://kushagragpt99.github.io/project/mrl/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
+&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

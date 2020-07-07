@@ -5,7 +5,7 @@
     <link>https://kushagragpt99.github.io/project/</link>
       <atom:link href="https://kushagragpt99.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Projects</title>
@@ -13,114 +13,99 @@
     </image>
     
     <item>
-      <title>palmerpenguins</title>
-      <link>https://kushagragpt99.github.io/project/palmerpenguins/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/palmerpenguins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stat545.com</title>
-      <link>https://kushagragpt99.github.io/project/stat545.com/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/stat545.com/</guid>
-      <description>&lt;p&gt;This online book contains a full course where users can learn to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;explore, groom, visualize, and analyze data,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;make all of that reproducible, reusable, and shareable,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;using R.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I led the effort, along with course author 
-&lt;a href=&#34;https://jennybryan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jenny Bryan&lt;/a&gt; and RStudio intern 
-&lt;a href=&#34;https://grace.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grace Lawley&lt;/a&gt;, to port a vintage R Markdown website into bookdown. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to design the style of the bookdown website.&lt;/p&gt;
+      <title>Replicated Batch Means for Parallel MCMC</title>
+      <link>https://kushagragpt99.github.io/project/rbm/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/rbm/</guid>
+      <description>&lt;p&gt;Markov chain Monte Carlo (MCMC) produces a correlated sample for estimating expectations concerning a target distribution. Output analysis of these estimates requires estimating the MCMC central limit theorem asymptotic variance. We study a steady-state simulation estimator called replicated batch means (RBM) and their lugsail counterparts, designed explicitly for producing accurate estimates for small sample settings for parallel Markov chains. We prove that the RBM class of estimators show strong consistency and link its conditions to strong consistency of single-chain batch means estimators. We obtain the bias and variance expressions for the replicated estimators and study their asymptotic properties. We also derive the exact form of the asymptotic covariance matrix for a bivariate normal Gibbs sampler. Finite sample superiority of RBM over other estimators is illustrated through a highly correlated bivariate normal Gibbs sampler.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>tidymodels.org</title>
-      <link>https://kushagragpt99.github.io/project/tidymodels.org/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/tidymodels.org/</guid>
-      <description>&lt;p&gt;The tidymodels framework is a collection of R packages for modeling and machine learning using tidyverse principles. This website was built with Hugo, using a theme I developed and maintain. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to design the style of the website.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/tidyml/</guid>
-      <description>&lt;p&gt;These workshops provide a gentle introduction to supervised machine learning: concepts, methods, and R code. Participants learn how to train and assess predictive models with several common machine learning algorithms, as well as how to do feature engineering to improve the predictive accuracy of their models. We focus on teaching intuitive explanations of the models and best practices for predictive modeling. Along the way, we introduce several core 
-&lt;a href=&#34;https://github.com/tidymodels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; packages, which provide a grammar for modeling that makes it easy to the right thing, and harder to accidentally do the wrong thing.&lt;/p&gt;
-&lt;p&gt;See the workshop websites for more, including links to the GitHub repositories for all workshop materials.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>education.rstudio.com</title>
-      <link>https://kushagragpt99.github.io/project/education.rstudio.com/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/education.rstudio.com/</guid>
-      <description>&lt;p&gt;RStudio’s mission is:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“To equip everyone, regardless of means, to participate in a global economy that rewards data literacy.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Our education team supports this mission broadly by supporting people who want to learn R (or learn new things in R), and those who want to teach them. This website is designed for both. This website was built with Hugo, using a theme I developed and maintain. I worked with my former intern, 
-&lt;a href=&#34;https://desiree.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, to create the original artwork we used for the website.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Markdown for Medicine</title>
-      <link>https://kushagragpt99.github.io/project/rmd4medicine/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/rmd4medicine/</guid>
-      <description>&lt;p&gt;Starting with a mock clinical trial dataset, we’ll use R Markdown to combine prose, R code, and figures and tables created with R code into a nicely formatted and reproducible final manuscript.&lt;/p&gt;
-&lt;p&gt;For the 
-&lt;a href=&#34;https://r-medicine.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 R / Medicine conference&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Labhub</title>
-      <link>https://kushagragpt99.github.io/project/labhub/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/labhub/</guid>
-      <description>&lt;p&gt;In this workshop, Dr. Alison Hill and Robin Champieux demonstrated tools and methods for building transparency within a lab, and onboarding new graduate students and postdocs. We provided a 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template GitHub repository&lt;/a&gt; and code of conduct designed to facilitate a healthy and productive learning and research environment. You are encouraged to use these tools to communicate expectations, document protocols, receive feedback, and facilitate the long-term value of students’ and trainees’ contributions.&lt;/p&gt;
-&lt;p&gt;Labhub is a &lt;em&gt;work in progress&lt;/em&gt;. We created 
-&lt;a href=&#34;https://github.com/apreshill/labhub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this repository&lt;/a&gt; as an education and demonstration tool for faculty, postdocs, and students curious about how documentation, open science workflows, and tools like Github can contribute to a healthy and productive research environment. Your ideas and contributions are welcome!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://kushagragpt99.github.io/project/up-running-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/up-running-blogdown/</guid>
-      <description>&lt;p&gt;We will cover:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;blogdown&lt;/strong&gt; R package&lt;/li&gt;
-&lt;li&gt;Hugo themes&lt;/li&gt;
-&lt;li&gt;Adding content to personalize your site&lt;/li&gt;
-&lt;li&gt;Posting&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t want to blog? / just want to knit?&lt;/li&gt;
-&lt;li&gt;Customizing themes&lt;/li&gt;
-&lt;li&gt;Troubleshooting common problems&lt;/li&gt;
-&lt;li&gt;Deployment options and recommendations&lt;/li&gt;
-&lt;li&gt;Domain options available through RStudio/rbind&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you are planning on attending this workshop, please click on the HTML link above for how to prepare before the workshop.&lt;/p&gt;
+      <title>Fully Homomorphic Encryptio Library</title>
+      <link>https://kushagragpt99.github.io/project/fhe/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
+      <description>&lt;!-- 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;unet.PNG&#34; &gt;
+
+
+  &lt;img src=&#34;unet.PNG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+ --&gt;
+&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, geneerating an encrypted results which matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a leveled FHE library (which can evaluate circuits with a bounded depth) based on the 
+&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing paralle computations and automatic differentiation, making it significantly fast and easy to use particularly for machine learning models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interval Regression using Bayesian Inference</title>
+      <link>https://kushagragpt99.github.io/project/qr/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/qr/</guid>
+      <description>&lt;p&gt;In Fall 2019, I was working with Prof.Vats and Prof. Arshad Rahman (in Economics department) on developing Bayesian models for interval data. I was introduced to interval regression in my summer project on Bayesian estimation of Weibull distribution while reading Prof.Kundu&amp;rsquo;s paper on interval-censored data with Weibull lifetime. I researched on various paradigms that solve interval regression, covering quantile regression (QR), meta-heuristic algorithms, information theory, convex analysis, and set arithmetic linear models. I found QR to be a promising approach as traditional QR settings can extend to interval data in the following way - we can modify the quantile loss function to have three parts based on the partition by the interval endpoints, as opposed to a binary partition by traditional QR, with certain added assumptions. The change is that the dot product of parameters and covariates lying in the interval has a zero loss as the dependent variable can lie anywhere in the interval. The assumptions can be modelled in a Bayesian setting with appropriate priors. As part of my project, I built Bayesian frameworks for various paradigms of interval regression.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference on 3 parameter Weibull Distribution</title>
+      <link>https://kushagragpt99.github.io/project/weibull/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/weibull/</guid>
+      <description>&lt;p&gt;In the summer of 2019, I (in a team of 2) was working with Prof.Kundu on developing Bayesian methodologies for parameter estimation of a 3-Weibull distribution \cite{weibull}. Maximum likelihood estimators are inconsistent and inefficient for this problem when the shape parameter is less than one due to the likelihood function exploding to infinity. However, the Bayesian setting with gamma priors solves this problem as the posterior breaks into a product of proper densities, which is convenient for MCMC sampling. We found the posterior to be log-concave and similar to a gamma distribution and, thus, approximated the parameters and confidence intervals using this observation. Our Bayesian implementation reduced the mean square errors significantly as compared to the maximum likelihood method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning</title>
+      <link>https://kushagragpt99.github.io/project/mrl/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
+&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Science Hackathon, Inter IIT Tech Meeth 2018</title>
+      <link>https://kushagragpt99.github.io/project/techmeet/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
+      <description>&lt;p&gt;Our team won the solver medal in the competition. The problem involved data analysis and inference from dataset(s) for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eye in the Sky</title>
+      <link>https://kushagragpt99.github.io/project/eits/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/eits/</guid>
+      <description>&lt;p&gt;
 
 
 
@@ -141,25 +126,32 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/up-running-blogdown/blogdown-meetup_hu63626b89c4debd1240b389a830474d85_3596239_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2550&#34; height=&#34;3300&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
 &lt;/a&gt;
 
 
 
 &lt;/figure&gt;
 
+The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+&lt;p&gt;My contributions to the project :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Code Your Graph Workshop</title>
-      <link>https://kushagragpt99.github.io/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/code-your-graph/</guid>
-      <description>
+      <title>Autoencoder Recommendation Engine</title>
+      <link>https://kushagragpt99.github.io/project/kvpy/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/kvpy/</guid>
+      <description>&lt;p&gt;
 
 
 
@@ -180,91 +172,43 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/code-your-graph/code-your-graph_hu9ebcd1d99c0a236c25b6db9f0e87e85d_160690_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;800&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
 &lt;/a&gt;
 
 
 
 &lt;/figure&gt;
 
+Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Advanced R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
-      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
-&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>https://kushagragpt99.github.io/project/bakeoff/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/bakeoff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/blogdown-book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/blogdown-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-biostats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-biostats/</guid>
-      <description>&lt;p&gt;Part of a year-long curricula on open science, data, and research practice for incoming graduate students in the biomedical sciences, developed in collaboration with OHSU School of MedicineGraduate Studies. This course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
-      <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-cs-stats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-cs-stats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RLadies xaringan theme</title>
-      <link>https://kushagragpt99.github.io/project/rladies-xaringan/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/rladies-xaringan/</guid>
-      <description>
-
-
-&lt;p&gt;Here is a demo slide deck using the theme:&lt;/p&gt;
-&lt;iframe src=&#34;https://alison.rbind.io/slides/rladies-demo-slides.html#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
-&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown</title>
-      <link>https://kushagragpt99.github.io/project/summer-of-blogdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/summer-of-blogdown/</guid>
-      <description>&lt;p&gt;Four daily 1-hour sessions plus 30-60 minutes of homework for 3 nights. See links to each day&amp;rsquo;s materials, including slides and homeworks, below.&lt;/p&gt;
+      <title>Machine Learning for Large Scale Logistics Platform</title>
+      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
+Technical details :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a state of the art algorithm for online collaborative filtering based on Fast Matrix Factorization for Online Recommendation with Implicit Feedback (He et al.) using Numpy.&lt;/li&gt;
+&lt;li&gt;Integrated element-wise Alternating Least Squares (eALS) based incremental update strategy for online learning.&lt;/li&gt;
+&lt;li&gt;Developed an online collaborative filtering based deep recommender algorithm based on AutoEncoder in tensorflow.&lt;/li&gt;
+&lt;li&gt;Used the VADER model in NLTK for sentiment analysis of comments.&lt;/li&gt;
+&lt;li&gt;Improved results of algorithm by using interaction count and sentiment dependent weighting scheme for the observed data and a frequency aware weighting scheme for the missing data.&lt;/li&gt;
+&lt;li&gt;Built multiple Kafka consumers and producer for parallely consuming real time interaction data of comments, likes and views to produce online recommendations for users.&lt;/li&gt;
+&lt;li&gt;Used locust to simulate parallel user interaction to test recommendation algorithm.&lt;/li&gt;
+&lt;li&gt;Used an eventually consistent engagement database (Couchbase) for storing user and item based data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sub-Project: ​​Identification and Classification of toxic comments.
+Technical Details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented  a Bidirectional LSTM based model using Keras for flagging toxic comments based on six metrics.&lt;/li&gt;
+&lt;li&gt;Built Kafka consumer and producer data-pipelines for recording and processing new comments.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

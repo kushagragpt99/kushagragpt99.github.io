@@ -2,28 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/research/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/research/</link>
+      <atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <description>research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Fri, 08 Dec 2017 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>research</title>
-      <link>https://kushagragpt99.github.io/tags/research/</link>
+      <link>/tags/research/</link>
     </image>
     
     <item>
       <title>Labhub Workshop</title>
-      <link>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</link>
+      <link>/talk/2019-tensorflow/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2017-ohsu-labhub/</guid>
+      <guid>/talk/2019-tensorflow/</guid>
       <description>
 
 
 
-
-  
-  
 
 
 
@@ -38,10 +35,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ohsu-os-panel.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2017-ohsu-labhub/ohsu-os-panel_hue8aa4c5db6853c95c13db53ca8de7678_415362_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;830&#34; height=&#34;1080&#34;&gt;
+  &lt;img src=&#34;ohsu-os-panel.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 

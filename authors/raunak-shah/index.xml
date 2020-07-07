@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raunak Shah | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/raunak-shah/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/raunak-shah/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raunak Shah</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>Raunak Shah</title>
+      <link>https://kushagragpt99.github.io/authors/raunak-shah/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Deep Learning</title>
+      <link>https://kushagragpt99.github.io/talk/2019-basic_dl/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/talk/2019-basic_dl/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;basic_ml.png&#34; &gt;
+
+
+  &lt;img src=&#34;basic_ml.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on introduction to deep learning. This talk is targeted for freshers and sophomores (both UG and PG). It covered topics like the most popular convex cost functions, activation functions and gradient descent, along with a hands-on coding experience of these topics. It served as a medium of introducing deep learning to the campus community and as a starting step to explore more complex topics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

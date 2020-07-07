@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yatin Dandi | Kushagra Gupta</title>
+    <link>https://kushagragpt99.github.io/authors/yatin-dandi/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/yatin-dandi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yatin Dandi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <title>Yatin Dandi</title>
+      <link>https://kushagragpt99.github.io/authors/yatin-dandi/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Large Scale Logistics Platform</title>
+      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
+Technical details :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a state of the art algorithm for online collaborative filtering based on Fast Matrix Factorization for Online Recommendation with Implicit Feedback (He et al.) using Numpy.&lt;/li&gt;
+&lt;li&gt;Integrated element-wise Alternating Least Squares (eALS) based incremental update strategy for online learning.&lt;/li&gt;
+&lt;li&gt;Developed an online collaborative filtering based deep recommender algorithm based on AutoEncoder in tensorflow.&lt;/li&gt;
+&lt;li&gt;Used the VADER model in NLTK for sentiment analysis of comments.&lt;/li&gt;
+&lt;li&gt;Improved results of algorithm by using interaction count and sentiment dependent weighting scheme for the observed data and a frequency aware weighting scheme for the missing data.&lt;/li&gt;
+&lt;li&gt;Built multiple Kafka consumers and producer for parallely consuming real time interaction data of comments, likes and views to produce online recommendations for users.&lt;/li&gt;
+&lt;li&gt;Used locust to simulate parallel user interaction to test recommendation algorithm.&lt;/li&gt;
+&lt;li&gt;Used an eventually consistent engagement database (Couchbase) for storing user and item based data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sub-Project: ​​Identification and Classification of toxic comments.
+Technical Details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented  a Bidirectional LSTM based model using Keras for flagging toxic comments based on six metrics.&lt;/li&gt;
+&lt;li&gt;Built Kafka consumer and producer data-pipelines for recording and processing new comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

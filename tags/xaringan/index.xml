@@ -5,100 +5,12 @@
     <link>https://kushagragpt99.github.io/tags/xaringan/</link>
       <atom:link href="https://kushagragpt99.github.io/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
     <description>xaringan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Fri, 04 Oct 2019 18:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>xaringan</title>
       <link>https://kushagragpt99.github.io/tags/xaringan/</link>
     </image>
-    
-    <item>
-      <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</link>
-      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rladies-sydney/</guid>
-      <description>&lt;p&gt;Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the &lt;code&gt;ggplot2&lt;/code&gt; package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the &lt;code&gt;tidyr&lt;/code&gt; package.&lt;/p&gt;
-&lt;p&gt;You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using &lt;code&gt;ggplot2&lt;/code&gt;. To brush up (or start learning now), you may want to play with the free RStudio.cloud 
-&lt;a href=&#34;https://rstudio.cloud/learn/primers/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data visualization primer&lt;/a&gt; (you may use an existing Google or GitHub account to log in). Or of course you can check out 
-&lt;a href=&#34;https://rladiessydney.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Sydney&lt;/a&gt;&amp;rsquo;s own 
-&lt;a href=&#34;https://rladiessydney.org/post/2018/12/20/vizwhiz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VizW(h)iz Module&lt;/a&gt; of 
-&lt;a href=&#34;https://rladiessydney.org/ryouwithme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#RYouWithMe&lt;/a&gt;!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Art of Literate Projecting</title>
-      <link>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</link>
-      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-ysc-keynote/</guid>
-      <description>
-
-
-&lt;p&gt;“Literate programming” is an approach to writing software programs that weaves together the source code and documentation at the time of creation. The idea is to create programs that are easier for users to understand. But they are also easier for programmers to work on and maintain. In this talk, I will describe how data scientists can be inspired by this programming approach and start what I refer to as “literate projecting.” Literate projects are not only more pleasant to work on — they are also easier for others to discover and explore. In my experiences as a researcher and now a data scientist at RStudio, I’ve had the pleasure to work on many literate projects, and I’ve felt the pain of working on illiterate ones too. What is the difference? What are the benefits? Based on my experiences, I’ll share good literate projecting practices that have the potential to shift your mindset and reshape your workflow.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</link>
-      <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rladies-melbourne/</guid>
-      <description>&lt;p&gt;In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;latest-event&#34;&gt;Latest event&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://alison.netlify.com/rlm-sad-plot-better/unsw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This talk&lt;/a&gt; was most recently given at the University of South Wales on 2019/10/04.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</link>
-      <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-sdss-blogdown/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Meet xaringan</title>
-      <link>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</link>
-      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2019-rsc-xaringan/</guid>
-      <description>
-
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Data Visualization in the Tidyverse</title>
-      <link>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</link>
-      <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2018-uo-plotoff/</guid>
-      <description>&lt;p&gt;Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tidy data is the start of your data wrangling journey, not the end&lt;/li&gt;
-&lt;li&gt;There is not a single &amp;ldquo;tidy&amp;rdquo; version of a dataset&lt;/li&gt;
-&lt;li&gt;Tidy data &lt;em&gt;does&lt;/em&gt; make you more nimble!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Take a Sad Plot &amp; Make It Better</title>
-      <link>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</link>
-      <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/</guid>
-      <description>&lt;p&gt;Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://apreshill.github.io/ohsu-biodatavis/slides_files/figure-html/animated.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Following this, Eric Earl (Senior RA in the DCAN Labs) will show a case study of visualization in neuroimaging research.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
@@ -167,25 +79,6 @@
 &lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Yihui’s &lt;a href=&#34;https://yihui.name/en/2017/10/xaringan-themes/&#34;&gt;technical instructions&lt;/a&gt; for contributors section of that blog post has been revised and is very detailed&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Advanced R Markdown</title>
-      <link>https://kushagragpt99.github.io/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/advanced-r-markdown/</guid>
-      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
-&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://kushagragpt99.github.io/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/ohsu-dataviz/</guid>
-      <description>&lt;p&gt;This was a 12-week course with weekly 1.5 hour hands-on labs using R and the &lt;code&gt;ggplot2&lt;/code&gt; package. This course (CS631) was co-developed with Drs. Steven Bedrick and Jackie Wirz. This team-taught course was offered at Oregon Health &amp;amp; Science University to graduate students in the biomedical sciences.&lt;/p&gt;
 </description>
     </item>
     
