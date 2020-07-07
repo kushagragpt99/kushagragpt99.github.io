@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>multi-agent RL | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/multi-agent-rl/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/multi-agent-rl/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/multi-agent-rl/</link>
+      <atom:link href="/tags/multi-agent-rl/index.xml" rel="self" type="application/rss+xml" />
     <description>multi-agent RL</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>multi-agent RL</title>
-      <link>https://kushagragpt99.github.io/tags/multi-agent-rl/</link>
+      <link>/tags/multi-agent-rl/</link>
     </image>
     
     <item>
       <title>Multi-Agent Reinforcement Learning</title>
-      <link>https://kushagragpt99.github.io/project/mrl/</link>
+      <link>/project/mrl/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
+      <guid>/project/mrl/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
 &lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;

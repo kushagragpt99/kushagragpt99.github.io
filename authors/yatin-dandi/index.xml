@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yatin Dandi | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/authors/yatin-dandi/</link>
-      <atom:link href="https://kushagragpt99.github.io/authors/yatin-dandi/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/yatin-dandi/</link>
+      <atom:link href="/authors/yatin-dandi/index.xml" rel="self" type="application/rss+xml" />
     <description>Yatin Dandi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>Yatin Dandi</title>
-      <link>https://kushagragpt99.github.io/authors/yatin-dandi/</link>
+      <link>/authors/yatin-dandi/</link>
     </image>
     
     <item>
       <title>Machine Learning for Large Scale Logistics Platform</title>
-      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <link>/project/nyo/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <guid>/project/nyo/</guid>
       <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
 Technical details :&lt;/p&gt;
 &lt;ul&gt;

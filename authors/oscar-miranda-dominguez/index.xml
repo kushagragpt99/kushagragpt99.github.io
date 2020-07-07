@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oscar Miranda-Dominguez | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/authors/oscar-miranda-dominguez/</link>
-      <atom:link href="https://kushagragpt99.github.io/authors/oscar-miranda-dominguez/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/oscar-miranda-dominguez/</link>
+      <atom:link href="/authors/oscar-miranda-dominguez/index.xml" rel="self" type="application/rss+xml" />
     <description>Oscar Miranda-Dominguez</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>Oscar Miranda-Dominguez</title>
-      <link>https://kushagragpt99.github.io/authors/oscar-miranda-dominguez/</link>
+      <link>/authors/oscar-miranda-dominguez/</link>
     </image>
     
     <item>
       <title>Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</title>
-      <link>https://kushagragpt99.github.io/publication/2017-subtyping/</link>
+      <link>/publication/2017-subtyping/</link>
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/publication/2017-subtyping/</guid>
+      <guid>/publication/2017-subtyping/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ml | Kushagra Gupta</title>
+    <link>/tags/ml/</link>
+      <atom:link href="/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <description>ml</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/pom-card.png</url>
+      <title>ml</title>
+      <link>/tags/ml/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning</title>
+      <link>/project/mrl/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/project/mrl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
+&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eye in the Sky</title>
+      <link>/project/eits/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/eits/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+
+
+  &lt;img data-src=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+&lt;p&gt;My contributions to the project :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autoencoder Recommendation Engine</title>
+      <link>/project/kvpy/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/project/kvpy/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+
+
+  &lt;img data-src=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Large Scale Logistics Platform</title>
+      <link>/project/nyo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/project/nyo/</guid>
+      <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
+Technical details :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a state of the art algorithm for online collaborative filtering based on Fast Matrix Factorization for Online Recommendation with Implicit Feedback (He et al.) using Numpy.&lt;/li&gt;
+&lt;li&gt;Integrated element-wise Alternating Least Squares (eALS) based incremental update strategy for online learning.&lt;/li&gt;
+&lt;li&gt;Developed an online collaborative filtering based deep recommender algorithm based on AutoEncoder in tensorflow.&lt;/li&gt;
+&lt;li&gt;Used the VADER model in NLTK for sentiment analysis of comments.&lt;/li&gt;
+&lt;li&gt;Improved results of algorithm by using interaction count and sentiment dependent weighting scheme for the observed data and a frequency aware weighting scheme for the missing data.&lt;/li&gt;
+&lt;li&gt;Built multiple Kafka consumers and producer for parallely consuming real time interaction data of comments, likes and views to produce online recommendations for users.&lt;/li&gt;
+&lt;li&gt;Used locust to simulate parallel user interaction to test recommendation algorithm.&lt;/li&gt;
+&lt;li&gt;Used an eventually consistent engagement database (Couchbase) for storing user and item based data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sub-Project: ​​Identification and Classification of toxic comments.
+Technical Details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented  a Bidirectional LSTM based model using Keras for flagging toxic comments based on six metrics.&lt;/li&gt;
+&lt;li&gt;Built Kafka consumer and producer data-pipelines for recording and processing new comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

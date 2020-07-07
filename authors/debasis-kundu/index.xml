@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debasis Kundu | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/authors/debasis-kundu/</link>
-      <atom:link href="https://kushagragpt99.github.io/authors/debasis-kundu/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/debasis-kundu/</link>
+      <atom:link href="/authors/debasis-kundu/index.xml" rel="self" type="application/rss+xml" />
     <description>Debasis Kundu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>Debasis Kundu</title>
-      <link>https://kushagragpt99.github.io/authors/debasis-kundu/</link>
+      <link>/authors/debasis-kundu/</link>
     </image>
     
     <item>
       <title>Bayesian Inference on 3 parameter Weibull Distribution</title>
-      <link>https://kushagragpt99.github.io/project/weibull/</link>
+      <link>/project/weibull/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/weibull/</guid>
+      <guid>/project/weibull/</guid>
       <description>&lt;p&gt;In the summer of 2019, I (in a team of 2) was working with Prof.Kundu on developing Bayesian methodologies for parameter estimation of a 3-Weibull distribution \cite{weibull}. Maximum likelihood estimators are inconsistent and inefficient for this problem when the shape parameter is less than one due to the likelihood function exploding to infinity. However, the Bayesian setting with gamma priors solves this problem as the posterior breaks into a product of proper densities, which is convenient for MCMC sampling. We found the posterior to be log-concave and similar to a gamma distribution and, thus, approximated the parameters and confidence intervals using this observation. Our Bayesian implementation reduced the mean square errors significantly as compared to the maximum likelihood method.&lt;/p&gt;
 </description>
     </item>

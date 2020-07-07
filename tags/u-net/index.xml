@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>U-Net | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/u-net/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/u-net/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/u-net/</link>
+      <atom:link href="/tags/u-net/index.xml" rel="self" type="application/rss+xml" />
     <description>U-Net</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
+      <url>/img/pom-card.png</url>
       <title>U-Net</title>
-      <link>https://kushagragpt99.github.io/tags/u-net/</link>
+      <link>/tags/u-net/</link>
     </image>
     
     <item>
       <title>Eye in the Sky</title>
-      <link>https://kushagragpt99.github.io/project/eits/</link>
+      <link>/project/eits/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/eits/</guid>
+      <guid>/project/eits/</guid>
       <description>&lt;p&gt;
 
 
@@ -38,10 +38,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+  &lt;img data-src=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
 &lt;/a&gt;
 
 
