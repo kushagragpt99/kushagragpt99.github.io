@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amber Thomas | Kushagra Gupta</title>
-    <link>/authors/amber-thomas/</link>
-      <atom:link href="/authors/amber-thomas/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/authors/amber-thomas/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/amber-thomas/index.xml" rel="self" type="application/rss+xml" />
     <description>Amber Thomas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Amber Thomas</title>
-      <link>/authors/amber-thomas/</link>
+      <link>https://kushagragpt99.github.io/authors/amber-thomas/</link>
     </image>
     
     <item>
       <title>blogdown: Creating Websites with R Markdown</title>
-      <link>/publication/2017-blogdown/</link>
+      <link>https://kushagragpt99.github.io/publication/2017-blogdown/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-blogdown/</guid>
+      <guid>https://kushagragpt99.github.io/publication/2017-blogdown/</guid>
       <description></description>
     </item>
     

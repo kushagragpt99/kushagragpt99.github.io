@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Kushagra Gupta</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/categories/</link>
+      <atom:link href="https://kushagragpt99.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/pom-card.png</url>
+      <url>https://kushagragpt99.github.io/img/pom-card.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://kushagragpt99.github.io/categories/</link>
     </image>
     
   </channel>

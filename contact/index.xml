@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts | Kushagra Gupta</title>
+    <link>/contact/</link>
+      <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contacts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright>
+    <image>
+      <url>/img/pom-card.png</url>
+      <title>Contacts</title>
+      <link>/contact/</link>
+    </image>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>/contact/hero-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/contact/hero-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hi there!</title>
+      <link>/contact/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/contact/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
