@@ -48,7 +48,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on machine learning frameworks. This talk was targeted for sophomores and junior undergraduates with some background on deep learning. It explains dataflow graphs (which represents tensorflow computations) and the basic terminologies and functions. Next, it covers basic implementation in tensorflow through a toy problem on MNIST dataset, also covering the neural network and the dataflow graph for the problem. It also covers the installation procedure of the GPU and CPU-only version.&lt;/p&gt;
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on machine learning frameworks. This talk was targeted for sophomores and junior undergraduates with some background on deep learning. It explained dataflow graphs (which represent TensorFlow computations) and its basic terminologies and functions. Next, it covered basic implementation in TensorFlow through a toy problem on MNIST dataset, including the neural network and the dataflow graph for the problem. It also covered the installation procedure of the GPU and the CPU-only version.&lt;/p&gt;
 </description>
     </item>
     

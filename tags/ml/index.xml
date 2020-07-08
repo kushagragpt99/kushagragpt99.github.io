@@ -18,10 +18,10 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/project/mrl/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
-&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
-&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
-&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
+&lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Our initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than the human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;I worked on developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -62,12 +62,12 @@
 
 &lt;/figure&gt;
 
-The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+The problem was part of the machine learning competition in inter IIT tech meet, 2018, where we won the silver medal in the competition. The task was to classify all pixels in a given satellite image, as belonging to one of nine given classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved the implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparameter tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to the state of the art model for multi-class image segmentation.&lt;/p&gt;
 &lt;p&gt;My contributions to the project :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
-&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
-&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
+&lt;li&gt;I designed and implemented a U-Net architecture for image segmentation of high-quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;I improved the existing accuracy from 84% to 91% on just 25 images by developing a new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;I used localized optimization of parameters with high frequency to break the bottleneck of a small dataset.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -108,7 +108,7 @@ The problem was part of the machine learning competition in inter IIT tech meet,
 
 &lt;/figure&gt;
 
-Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
+Deep learning has revolutionized many areas of machine learning, and it is poised to do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases the learning rate and further improves generalization performance of the model.&lt;/p&gt;
 </description>
     </item>
     

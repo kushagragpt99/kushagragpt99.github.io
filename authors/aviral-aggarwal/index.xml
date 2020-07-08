@@ -45,8 +45,8 @@
 
 &lt;/figure&gt;
  --&gt;
-&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, geneerating an encrypted results which matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a leveled FHE library (which can evaluate circuits with a bounded depth) based on the 
-&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing paralle computations and automatic differentiation, making it significantly fast and easy to use particularly for machine learning models.&lt;/p&gt;
+&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, generating an encrypted result that matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a levelled FHE library (which can evaluate circuits with a bounded depth) based on the 
+&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing parallel computations and automatic differentiation, making it significantly fast and easy to use, particularly for machine learning models.&lt;/p&gt;
 </description>
     </item>
     

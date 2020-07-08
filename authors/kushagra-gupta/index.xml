@@ -17,7 +17,7 @@
       <link>https://kushagragpt99.github.io/project/rbm/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/project/rbm/</guid>
-      <description>&lt;p&gt;Markov chain Monte Carlo (MCMC) produces a correlated sample for estimating expectations concerning a target distribution. Output analysis of these estimates requires estimating the MCMC central limit theorem asymptotic variance. We study a steady-state simulation estimator called replicated batch means (RBM) and their lugsail counterparts, designed explicitly for producing accurate estimates for small sample settings for parallel Markov chains. We prove that the RBM class of estimators show strong consistency and link its conditions to strong consistency of single-chain batch means estimators. We obtain the bias and variance expressions for the replicated estimators and study their asymptotic properties. We also derive the exact form of the asymptotic covariance matrix for a bivariate normal Gibbs sampler. Finite sample superiority of RBM over other estimators is illustrated through a highly correlated bivariate normal Gibbs sampler.&lt;/p&gt;
+      <description>&lt;p&gt;Sufficient research has been done on estimating the asymptotic covariance matrix in a Markov chain central limit theorem for applications in Markov chain Monte Carlo (MCMC). However, almost all of it, including the efficient batch means (BM) estimator, focuses on a single-chain MCMC run. We demonstrate that simply averaging covariance matrix estimators from different chains (average BM) can yield critical underestimates of the variance in small sample sizes, especially for slow mixing Markov chains.  We propose a multivariate replicated batch means (RBM) estimator that utilizes information across all chains in order to estimate the asymptotic covariance matrix, thereby correcting for the underestimation. Under weak conditions on the mixing rate of the process, strong consistency of the RBM estimator follows from the strong consistency of the BM estimators. Further, we show that the large-sample bias and variance of the RBM estimator mimics that of the average BM estimator. Thus, for large MCMC runs, the RBM and average BM yield equivalent performance, but for small MCMC runs, the RBM estimator can be dramatically superior. This superiority is demonstrated through a variety of examples, including a two-variable Gibbs sampler for a bivariate Gaussian target distribution. Here we obtain a closed-form expression for the asymptotic covariance matrix of the Monte Carlo estimator, a result vital in itself, as it allows for benchmarking implementations in the future.&lt;/p&gt;
 </description>
     </item>
     
@@ -54,8 +54,8 @@
 
 &lt;/figure&gt;
  --&gt;
-&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, geneerating an encrypted results which matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a leveled FHE library (which can evaluate circuits with a bounded depth) based on the 
-&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing paralle computations and automatic differentiation, making it significantly fast and easy to use particularly for machine learning models.&lt;/p&gt;
+&lt;p&gt;Fully Homomorphic Encryption (FHE) allows computation directly on the encrypted data, generating an encrypted result that matches the result of the computation on decrypted data. FHE removes the insecurity introduced by the requirement of decrypting data to perform computations on it. We build a levelled FHE library (which can evaluate circuits with a bounded depth) based on the 
+&lt;a href=&#34;https://eprint.iacr.org/2013/340&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GSW scheme&lt;/a&gt; using libtorch and CUDA. Our library is capable of performing parallel computations and automatic differentiation, making it significantly fast and easy to use, particularly for machine learning models.&lt;/p&gt;
 </description>
     </item>
     
@@ -83,10 +83,10 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/project/mrl/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
-&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
-&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
-&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
+&lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Our initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than the human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;I worked on developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -96,7 +96,7 @@
       <link>https://kushagragpt99.github.io/project/techmeet/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
-      <description>&lt;p&gt;Our team won the solver medal in the competition. The problem involved data analysis and inference from dataset(s) for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
+      <description>&lt;p&gt;Our team won the silver medal in the competition. The problem involved data analysis and inference from a dataset for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
 </description>
     </item>
     
@@ -136,12 +136,12 @@
 
 &lt;/figure&gt;
 
-The problem was part of the machine learning competition in inter IIT tech meet, 2018. Our team won the silver medal in the competition. The task is to classify all pixels in a given satellite image, as belonging to one of given 9 classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparamater tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to state of the art model for multi-class image segmentation.&lt;/p&gt;
+The problem was part of the machine learning competition in inter IIT tech meet, 2018, where we won the silver medal in the competition. The task was to classify all pixels in a given satellite image, as belonging to one of nine given classes.  Our approach towards solving this challenge involved three approaches, with each approach performing better than the last one. The ﬁrst model involved the implementation of a basic U-Net architecture with custom metrics designed for this problem. The second approach involved a P-Net architecture with extensive hyperparameter tuning to improve model accuracy. The third approach utilizes nine distinct U-Net architectures for the segmentation, giving results comparable to the state of the art model for multi-class image segmentation.&lt;/p&gt;
 &lt;p&gt;My contributions to the project :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Designed and implemented a U-Net architecture for image segmentation of high quality satellite images by using context-based representations.&lt;/li&gt;
-&lt;li&gt;Improved existing accuracy from 84% to 91% on just 25 images by developing new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
-&lt;li&gt;Used localized optimization of parameters with high frequency to break bottleneck of smalldataset.&lt;/li&gt;
+&lt;li&gt;I designed and implemented a U-Net architecture for image segmentation of high-quality satellite images by using context-based representations.&lt;/li&gt;
+&lt;li&gt;I improved the existing accuracy from 84% to 91% on just 25 images by developing a new algorithm based on 9 U-Nets using &amp;lsquo;one vs all&amp;rsquo; classification approach.&lt;/li&gt;
+&lt;li&gt;I used localized optimization of parameters with high frequency to break the bottleneck of a small dataset.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -182,7 +182,7 @@ The problem was part of the machine learning competition in inter IIT tech meet,
 
 &lt;/figure&gt;
 
-Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
+Deep learning has revolutionized many areas of machine learning, and it is poised to do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases the learning rate and further improves generalization performance of the model.&lt;/p&gt;
 </description>
     </item>
     

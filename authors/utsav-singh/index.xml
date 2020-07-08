@@ -18,10 +18,10 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://kushagragpt99.github.io/project/mrl/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Working on multi-agent self-play in atari games in collaborative and competetive settings.&lt;/li&gt;
-&lt;li&gt;Currently working on using variational autoencoders to disentangle multiple near optimal policies extracted using latent code.&lt;/li&gt;
-&lt;li&gt;Initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than human score of 40% in multi-agent CTF.&lt;/li&gt;
-&lt;li&gt;Developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
+&lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
+&lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;
+&lt;li&gt;Our initial results on the model gave win probability of 72%, which is close to 80% SOTA values, and much better than the human score of 40% in multi-agent CTF.&lt;/li&gt;
+&lt;li&gt;I worked on developing a generative model for InfoRL to maintain unsupervised setting for latent code generation to allow all standard MARL algorithms to be used with InfoRL.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

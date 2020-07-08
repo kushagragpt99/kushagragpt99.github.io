@@ -48,7 +48,7 @@
 
 &lt;/figure&gt;
 
-Deep learning has revolutionized many areas of machine learning, and it is poised do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases learning rate and further improves generalization performance of the model.&lt;/p&gt;
+Deep learning has revolutionized many areas of machine learning, and it is poised to do so with recommender systems as well. This project shows how deep autoencoders can be successfully trained even on relatively small amounts of data by using both well established (dropout) and scaled exponential linear units deep learning techniques. We used iterative output re-feeding - a technique which allows dense updates in collaborative ﬁltering, increases the learning rate and further improves generalization performance of the model.&lt;/p&gt;
 </description>
     </item>
     

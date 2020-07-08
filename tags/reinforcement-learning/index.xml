@@ -48,7 +48,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on reinforcement learning. This talk was targeted for sophomores and junior undergraduates with some statistical background on Markov process and Monte Carlo. It covers the components of an RL model, namely policy, value function and agent&amp;rsquo;s representation of the environment. Next, it covers the basics of Markov reward process and the Bellman expectation equation, necessary to mathematically define the update procedure of the RL agent. This talk also covers the basic algorithms of training the RL agent, namely policy and value iteration. Towards the end, it touches upon the model-free methods of RL and explains the underlying mechanism behind model-free learning.&lt;/p&gt;
+&lt;p&gt;This talk was part of Programming Club, IIT Kanpur&amp;rsquo;s talk on reinforcement learning (RL). It was targeted for sophomores and junior undergraduates with some statistical background on Markov process and Monte Carlo. It covered the components of an RL model, namely policy, value function and agent&amp;rsquo;s representation of the environment. Additionally, it covered the basics of Markov reward process and the Bellman expectation equation, necessary to define the update procedure of the RL agent mathematically. This talk also covered the basic algorithms of training the RL agent, namely policy and value iteration. Towards the end, it touched upon the model-free methods of RL and explained the underlying mechanism behind model-free learning.&lt;/p&gt;
 </description>
     </item>
     
