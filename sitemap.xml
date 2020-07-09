@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kushagragpt99.github.io/publication_types/3/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/authors/kushagra-gupta-dootika-vats/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/mcmc/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/operations-research/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/output-analysis/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/publication_types/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/publication/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/replicated-batch-means/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kushagragpt99.github.io/tags/</loc>
+    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kushagragpt99.github.io/post/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
@@ -13,17 +73,7 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kushagragpt99.github.io/tags/rmarkdown/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/tags/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,11 +119,6 @@
   
   <url>
     <loc>https://kushagragpt99.github.io/talk/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -393,91 +438,6 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/publication_types/2/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/beth-hoover-langhorst/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/damien-fair/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/damion-demeter/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/eric-feczko/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/eric-fombonne/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/jan-van-santen/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/joel-nigg/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/julia-grieser-painter/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/lourdes-irwin/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/michaela-cordova/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/nadir-balba/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/oscar-miranda-dominguez/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication_types/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/sarah-karalunas/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2017-subtyping/</loc>
-    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</loc>
     <lastmod>2017-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -498,253 +458,8 @@
   </url>
   
   <url>
-    <loc>https://kushagragpt99.github.io/publication_types/5/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/amber-thomas/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2017-blogdown/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/yihui-xie/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/</loc>
     <lastmod>2017-06-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/geza-kiss/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/heather-macfarlane/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/katina-papadakis/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/kyle-gorman/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2017-mazes-asd-sli/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/rosemary-ingham/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication_types/6/</loc>
-    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2016-primer-on-asd/</loc>
-    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/katharine-zuckerman/</loc>
-    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/jan-p.-h.-van-santen/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/lindsay-olson/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/peter-a.-heeman/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/rebecca-lunsford/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2016-uh-and-um-asd-sli/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/katharine-e.-zuckerman/</loc>
-    <lastmod>2015-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2015-obesity-in-asd-multisite/</loc>
-    <lastmod>2015-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2015-memory-in-li-asd/</loc>
-    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2015-translational/</loc>
-    <lastmod>2015-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2014-aggression-in-asd/</loc>
-    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/arlene-d.-hagen/</loc>
-    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/daniel-j.-kriz/</loc>
-    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/katherine-e.-zuckerman/</loc>
-    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/susanne-w.-duvall/</loc>
-    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2014-handbook/</loc>
-    <lastmod>2014-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/kimberly-guion/</loc>
-    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/lisa-voltolina/</loc>
-    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2014-obesity-in-asd-oregon/</loc>
-    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2014-asd-epidemiology-in-practice/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2013-repetitive-speech-in-asd-sli/</loc>
-    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/richard-w.-sproat/</loc>
-    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/bridget-m.-gaertner/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/carol-lynn-martin/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/cindy-f.-miller/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/dawn-e.-england/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/diane-n.-ruble/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/kristina-m.-zosuls/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2011-gender-attitudes/</loc>
-    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2007-rja-in-sibs/</loc>
-    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/paul-j.-yoder/</loc>
-    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/tedra-a.-walden/</loc>
-    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/wendy-l.-stone/</loc>
-    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/anderson-d.-smith/</loc>
-    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/chuck-l.-robertson/</loc>
-    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/authors/david-p.-mccabe/</loc>
-    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kushagragpt99.github.io/publication/2004-false-memories/</loc>
-    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
