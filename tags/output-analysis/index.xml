@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Output Analysis | Kushagra Gupta</title>
-    <link>/tags/output-analysis/</link>
-      <atom:link href="/tags/output-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/tags/output-analysis/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/output-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Output Analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>Output Analysis</title>
-      <link>/tags/output-analysis/</link>
+      <link>https://kushagragpt99.github.io/tags/output-analysis/</link>
     </image>
     
     <item>
       <title>Estimating Monte Carlo variance from multiple Markov chains</title>
-      <link>/publication/preprints/2020-replicated-batch-means/</link>
+      <link>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/preprints/2020-replicated-batch-means/</guid>
+      <guid>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</guid>
       <description></description>
     </item>
     

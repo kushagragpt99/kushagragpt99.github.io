@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vikrant Malik | Kushagra Gupta</title>
-    <link>/authors/vikrant-malik/</link>
-      <atom:link href="/authors/vikrant-malik/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/authors/vikrant-malik/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/vikrant-malik/index.xml" rel="self" type="application/rss+xml" />
     <description>Vikrant Malik</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>Vikrant Malik</title>
-      <link>/authors/vikrant-malik/</link>
+      <link>https://kushagragpt99.github.io/authors/vikrant-malik/</link>
     </image>
     
     <item>
       <title>Fully Homomorphic Encryptio Library</title>
-      <link>/project/fhe/</link>
+      <link>https://kushagragpt99.github.io/project/fhe/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/fhe/</guid>
+      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
       <description>&lt;!-- 
 
 

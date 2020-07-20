@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All Talks &amp; Workshops | Kushagra Gupta</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/talk/</link>
+      <atom:link href="https://kushagragpt99.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>All Talks &amp; Workshops</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>All Talks &amp; Workshops</title>
-      <link>/talk/</link>
+      <link>https://kushagragpt99.github.io/talk/</link>
     </image>
     
     <item>
       <title>Introduction to tensorflow</title>
-      <link>/talk/2019-tensorflow/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-tensorflow/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/talk/2019-tensorflow/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-tensorflow/</guid>
       <description>
 
 
@@ -38,10 +38,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; &gt;
 
 
-  &lt;img data-src=&#34;/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;252&#34; height=&#34;448&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-tensorflow/tensors_flowing_hu0bd88d939c7ea5a767fc2ea7039b1f27_443056_2000x2000_fit_lanczos.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;252&#34; height=&#34;448&#34;&gt;
 &lt;/a&gt;
 
 
@@ -54,9 +54,9 @@
     
     <item>
       <title>Introduction to Deep Learning</title>
-      <link>/talk/2019-basic_dl/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-basic_dl/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/2019-basic_dl/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-basic_dl/</guid>
       <description>
 
 
@@ -91,9 +91,9 @@
     
     <item>
       <title>Reinforcement Learning</title>
-      <link>/talk/2019-rl/</link>
+      <link>https://kushagragpt99.github.io/talk/2019-rl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/2019-rl/</guid>
+      <guid>https://kushagragpt99.github.io/talk/2019-rl/</guid>
       <description>
 
 
@@ -115,10 +115,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;382&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/talk/2019-rl/RL_hu28e342dfb08d6419167a58ebb9883a60_21215_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;382&#34;&gt;
 &lt;/a&gt;
 
 

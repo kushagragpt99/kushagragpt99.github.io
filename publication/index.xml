@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Kushagra Gupta</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/publication/</link>
+      <atom:link href="https://kushagragpt99.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/publication/featured.jpg</url>
+      <url>https://kushagragpt99.github.io/publication/featured.jpg</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://kushagragpt99.github.io/publication/</link>
     </image>
     
     <item>
       <title>Estimating Monte Carlo variance from multiple Markov chains</title>
-      <link>/publication/preprints/2020-replicated-batch-means/</link>
+      <link>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/preprints/2020-replicated-batch-means/</guid>
+      <guid>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</guid>
       <description></description>
     </item>
     

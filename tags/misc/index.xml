@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>misc | Kushagra Gupta</title>
-    <link>/tags/misc/</link>
-      <atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/tags/misc/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     <description>misc</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>misc</title>
-      <link>/tags/misc/</link>
+      <link>https://kushagragpt99.github.io/tags/misc/</link>
     </image>
     
     <item>
       <title>Fully Homomorphic Encryptio Library</title>
-      <link>/project/fhe/</link>
+      <link>https://kushagragpt99.github.io/project/fhe/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/fhe/</guid>
+      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
       <description>&lt;!-- 
 
 
@@ -52,9 +52,9 @@
     
     <item>
       <title>Data Science Hackathon, Inter IIT Tech Meeth 2018</title>
-      <link>/project/techmeet/</link>
+      <link>https://kushagragpt99.github.io/project/techmeet/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/project/techmeet/</guid>
+      <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
       <description>&lt;p&gt;Our team won the silver medal in the competition. The problem involved data analysis and inference from a dataset for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
 </description>
     </item>

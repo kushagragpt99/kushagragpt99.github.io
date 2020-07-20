@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utsav Singh | Kushagra Gupta</title>
-    <link>/authors/utsav-singh/</link>
-      <atom:link href="/authors/utsav-singh/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/authors/utsav-singh/</link>
+      <atom:link href="https://kushagragpt99.github.io/authors/utsav-singh/index.xml" rel="self" type="application/rss+xml" />
     <description>Utsav Singh</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>Utsav Singh</title>
-      <link>/authors/utsav-singh/</link>
+      <link>https://kushagragpt99.github.io/authors/utsav-singh/</link>
     </image>
     
     <item>
       <title>Multi-Agent Reinforcement Learning</title>
-      <link>/project/mrl/</link>
+      <link>https://kushagragpt99.github.io/project/mrl/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/mrl/</guid>
+      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
 &lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;

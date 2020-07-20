@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ml | Kushagra Gupta</title>
-    <link>/categories/ml/</link>
-      <atom:link href="/categories/ml/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/categories/ml/</link>
+      <atom:link href="https://kushagragpt99.github.io/categories/ml/index.xml" rel="self" type="application/rss+xml" />
     <description>ml</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>ml</title>
-      <link>/categories/ml/</link>
+      <link>https://kushagragpt99.github.io/categories/ml/</link>
     </image>
     
     <item>
       <title>Multi-Agent Reinforcement Learning</title>
-      <link>/project/mrl/</link>
+      <link>https://kushagragpt99.github.io/project/mrl/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/mrl/</guid>
+      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
 &lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;
@@ -28,9 +28,9 @@
     
     <item>
       <title>Eye in the Sky</title>
-      <link>/project/eits/</link>
+      <link>https://kushagragpt99.github.io/project/eits/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/project/eits/</guid>
+      <guid>https://kushagragpt99.github.io/project/eits/</guid>
       <description>&lt;p&gt;
 
 
@@ -52,10 +52,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
 &lt;/a&gt;
 
 
@@ -74,9 +74,9 @@ The problem was part of the machine learning competition in inter IIT tech meet,
     
     <item>
       <title>Autoencoder Recommendation Engine</title>
-      <link>/project/kvpy/</link>
+      <link>https://kushagragpt99.github.io/project/kvpy/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/project/kvpy/</guid>
+      <guid>https://kushagragpt99.github.io/project/kvpy/</guid>
       <description>&lt;p&gt;
 
 
@@ -98,10 +98,10 @@ The problem was part of the machine learning competition in inter IIT tech meet,
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
 &lt;/a&gt;
 
 
@@ -114,9 +114,9 @@ Deep learning has revolutionized many areas of machine learning, and it is poise
     
     <item>
       <title>Machine Learning for Large Scale Logistics Platform</title>
-      <link>/project/nyo/</link>
+      <link>https://kushagragpt99.github.io/project/nyo/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>/project/nyo/</guid>
+      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
       <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
 Technical details :&lt;/p&gt;
 &lt;ul&gt;

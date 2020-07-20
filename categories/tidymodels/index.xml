@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidymodels | Kushagra Gupta</title>
-    <link>/categories/tidymodels/</link>
-      <atom:link href="/categories/tidymodels/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/categories/tidymodels/</link>
+      <atom:link href="https://kushagragpt99.github.io/categories/tidymodels/index.xml" rel="self" type="application/rss+xml" />
     <description>tidymodels</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>tidymodels</title>
-      <link>/categories/tidymodels/</link>
+      <link>https://kushagragpt99.github.io/categories/tidymodels/</link>
     </image>
     
     <item>
       <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
-      <link>/post/2020-02-27-better-tidymodels/</link>
+      <link>https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-02-27-better-tidymodels/</guid>
+      <guid>https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/</guid>
       <description>&lt;p&gt;A few years ago, I did a talk called 
-&lt;a href=&#34;/talk/2018-ohsu-sad-plot-better/&#34;&gt;&amp;ldquo;Take a Sad Plot &amp;amp; Make it Better,&amp;quot;&lt;/a&gt; where I showed how I took a single sad plot and tried to make it better. The process of making that plot better taught me a lot about data visualization, and about the 
+&lt;a href=&#34;https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/&#34;&gt;&amp;ldquo;Take a Sad Plot &amp;amp; Make it Better,&amp;quot;&lt;/a&gt; where I showed how I took a single sad plot and tried to make it better. The process of making that plot better taught me a lot about data visualization, and about the 
 &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2 package&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Fast-forward to 2019 when I started learning 
 &lt;a href=&#34;https://github.com/tidymodels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt;, and I have accumulated some pretty sad predictive modeling scripts! And my sad plots are not so lonely anymore. Specifically, my old scripts for doing cross-validation with tidymodels are particularly sad. But, I&amp;rsquo;ve been able to make them better (one might even call them happy), primarily due to changes in the 

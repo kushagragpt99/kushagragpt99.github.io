@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rmarkdown | Kushagra Gupta</title>
-    <link>/tags/rmarkdown/</link>
-      <atom:link href="/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/tags/rmarkdown/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>rmarkdown</title>
-      <link>/tags/rmarkdown/</link>
+      <link>https://kushagragpt99.github.io/tags/rmarkdown/</link>
     </image>
     
     <item>
       <title>How I Taught Tidymodels, Virtually</title>
-      <link>/post/2020-06-02-tidymodels-virtually/</link>
+      <link>https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-06-02-tidymodels-virtually/</guid>
+      <guid>https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/</guid>
       <description>&lt;p&gt;A few weeks ago, I wrapped up teaching 
 &lt;a href=&#34;https://www.tidymodels.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; for the third time. We say third time&amp;rsquo;s the charm, right? Even during a global pandemic? I don&amp;rsquo;t know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.&lt;/p&gt;
 &lt;h2 id=&#34;but-why&#34;&gt;But why?&lt;/h2&gt;
 &lt;p&gt;Why teach tidymodels virtually? I&amp;rsquo;ve already taught it as a 
-&lt;a href=&#34;/project/tidyml&#34;&gt;2-day workshop&lt;/a&gt; at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
-&lt;a href=&#34;/talk/2020-rmedicine-tidyml/&#34;&gt;R / Medicine conference&lt;/a&gt; (still on, and 100% virtual!).&lt;/p&gt;
+&lt;a href=&#34;https://kushagragpt99.github.io/project/tidyml&#34;&gt;2-day workshop&lt;/a&gt; at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
+&lt;a href=&#34;https://kushagragpt99.github.io/talk/2020-rmedicine-tidyml/&#34;&gt;R / Medicine conference&lt;/a&gt; (still on, and 100% virtual!).&lt;/p&gt;
 &lt;p&gt;I had three main goals:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;First, I wanted to do a good job for the R / Medicine conference workshop in August. This seemed like an interesting teaching challenge. One of the best compliments I&amp;rsquo;ve ever gotten from a colleague is that I &amp;ldquo;teach with heart&amp;rdquo; — so the challenge was, can a virtual workshop have a ❤️?&lt;/li&gt;
@@ -170,8 +170,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu8ddd347995e1b8316aad5f226eef880e_1335197_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu8ddd347995e1b8316aad5f226eef880e_1335197_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -179,8 +179,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu8ddd347995e1b8316aad5f226eef880e_932227_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu8ddd347995e1b8316aad5f226eef880e_932227_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -188,8 +188,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu8ddd347995e1b8316aad5f226eef880e_2521546_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu8ddd347995e1b8316aad5f226eef880e_2521546_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -197,8 +197,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu8ddd347995e1b8316aad5f226eef880e_1994290_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu8ddd347995e1b8316aad5f226eef880e_1994290_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -206,8 +206,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png&#34; &gt;
-  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu8ddd347995e1b8316aad5f226eef880e_365121_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;https://kushagragpt99.github.io/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu8ddd347995e1b8316aad5f226eef880e_365121_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
 
@@ -295,11 +295,11 @@
     
     <item>
       <title>How I Teach R Markdown</title>
-      <link>/post/2020-05-28-how-i-teach-r-markdown/</link>
+      <link>https://kushagragpt99.github.io/post/2020-05-28-how-i-teach-r-markdown/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-05-28-how-i-teach-r-markdown/</guid>
+      <guid>https://kushagragpt99.github.io/post/2020-05-28-how-i-teach-r-markdown/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kushagragpt99.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ah, &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt;. I love teaching R Markdown. But this was not a love at first sight story. When I first started teaching with R at Oregon Health &amp;amp; Science University many moons ago, my students used R Markdown for their homework assignments and in-class labs. This is a great way to start for beginners, to be honest- just use it! I found that most people are not very disoriented by a file that mixes text and code; a concern I had at first and one that I’ve heard voiced by other educators. It seems natural to use if it is your first exposure to &lt;em&gt;all the data science things&lt;/em&gt;, especially if you’ve never used an R script.&lt;/p&gt;

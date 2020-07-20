@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xaringan | Kushagra Gupta</title>
-    <link>/tags/xaringan/</link>
-      <atom:link href="/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://kushagragpt99.github.io/tags/xaringan/</link>
+      <atom:link href="https://kushagragpt99.github.io/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
     <description>xaringan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpeg</url>
+      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
       <title>xaringan</title>
-      <link>/tags/xaringan/</link>
+      <link>https://kushagragpt99.github.io/tags/xaringan/</link>
     </image>
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
-      <link>/post/2017-12-18-r-ladies-presentation-ninja/</link>
+      <link>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/post/2017-12-18-r-ladies-presentation-ninja/</guid>
+      <guid>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
       <description>
 
 
