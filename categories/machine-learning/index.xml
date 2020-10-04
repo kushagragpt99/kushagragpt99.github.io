@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine learning | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/categories/machine-learning/</link>
-      <atom:link href="https://kushagragpt99.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/machine-learning/</link>
+      <atom:link href="/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>machine learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>machine learning</title>
-      <link>https://kushagragpt99.github.io/categories/machine-learning/</link>
+      <link>/categories/machine-learning/</link>
     </image>
     
     <item>
       <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
-      <link>https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/</link>
+      <link>/post/2020-02-27-better-tidymodels/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/</guid>
+      <guid>/post/2020-02-27-better-tidymodels/</guid>
       <description>&lt;p&gt;A few years ago, I did a talk called 
-&lt;a href=&#34;https://kushagragpt99.github.io/talk/2018-ohsu-sad-plot-better/&#34;&gt;&amp;ldquo;Take a Sad Plot &amp;amp; Make it Better,&amp;quot;&lt;/a&gt; where I showed how I took a single sad plot and tried to make it better. The process of making that plot better taught me a lot about data visualization, and about the 
+&lt;a href=&#34;/talk/2018-ohsu-sad-plot-better/&#34;&gt;&amp;ldquo;Take a Sad Plot &amp;amp; Make it Better,&amp;quot;&lt;/a&gt; where I showed how I took a single sad plot and tried to make it better. The process of making that plot better taught me a lot about data visualization, and about the 
 &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2 package&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Fast-forward to 2019 when I started learning 
 &lt;a href=&#34;https://github.com/tidymodels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt;, and I have accumulated some pretty sad predictive modeling scripts! And my sad plots are not so lonely anymore. Specifically, my old scripts for doing cross-validation with tidymodels are particularly sad. But, I&amp;rsquo;ve been able to make them better (one might even call them happy), primarily due to changes in the 
@@ -30,7 +30,7 @@
 &lt;/ol&gt;
 &lt;p&gt;Let&amp;rsquo;s start with some 
 &lt;a href=&#34;http://www.greenhumour.com/2018/04/penguins-of-world.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cute penguin art&lt;/a&gt; by Rohan Chakravarty&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.greenhumour.com/2018/04/penguins-of-world.html&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;penguins-of-the-world.JPG&#34; width=&#34;270&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.greenhumour.com/2018/04/penguins-of-world.html&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;penguins-of-the-world.JPG&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My objective here is &lt;strong&gt;not&lt;/strong&gt; to provide an introduction to using tidymodels, cross-validation, or to machine learning. If that is what you came for, check out the project button at the top of this post for my workshop materials for learners, and my 
 &lt;a href=&#34;https://education.rstudio.com/blog/2020/02/conf20-intro-ml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;associated blog post&lt;/a&gt; on the RStudio education site.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -94,13 +94,14 @@ tidypenguins &amp;lt;- penguins %&amp;gt;%
 
 glimpse(tidypenguins)
 #&amp;gt; Rows: 333
-#&amp;gt; Columns: 6
-#&amp;gt; $ species           &amp;lt;fct&amp;gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ade…
-#&amp;gt; $ culmen_length_mm  &amp;lt;dbl&amp;gt; 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 38.…
-#&amp;gt; $ culmen_depth_mm   &amp;lt;dbl&amp;gt; 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 21.…
-#&amp;gt; $ flipper_length_mm &amp;lt;int&amp;gt; 181, 186, 195, 193, 190, 181, 195, 182, 191, 198, 1…
-#&amp;gt; $ body_mass_g       &amp;lt;int&amp;gt; 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 380…
-#&amp;gt; $ sex               &amp;lt;fct&amp;gt; MALE, FEMALE, FEMALE, FEMALE, MALE, FEMALE, MALE, F…
+#&amp;gt; Columns: 7
+#&amp;gt; $ species           &amp;lt;fct&amp;gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, A...
+#&amp;gt; $ bill_length_mm    &amp;lt;dbl&amp;gt; 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 3...
+#&amp;gt; $ bill_depth_mm     &amp;lt;dbl&amp;gt; 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 2...
+#&amp;gt; $ flipper_length_mm &amp;lt;int&amp;gt; 181, 186, 195, 193, 190, 181, 195, 182, 191, 198,...
+#&amp;gt; $ body_mass_g       &amp;lt;int&amp;gt; 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 3...
+#&amp;gt; $ sex               &amp;lt;fct&amp;gt; male, female, female, female, male, female, male,...
+#&amp;gt; $ year              &amp;lt;int&amp;gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;penguins&#34;&gt;Penguins&lt;/h2&gt;
 &lt;div class=&#34;figure&#34;&gt;
@@ -202,7 +203,7 @@ lm_spec %&amp;gt;%
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        292.
+#&amp;gt; 1 rmse    standard        276.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;fitting-the-model-with-a-function&#34;&gt;Fitting the model with a function&lt;/h3&gt;
 &lt;p&gt;If you squint, you might see that I could make this into a function like below:&lt;/p&gt;
@@ -228,7 +229,7 @@ get_rmse(model_spec = lm_spec, split = penguin_split)
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        292.
+#&amp;gt; 1 rmse    standard        276.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I could also build up a tibble that includes the results, if I wanted to save the predicted values, for example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;get_preds &amp;lt;- function(model_spec, split){
@@ -256,6 +257,52 @@ penguin_preds &amp;lt;- get_preds(model_spec = lm_spec, split = penguin_split)
   scico::scale_colour_scico_d(end = .8) +
   ggtitle(&amp;quot;Residuals vs Fitted&amp;quot;)
 #&amp;gt; `geom_smooth()` using formula &#39;y ~ x&#39;
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+#&amp;gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#&amp;gt; found in Windows font database
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+#&amp;gt; Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#&amp;gt; font family not found in Windows font database
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
+
+#&amp;gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&amp;gt; family not found in Windows font database
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;figs/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
@@ -265,7 +312,7 @@ penguin_preds %&amp;gt;%
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        292.
+#&amp;gt; 1 rmse    standard        276.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Or I could fit a regression tree model with a new model spec:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# regression tree model spec
@@ -282,7 +329,7 @@ get_preds(model_spec = rt_spec,
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        301.
+#&amp;gt; 1 rmse    standard        300.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Or a random forest:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# random forest model spec
@@ -299,7 +346,7 @@ get_preds(model_spec = rf_spec,
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        294.
+#&amp;gt; 1 rmse    standard        302.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;But, unfortunately, I shouldn&amp;rsquo;t be predicting with the test set over and over again like this. It isn&amp;rsquo;t good practice to predict with the test set &amp;gt; 1 time. What is a good predictive modeler to do? I should be saving (holding out) the test set and use it to generate predictions exactly once, at the very end — after I&amp;rsquo;ve compared different models, selected my features, and tuned my hyperparameters. How do you do this? You do 
 &lt;a href=&#34;https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cross-validation&lt;/a&gt; with the training set, and you leave the testing set for 
@@ -316,7 +363,7 @@ penguin_folds
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 2
 #&amp;gt;    splits           id    
-#&amp;gt;    &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt; 
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt; 
 #&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01
 #&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02
 #&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03
@@ -374,7 +421,7 @@ get_fold_results(
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;    rmse id     preds            
 #&amp;gt;   &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           
-#&amp;gt; 1  349. Fold01 &amp;lt;tibble [26 × 7]&amp;gt;
+#&amp;gt; 1  321. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Next, I used purrr- but just once. The function &lt;code&gt;get_fold_results&lt;/code&gt; is doing &lt;strong&gt;most&lt;/strong&gt; of the work for us, but I needed purrr to map it across each fold.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(0)
@@ -386,16 +433,16 @@ kfold_results
 #&amp;gt; # A tibble: 10 x 3
 #&amp;gt;     rmse id     preds            
 #&amp;gt;    &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           
-#&amp;gt;  1  349. Fold01 &amp;lt;tibble [26 × 7]&amp;gt;
-#&amp;gt;  2  304. Fold02 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  3  290. Fold03 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  4  313. Fold04 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  5  403. Fold05 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  6  383. Fold06 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  7  330. Fold07 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  8  374. Fold08 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  9  319. Fold09 &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt; 10  298. Fold10 &amp;lt;tibble [25 × 7]&amp;gt;
+#&amp;gt;  1  321. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
+#&amp;gt;  2  376. Fold02 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  3  311. Fold03 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  4  314. Fold04 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  5  429. Fold05 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  6  301. Fold06 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  7  356. Fold07 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  8  327. Fold08 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  9  315. Fold09 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt; 10  312. Fold10 &amp;lt;tibble [25 x 8]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Here we are still left with 10 RMSE values- one for each of the 10 folds. We don&amp;rsquo;t care too much about by fold- the power is in the aggregate. Specifically, we mainly care about the central tendency and spread of these RMSE values. Let&amp;rsquo;s finish by combining (or aggregating) these metrics.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;kfold_results %&amp;gt;% 
@@ -403,7 +450,7 @@ kfold_results
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      336.    39.0
+#&amp;gt; 1      336.    39.9
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So, this works. But, can you imagine doing it again? Without errors? Can you imagine teaching it?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/bmGmHZ5khMjN6/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -437,25 +484,25 @@ penguin_res &amp;lt;- penguin_folds %&amp;gt;%
 penguin_res
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 7
-#&amp;gt;    splits      id     train_set      fit_models  test_set     estimates     rmse
-#&amp;gt;  * &amp;lt;named lis&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;named list&amp;gt;   &amp;lt;named lis&amp;gt; &amp;lt;named list&amp;gt; &amp;lt;named list&amp;gt; &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [22… Fold01 &amp;lt;tibble [225 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [26… &amp;lt;tibble [26…  349.
-#&amp;gt;  2 &amp;lt;split [22… Fold02 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  304.
-#&amp;gt;  3 &amp;lt;split [22… Fold03 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  290.
-#&amp;gt;  4 &amp;lt;split [22… Fold04 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  313.
-#&amp;gt;  5 &amp;lt;split [22… Fold05 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  403.
-#&amp;gt;  6 &amp;lt;split [22… Fold06 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  383.
-#&amp;gt;  7 &amp;lt;split [22… Fold07 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  330.
-#&amp;gt;  8 &amp;lt;split [22… Fold08 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  374.
-#&amp;gt;  9 &amp;lt;split [22… Fold09 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  319.
-#&amp;gt; 10 &amp;lt;split [22… Fold10 &amp;lt;tibble [226 … &amp;lt;fit[+]&amp;gt;    &amp;lt;tibble [25… &amp;lt;tibble [25…  298.
+#&amp;gt;    splits       id     train_set     fit_models test_set     estimates      rmse
+#&amp;gt;    &amp;lt;list&amp;gt;       &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;        &amp;lt;list&amp;gt;     &amp;lt;list&amp;gt;       &amp;lt;list&amp;gt;        &amp;lt;dbl&amp;gt;
+#&amp;gt;  1 &amp;lt;split [225~ Fold01 &amp;lt;tibble [225~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [26~ &amp;lt;tibble [26 ~  321.
+#&amp;gt;  2 &amp;lt;split [226~ Fold02 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  376.
+#&amp;gt;  3 &amp;lt;split [226~ Fold03 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  311.
+#&amp;gt;  4 &amp;lt;split [226~ Fold04 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  314.
+#&amp;gt;  5 &amp;lt;split [226~ Fold05 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  429.
+#&amp;gt;  6 &amp;lt;split [226~ Fold06 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  301.
+#&amp;gt;  7 &amp;lt;split [226~ Fold07 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  356.
+#&amp;gt;  8 &amp;lt;split [226~ Fold08 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  327.
+#&amp;gt;  9 &amp;lt;split [226~ Fold09 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  315.
+#&amp;gt; 10 &amp;lt;split [226~ Fold10 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  312.
 
 penguin_res %&amp;gt;% 
   summarise(mean_rmse = mean(rmse), sd_rmse = sd(rmse))
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      336.    39.0
+#&amp;gt; 1      336.    39.9
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;the-purrr-mash-up&#34;&gt;The purrr mash-up&lt;/h3&gt;
 &lt;p&gt;Another way I worked out was largely after reviewing Max&amp;rsquo;s slides from previous workshops. This is basically a mash-up of my previous two approaches, where we write laser-focused functions that each do one thing, then use purrr to apply those functions across the folds. This way is nice(r) for showing in slides as you can incrementally build up the results table. Let&amp;rsquo;s see this sad script in action&amp;hellip;&lt;/p&gt;
@@ -476,17 +523,17 @@ penguin_purrr &amp;lt;- penguin_folds %&amp;gt;%
 penguin_purrr
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 3
-#&amp;gt;    splits           id     rt_fits     
-#&amp;gt;  * &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt;  &amp;lt;named list&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt;    
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt;    
+#&amp;gt;    splits           id     rt_fits 
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;  
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt;
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt;
 #&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;round-2&#34;&gt;Round 2&lt;/h4&gt;
@@ -506,18 +553,18 @@ penguin_purrr &amp;lt;- penguin_purrr %&amp;gt;%
 penguin_purrr
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 4
-#&amp;gt;    splits           id     rt_fits      rt_preds         
-#&amp;gt;  * &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt;  &amp;lt;named list&amp;gt; &amp;lt;named list&amp;gt;     
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [26 × 7]&amp;gt;
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;
+#&amp;gt;    splits           id     rt_fits  rt_preds         
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;   &amp;lt;list&amp;gt;           
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;aaaand-round-3&#34;&gt;aaaand Round 3&lt;/h4&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# compare: compute metric for a split
@@ -537,18 +584,18 @@ penguin_purrr &amp;lt;- penguin_purrr %&amp;gt;%
 penguin_purrr
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 5
-#&amp;gt;    splits           id     rt_fits      rt_preds          rt_rmse
-#&amp;gt;  * &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt;  &amp;lt;named list&amp;gt; &amp;lt;named list&amp;gt;        &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [26 × 7]&amp;gt;    349.
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    304.
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    290.
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    313.
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    403.
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    383.
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    330.
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    374.
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    319.
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    298.
+#&amp;gt;    splits           id     rt_fits  rt_preds          rt_rmse
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;   &amp;lt;list&amp;gt;              &amp;lt;dbl&amp;gt;
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    321.
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    376.
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    311.
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    314.
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    429.
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    301.
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    356.
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    327.
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    315.
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    312.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finally, summarizing as I did before:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;penguin_purrr %&amp;gt;% 
@@ -556,7 +603,7 @@ penguin_purrr
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      336.    39.0
+#&amp;gt; 1      336.    39.9
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;In practice, if you did all these at once instead of incrementally, it would look like:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(0)
@@ -572,18 +619,18 @@ penguin_folds %&amp;gt;%
   mutate(rt_rmse = map_dbl(rt_preds, get_rmse))
 #&amp;gt; #  10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 5
-#&amp;gt;    splits           id     rt_fits      rt_preds          rt_rmse
-#&amp;gt;  * &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt;  &amp;lt;named list&amp;gt; &amp;lt;named list&amp;gt;        &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [26 × 7]&amp;gt;    349.
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    304.
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    290.
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    313.
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    403.
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    383.
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    330.
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    374.
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    319.
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt;     &amp;lt;tibble [25 × 7]&amp;gt;    298.
+#&amp;gt;    splits           id     rt_fits  rt_preds          rt_rmse
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;   &amp;lt;list&amp;gt;              &amp;lt;dbl&amp;gt;
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    321.
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    376.
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    311.
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    314.
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    429.
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    301.
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    356.
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    327.
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    315.
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    312.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;When you put it like &lt;em&gt;that&lt;/em&gt;, it doesn&amp;rsquo;t look like so much work! But, this way hides how much work it takes to write those 3 custom functions: &lt;code&gt;get_fits()&lt;/code&gt;, &lt;code&gt;get_preds()&lt;/code&gt;, and &lt;code&gt;get_rmse()&lt;/code&gt;. And we still had to use vanilla &lt;code&gt;map()&lt;/code&gt;, &lt;code&gt;map2()&lt;/code&gt;, &lt;em&gt;and&lt;/em&gt; &lt;code&gt;map2_dbl()&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;make-it-better&#34;&gt;Make it better&lt;/h2&gt;
@@ -610,20 +657,21 @@ penguin_folds %&amp;gt;%
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Here is the beautiful output from that function:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;penguin_party
-#&amp;gt; #  10-fold cross-validation using stratification 
+#&amp;gt; # Resampling results
+#&amp;gt; # 10-fold cross-validation using stratification 
 #&amp;gt; # A tibble: 10 x 4
 #&amp;gt;    splits           id     .metrics         .notes          
-#&amp;gt;    &amp;lt;named list&amp;gt;     &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           &amp;lt;list&amp;gt;          
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;tibble [2 × 3]&amp;gt; &amp;lt;tibble [0 × 1]&amp;gt;
+#&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           &amp;lt;list&amp;gt;          
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;tibble [2 x 3]&amp;gt; &amp;lt;tibble [0 x 1]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, to see all the stuff inside this &lt;code&gt;penguin_party&lt;/code&gt;, we can use tune&amp;rsquo;s &lt;code&gt;collect_*&lt;/code&gt; functions.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;penguin_party %&amp;gt;% 
@@ -631,8 +679,8 @@ penguin_folds %&amp;gt;%
 #&amp;gt; # A tibble: 2 x 5
 #&amp;gt;   .metric .estimator    mean     n std_err
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;        &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard   336.       10 12.3   
-#&amp;gt; 2 rsq     standard     0.829    10  0.0159
+#&amp;gt; 1 rmse    standard   336.       10 12.6   
+#&amp;gt; 2 rsq     standard     0.826    10  0.0191
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To see the predictions, we need to add use 
 &lt;a href=&#34;https://tidymodels.github.io/tune/reference/control_grid.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;control_resamples()&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
@@ -650,17 +698,17 @@ penguin_folds %&amp;gt;%
 #&amp;gt; # A tibble: 251 x 4
 #&amp;gt;    id     .pred  .row body_mass_g
 #&amp;gt;    &amp;lt;chr&amp;gt;  &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;       &amp;lt;int&amp;gt;
-#&amp;gt;  1 Fold01 3417      4        3625
-#&amp;gt;  2 Fold01 3417     11        3325
-#&amp;gt;  3 Fold01 3971.    14        3950
-#&amp;gt;  4 Fold01 3971.    41        3800
-#&amp;gt;  5 Fold01 3417     54        3700
-#&amp;gt;  6 Fold01 3971.    65        4300
-#&amp;gt;  7 Fold01 3971.    70        4100
-#&amp;gt;  8 Fold01 3971.    71        4725
-#&amp;gt;  9 Fold01 3971.    76        3900
-#&amp;gt; 10 Fold01 3417     85        3350
-#&amp;gt; # … with 241 more rows
+#&amp;gt;  1 Fold01 3400.     4        3450
+#&amp;gt;  2 Fold01 3400.    11        3325
+#&amp;gt;  3 Fold01 3400.    14        3800
+#&amp;gt;  4 Fold01 3878.    41        3800
+#&amp;gt;  5 Fold01 3400.    54        3550
+#&amp;gt;  6 Fold01 3400.    65        3600
+#&amp;gt;  7 Fold01 3400.    70        3300
+#&amp;gt;  8 Fold01 4159.    71        4300
+#&amp;gt;  9 Fold01 3400.    76        3725
+#&amp;gt; 10 Fold01 3878.    85        4600
+#&amp;gt; # ... with 241 more rows
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, isn&amp;rsquo;t that better?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/daeKl3P4SissU/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;

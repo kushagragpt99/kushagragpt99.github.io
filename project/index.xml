@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/project/</link>
-      <atom:link href="https://kushagragpt99.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>Projects</title>
-      <link>https://kushagragpt99.github.io/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>Replicated Batch Means for Parallel MCMC</title>
-      <link>https://kushagragpt99.github.io/project/rbm/</link>
+      <link>/project/rbm/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/rbm/</guid>
+      <guid>/project/rbm/</guid>
       <description>&lt;p&gt;Sufficient research has been done on estimating the asymptotic covariance matrix in a Markov chain central limit theorem for applications in Markov chain Monte Carlo (MCMC). However, almost all of it, including the efficient batch means (BM) estimator, focuses on a single-chain MCMC run. We demonstrate that simply averaging covariance matrix estimators from different chains (average BM) can yield critical underestimates of the variance in small sample sizes, especially for slow mixing Markov chains.  We propose a multivariate replicated batch means (RBM) estimator that utilizes information across all chains in order to estimate the asymptotic covariance matrix, thereby correcting for the underestimation. Under weak conditions on the mixing rate of the process, strong consistency of the RBM estimator follows from the strong consistency of the BM estimators. Further, we show that the large-sample bias and variance of the RBM estimator mimics that of the average BM estimator. Thus, for large MCMC runs, the RBM and average BM yield equivalent performance, but for small MCMC runs, the RBM estimator can be dramatically superior. This superiority is demonstrated through a variety of examples, including a two-variable Gibbs sampler for a bivariate Gaussian target distribution. Here we obtain a closed-form expression for the asymptotic covariance matrix of the Monte Carlo estimator, a result vital in itself, as it allows for benchmarking implementations in the future.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fully Homomorphic Encryptio Library</title>
-      <link>https://kushagragpt99.github.io/project/fhe/</link>
+      <link>/project/fhe/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/fhe/</guid>
+      <guid>/project/fhe/</guid>
       <description>&lt;!-- 
 
 
@@ -61,27 +61,27 @@
     
     <item>
       <title>Interval Regression using Bayesian Inference</title>
-      <link>https://kushagragpt99.github.io/project/qr/</link>
+      <link>/project/qr/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/qr/</guid>
+      <guid>/project/qr/</guid>
       <description>&lt;p&gt;In Fall 2019, I was working with Prof.Vats and Prof. Arshad Rahman (in Economics department) on developing Bayesian models for interval data. I was introduced to interval regression in my summer project on Bayesian estimation of Weibull distribution while reading Prof.Kundu&amp;rsquo;s paper on interval-censored data with Weibull lifetime. I researched on various paradigms that solve interval regression, covering quantile regression (QR), meta-heuristic algorithms, information theory, convex analysis, and set arithmetic linear models. I found QR to be a promising approach as traditional QR settings can extend to interval data in the following way - we can modify the quantile loss function to have three parts based on the partition by the interval endpoints, as opposed to a binary partition by traditional QR, with certain added assumptions. The change is that the dot product of parameters and covariates lying in the interval has a zero loss as the dependent variable can lie anywhere in the interval. The assumptions can be modelled in a Bayesian setting with appropriate priors. As part of my project, I built Bayesian frameworks for various paradigms of interval regression.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bayesian Inference on 3 parameter Weibull Distribution</title>
-      <link>https://kushagragpt99.github.io/project/weibull/</link>
+      <link>/project/weibull/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/weibull/</guid>
+      <guid>/project/weibull/</guid>
       <description>&lt;p&gt;In the summer of 2019, I (in a team of 2) was working with Prof.Kundu on developing Bayesian methodologies for parameter estimation of a 3-Weibull distribution \cite{weibull}. Maximum likelihood estimators are inconsistent and inefficient for this problem when the shape parameter is less than one due to the likelihood function exploding to infinity. However, the Bayesian setting with gamma priors solves this problem as the posterior breaks into a product of proper densities, which is convenient for MCMC sampling. We found the posterior to be log-concave and similar to a gamma distribution and, thus, approximated the parameters and confidence intervals using this observation. Our Bayesian implementation reduced the mean square errors significantly as compared to the maximum likelihood method.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multi-Agent Reinforcement Learning</title>
-      <link>https://kushagragpt99.github.io/project/mrl/</link>
+      <link>/project/mrl/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/mrl/</guid>
+      <guid>/project/mrl/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;I worked on multi-agent self-play in atari games in collaborative and competitive settings.&lt;/li&gt;
 &lt;li&gt;I used variational autoencoders to disentangle multiple near-optimal policies extracted using latent code.&lt;/li&gt;
@@ -93,18 +93,18 @@
     
     <item>
       <title>Data Science Hackathon, Inter IIT Tech Meeth 2018</title>
-      <link>https://kushagragpt99.github.io/project/techmeet/</link>
+      <link>/project/techmeet/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/techmeet/</guid>
+      <guid>/project/techmeet/</guid>
       <description>&lt;p&gt;Our team won the silver medal in the competition. The problem involved data analysis and inference from a dataset for a globular star cluster. The datasets had the coordinates, color index (for different wavelengths) and magnitude of every star in the cluster. The task involved using the datasets appropriately to analyze the globular cluster to determine some parameters and peculiarities of the same.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Eye in the Sky</title>
-      <link>https://kushagragpt99.github.io/project/eits/</link>
+      <link>/project/eits/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/eits/</guid>
+      <guid>/project/eits/</guid>
       <description>&lt;p&gt;
 
 
@@ -126,10 +126,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
+  &lt;img data-src=&#34;/project/eits/unet_hu1dbdc71f780f03386782ef847930dbf0_50546_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;671&#34; height=&#34;468&#34;&gt;
 &lt;/a&gt;
 
 
@@ -148,9 +148,9 @@ The problem was part of the machine learning competition in inter IIT tech meet,
     
     <item>
       <title>Autoencoder Recommendation Engine</title>
-      <link>https://kushagragpt99.github.io/project/kvpy/</link>
+      <link>/project/kvpy/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/kvpy/</guid>
+      <guid>/project/kvpy/</guid>
       <description>&lt;p&gt;
 
 
@@ -172,10 +172,10 @@ The problem was part of the machine learning competition in inter IIT tech meet,
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://kushagragpt99.github.io/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
+  &lt;img data-src=&#34;/project/kvpy/autoencoder_hueadd5cc5474c4e1f858717e76734844b_32234_2000x2000_fit_lanczos_2.PNG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;549&#34; height=&#34;352&#34;&gt;
 &lt;/a&gt;
 
 
@@ -188,9 +188,9 @@ Deep learning has revolutionized many areas of machine learning, and it is poise
     
     <item>
       <title>Machine Learning for Large Scale Logistics Platform</title>
-      <link>https://kushagragpt99.github.io/project/nyo/</link>
+      <link>/project/nyo/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/project/nyo/</guid>
+      <guid>/project/nyo/</guid>
       <description>&lt;p&gt;Sub-project :  ​​An online recommendation system based on collaborative filtering for implicit data using sentiment and frequency dependent weighting schemes. &lt;br&gt;
 Technical details :&lt;/p&gt;
 &lt;ul&gt;

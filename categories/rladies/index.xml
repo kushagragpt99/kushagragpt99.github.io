@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rladies | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/categories/rladies/</link>
-      <atom:link href="https://kushagragpt99.github.io/categories/rladies/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/rladies/</link>
+      <atom:link href="/categories/rladies/index.xml" rel="self" type="application/rss+xml" />
     <description>rladies</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>rladies</title>
-      <link>https://kushagragpt99.github.io/categories/rladies/</link>
+      <link>/categories/rladies/</link>
     </image>
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
-      <link>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
+      <link>/post/2017-12-18-r-ladies-presentation-ninja/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
+      <guid>/post/2017-12-18-r-ladies-presentation-ninja/</guid>
       <description>
 
 
@@ -75,8 +75,8 @@
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;If you are new to &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;strong&gt;xaringan&lt;/strong&gt;&lt;/a&gt;, don’t miss the &lt;a href=&#34;https://github.com/yihui/xaringan/wiki&#34;&gt;wiki!&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Yihui’s &lt;a href=&#34;https://yihui.name/en/2017/10/xaringan-themes/&#34;&gt;technical instructions&lt;/a&gt; for contributors section of that blog post has been revised and is very detailed&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;If you are new to &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;strong&gt;xaringan&lt;/strong&gt;&lt;/a&gt;, don’t miss the &lt;a href=&#34;https://github.com/yihui/xaringan/wiki&#34;&gt;wiki!&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Yihui’s &lt;a href=&#34;https://yihui.name/en/2017/10/xaringan-themes/&#34;&gt;technical instructions&lt;/a&gt; for contributors section of that blog post has been revised and is very detailed&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

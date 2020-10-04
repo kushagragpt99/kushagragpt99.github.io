@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>alison | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/authors/alison/</link>
-      <atom:link href="https://kushagragpt99.github.io/authors/alison/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/alison/</link>
+      <atom:link href="/authors/alison/index.xml" rel="self" type="application/rss+xml" />
     <description>alison</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>alison</title>
-      <link>https://kushagragpt99.github.io/authors/alison/</link>
+      <link>/authors/alison/</link>
     </image>
     
     <item>
       <title>A Spoonful of Hugo: Troubleshooting Your Build</title>
-      <link>https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/</link>
+      <link>/post/2019-03-04-hugo-troubleshooting/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/</guid>
+      <guid>/post/2019-03-04-hugo-troubleshooting/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt;, &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;, and &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/&#34;&gt;Hugo page bundles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt;, &lt;a href=&#34;/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;, and &lt;a href=&#34;/post/2019-02-21-hugo-page-bundles/&#34;&gt;Hugo page bundles&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The following are a few steps that I always start with to troubleshoot any blogdown/Hugo/Netlify problems. These steps would solve what I would anecdotally estimate as ~50% of blogdown problems that I see posted in the &lt;a href=&#34;https://github.com/rstudio/blogdown/issues&#34;&gt;GitHub repository&lt;/a&gt; and on the &lt;a href=&#34;https://community.rstudio.com/tags/blogdown&#34;&gt;community site&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;update-hugo&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#1: Update Hugo&lt;/h1&gt;
@@ -48,7 +48,7 @@ Figure 1: Don’t be like this
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then you can reference your &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo theme&lt;/a&gt; to find the minimum version of Hugo required by your theme:&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;hugo-min-version.png&#34; alt=&#34;Check your theme&#39;s minimum Hugo version&#34; width=&#34;1073&#34; /&gt;
+&lt;img src=&#34;hugo-min-version.png&#34; alt=&#34;Check your theme&#39;s minimum Hugo version&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Check your theme’s minimum Hugo version
 &lt;/p&gt;
@@ -57,8 +57,8 @@ Figure 2: Check your theme’s minimum Hugo version
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown:: update_hugo()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Check your version again post-update:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.55.6&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you are using Netlify to build your site using Hugo, you’ll want this version to match that- the best way to do that is with a &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.73.0&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are using Netlify to build your site using Hugo, you’ll want this version to match that- the best way to do that is with a &lt;a href=&#34;/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;change-the-baseurl&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#2: Change the baseurl&lt;/h1&gt;
@@ -78,7 +78,7 @@ if you do not have a domain, set &amp;quot;baseurl&amp;quot; to &amp;quot;/&amp;
 &lt;/blockquote&gt;
 &lt;p&gt;The main error that would happen without the trailing slash in the past is that you would end up with a site where the theme’s CSS would be all wrong. This was probably because the theme designer used code like this buried in a layout file:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ .Site.BaseURL }}css/style.css&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, if you set &lt;code&gt;baseurl = &amp;quot;http://mysite.com&amp;quot;&lt;/code&gt; but only rendered locally, things would look just peachy, because the default local server already included the trailing slash. So, the link in the html file would be&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Now, if you set &lt;code&gt;baseurl = &#34;http://mysite.com&#34;&lt;/code&gt; but only rendered locally, things would look just peachy, because the default local server already included the trailing slash. So, the link in the html file would be&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://localhost:1313/css/style.css&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;But, at build, the link in the html file would turn into:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://mysite.comcss/style.css&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
@@ -115,10 +115,10 @@ Figure 4: Hugo universal theme
 &lt;p&gt;If you can render your site locally but your published site looks different, try the drag-and-drop method:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://arm.rbind.io/slides/img/netlify-new-site.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Use the “Serve Site” Addin, then drag-and-drop the &lt;code&gt;public/&lt;/code&gt; folder straight into Netlify. What does this do? You can now see your public site…that you built…with your local version of Hugo. Netlify is doing none of the site building here.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-10-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-10-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;p&gt;One of the first benefits of this approach is that it ensures that you are able to actually &lt;em&gt;generate&lt;/em&gt; a &lt;code&gt;public/&lt;/code&gt; folder locally! I have seen folks struggle to deploy the wrong repo. This simple step can force you to make sure to use the “Serve Site” Addin to generate the &lt;code&gt;public/&lt;/code&gt; folder, and that the repo you are trying to link to Netlify actually contains a Hugo site because you must physically move the &lt;code&gt;public/&lt;/code&gt; folder. But this method can also help you diagnose other problems too.&lt;/p&gt;
 &lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does not render&lt;/strong&gt; on Netlify, you have work to do locally. I can’t tell you what it is as it can be a number of things, but you can be sure that your problem is not just the Netlify build- it is your local build too.&lt;/p&gt;
-&lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does render&lt;/strong&gt; perfectly on Netlify, but you are getting a Netlify build error, then you likely have a Hugo version problem. It might be that the version you are running locally is more recent than the version run by Netlify by default to actually build your site. The good news is there is a quick fix for this! The solution is to upgrade the Hugo version Netlify is using- see my advice &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;here for how to do that&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If your &lt;code&gt;public/&lt;/code&gt; folder &lt;strong&gt;does render&lt;/strong&gt; perfectly on Netlify, but you are getting a Netlify build error, then you likely have a Hugo version problem. It might be that the version you are running locally is more recent than the version run by Netlify by default to actually build your site. The good news is there is a quick fix for this! The solution is to upgrade the Hugo version Netlify is using- see my advice &lt;a href=&#34;/post/2019-02-19-hugo-netlify-toml/&#34;&gt;here for how to do that&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you are happy with how your site looks but you are missing content and/or seeing old deleted content, then you may need the next few strategies to troubleshoot.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;torch-public&#34; class=&#34;section level1&#34;&gt;
@@ -129,7 +129,7 @@ Figure 4: Hugo universal theme
 &lt;p&gt;“you are strongly recommended to delete the &lt;code&gt;/public/&lt;/code&gt; directory before you rebuild the site for publishing every time, because Hugo never deletes it”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Also, this has a bonus of reinforcing for you exactly what the “Serve Site” Addin &lt;em&gt;does&lt;/em&gt; - it regenerates the &lt;code&gt;public/&lt;/code&gt; folder. This is also the folder that, if you are using &lt;a href=&#34;post/2019-02-19-hugo-netlify-toml/&#34;&gt;Netlify to build your site&lt;/a&gt;, is in your &lt;code&gt;.gitignore&lt;/code&gt; file because Netlify (+ Hugo) generates this file “fresh” with each push to your GitHub repository.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-11-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-04-hugo-troubleshooting/index_files/figure-html/unnamed-chunk-11-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;peruse-public&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;#5: Peruse &lt;code&gt;public/&lt;/code&gt;&lt;/h1&gt;
@@ -173,8 +173,8 @@ publishDate: &amp;#39;2019-03-04&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Yes that’s right, I don’t have a trailing slash- read on for why I can get away with this.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5&#34; class=&#34;uri&#34;&gt;https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Yes that’s right, I don’t have a trailing slash- read on for why I can get away with this.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5&#34; class=&#34;uri&#34;&gt;https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -182,9 +182,9 @@ publishDate: &amp;#39;2019-03-04&amp;#39;&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>A Spoonful of Hugo: Page Bundles</title>
-      <link>https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/</link>
+      <link>/post/2019-02-21-hugo-page-bundles/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2019-02-21-hugo-page-bundles/</guid>
+      <guid>/post/2019-02-21-hugo-page-bundles/</guid>
       <description>
 
 
@@ -192,7 +192,7 @@ publishDate: &amp;#39;2019-03-04&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt; and &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my “Spoonful of Hugo” series &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;about Hugo archetypes&lt;/a&gt; and &lt;a href=&#34;/post/2019-02-19-hugo-netlify-toml/&#34;&gt;Hugo versions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is my third post in this series and it is breaking news.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dZCdA82qa8d4xVIwm3/giphy.gif&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;hugo-page-bundles&#34; class=&#34;section level1&#34;&gt;
@@ -235,7 +235,7 @@ post/2015-07-24-bye-world/index.Rmd&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bundle-me-blogdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Bundle Me, blogdown!&lt;/h1&gt;
-&lt;p&gt;First, read the previous post on setting up a &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;. Since using Hugo page bundles depends on Hugo v0.32 or higher, you should go ahead and update hugo then update your netlify.toml with your updated version:&lt;/p&gt;
+&lt;p&gt;First, read the previous post on setting up a &lt;a href=&#34;/post/2019-02-19-hugo-netlify-toml/&#34;&gt;netlify.toml file&lt;/a&gt;. Since using Hugo page bundles depends on Hugo v0.32 or higher, you should go ahead and update hugo then update your netlify.toml with your updated version:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::update_hugo()
 blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let’s use the &lt;a href=&#34;https://usethis.r-lib.org/&#34;&gt;&lt;strong&gt;usethis&lt;/strong&gt; package&lt;/a&gt;.&lt;/p&gt;
@@ -273,12 +273,12 @@ options(
   blogdown.new_bundle = TRUE,
   blogdown.title_case = TRUE
 )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For the blogdown-specific options, any of these prepopulate content in your “New Post” Addin (I told you to use this &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;). There is a handy &lt;a href=&#34;https://bookdown.org/yihui/blogdown/global-options.html&#34;&gt;table&lt;/a&gt; from the blogdown book, summarized here:&lt;/p&gt;
+&lt;p&gt;For the blogdown-specific options, any of these prepopulate content in your “New Post” Addin (I told you to use this &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;). There is a handy &lt;a href=&#34;https://bookdown.org/yihui/blogdown/global-options.html&#34;&gt;table&lt;/a&gt; from the blogdown book, summarized here:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;blogdown.author&lt;/code&gt; = author of new posts&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.ext&lt;/code&gt; = default extension of new posts (can also be “.md” or “.Rmarkdown”)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.subdir&lt;/code&gt; = theme-specific, you need to know your theme and content folder here&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;blogdown.yaml.empty&lt;/code&gt; = I told you to do that &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blogdown.yaml.empty&lt;/code&gt; = I told you to do that &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.new_bundle&lt;/code&gt; = what this whole post is about!&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;blogdown.title_case&lt;/code&gt; = “nEed More coFFee” –&amp;gt; “Need More Coffee” (it tidies all your post titles to title case)&lt;/li&gt;
 &lt;/ul&gt;
@@ -302,12 +302,12 @@ options(
 &lt;pre&gt;&lt;code&gt;[permalinks]
     post = &amp;quot;/:year/:month/:day/:slug/&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The default here from Hugo was &lt;code&gt;/post/:year-:month-:day-:slug/:slug/&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;A small note: if you want to add relative links from a blog post to another post in your same blog. So &lt;code&gt;[this](/post/2019-02-19-hugo-archetypes/)&lt;/code&gt; becomes &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A small note: if you want to add relative links from a blog post to another post in your same blog. So &lt;code&gt;[this](/post/2019-02-19-hugo-archetypes/)&lt;/code&gt; becomes &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now, add images and data files to your ❤️’s content! But you may want to do one more thing…&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;update-metadata&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Update Metadata&lt;/h1&gt;
-&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2019-10-03. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
+&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2020-10-04. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;update-metadata.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Check the box to rename the file if the date has changed. RStudio will tell you your file has been deleted- which is technically true since the folder was renamed, but don’t panic!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;file-deleted-warning.png&#34; /&gt;&lt;/p&gt;
@@ -324,9 +324,9 @@ options(
     
     <item>
       <title>A Spoonful of Hugo: The netlify.toml File</title>
-      <link>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</link>
+      <link>/post/2019-02-19-hugo-netlify-toml/</link>
       <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</guid>
+      <guid>/post/2019-02-19-hugo-netlify-toml/</guid>
       <description>
 
 
@@ -334,7 +334,7 @@ options(
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
+&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
 &lt;p&gt;This is my second post in this series, and it is a relatively quick one. Just do this. This one is a no-brainer.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -364,7 +364,7 @@ options(
 &lt;p&gt;Yes that is right- package version mismatches are the leading cause of build failure with Netlify. What does this look like for blogdown users? This means that you are running a version of Hugo locally that doesn’t match the version that Netlify is using to build your site. Most of the time, you are using a more recent version of Hugo than the one Netlify uses. This means that the files your theme relies on may be using newer Hugo functions that were introduced in later Hugo versions- functions that Netlify won’t be able to find working from an older Hugo version. You’ll get &lt;em&gt;all the build errors&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;You can check your local Hugo version by running this code in your R console:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.57.2&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.73.0&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, we want Netlify to use this same version of Hugo when it builds your site. You can do this two ways:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Do this in your browser (👎)&lt;/li&gt;
@@ -417,7 +417,7 @@ options(
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;the leading zero matters for Hugo versions, so 0.53 works but .53 will not. For versions &amp;gt;= 0.54.0, the trailing zero also matters, so 0.54.0 works but 0.54 will not.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;the leading zero matters for Hugo versions, so 0.53 works but .53 will not. For versions &amp;gt;= 0.54.0, the trailing zero also matters, so 0.54.0 works but 0.54 will not.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -425,9 +425,9 @@ options(
     
     <item>
       <title>A Spoonful of Hugo: Archetypes</title>
-      <link>https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/</link>
+      <link>/post/2019-02-19-hugo-archetypes/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/</guid>
+      <guid>/post/2019-02-19-hugo-archetypes/</guid>
       <description>
 
 
@@ -462,14 +462,14 @@ options(
 &lt;p&gt;I’ll be using this post and other later posts to share some of the things I’ve learned about Hugo along the way. Mainly breadcrumbs to myself, but I hope these help other people too.&lt;/p&gt;
 &lt;p&gt;For reference, I’m using Hugo via the &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;blogdown R package&lt;/a&gt;, and within the &lt;a href=&#34;https://www.rstudio.com/products/rstudio/#Desktop&#34;&gt;RStudio IDE&lt;/a&gt;. These are my &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; and Hugo versions:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;packageVersion(&amp;quot;blogdown&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.12.1&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.20&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.55.6&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.73.0&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;tldr-a-teaspoon-of-archetypes&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;tl;dr: A Teaspoon of Archetypes&lt;/h1&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Add custom archetypes as &lt;code&gt;.md&lt;/code&gt; files to your project root directory (do &lt;em&gt;not&lt;/em&gt; touch the &lt;code&gt;archetypes&lt;/code&gt; folder in your &lt;code&gt;themes/archetypes&lt;/code&gt; folder).
+&lt;li&gt;&lt;p&gt;Add custom archetypes as &lt;code&gt;.md&lt;/code&gt; files to your project root directory (do &lt;em&gt;not&lt;/em&gt; touch the &lt;code&gt;archetypes&lt;/code&gt; folder in your &lt;code&gt;themes/archetypes&lt;/code&gt; folder).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;If you don’t have that as an empty folder in your project root, make one, then add your archetype files to it.&lt;/li&gt;
 &lt;li&gt;If you are making a new blogdown site, I recommend using &lt;a href=&#34;https://arm.rbind.io/slides/blogdown.html#start-here&#34;&gt;these options&lt;/a&gt; to &lt;strong&gt;keep your empty directories&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;:&lt;/li&gt;
@@ -488,7 +488,7 @@ Figure 1: Using the RStudio Project Wizard
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Use the “New Post” Addin in RStudio to create &lt;strong&gt;any and all&lt;/strong&gt; new content for your site (not just &lt;em&gt;posts&lt;/em&gt;!). Be sure to use the handy dropdown menu to select from all the possible archetypes. Also, careful about the subdirectory here- some themes use &lt;em&gt;blog&lt;/em&gt;, others use &lt;em&gt;news&lt;/em&gt;, &lt;em&gt;articles&lt;/em&gt;, or &lt;em&gt;posts&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://arm.rbind.io/slides/img/blogdown-newpost-bundle.png&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;Your archetypes, while only markdown files, &lt;em&gt;can&lt;/em&gt; include R code. When you use the Addin, be sure to choose &lt;code&gt;R Markdown (.Rmd)&lt;/code&gt; as the format so that you can run the code.
+&lt;li&gt;&lt;p&gt;Your archetypes, while only markdown files, &lt;em&gt;can&lt;/em&gt; include R code. When you use the Addin, be sure to choose &lt;code&gt;R Markdown (.Rmd)&lt;/code&gt; as the format so that you can run the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Don’t miss this &lt;a href=&#34;http://lcolladotor.github.io/2018/03/08/blogdown-archetype-template/&#34;&gt;great blog post&lt;/a&gt; by my friend and the great educator &lt;a href=&#34;https://twitter.com/fellgernon&#34;&gt;Leo Collado-Torres&lt;/a&gt; on archetypes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -561,9 +561,9 @@ categories = []
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;These setup options are newish to the blogdown package: &lt;a href=&#34;https://github.com/rstudio-education/arm-workshop-rsc2019/issues/8&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio-education/arm-workshop-rsc2019/issues/8&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;If you end up with TOML in your content files, run this R code: &lt;code&gt;hugo_convert(to = &amp;quot;YAML&amp;quot;, unsafe = TRUE)&lt;/code&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Trust me on this one- if you ever want to update your site this will make that process way harder.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;These setup options are newish to the blogdown package: &lt;a href=&#34;https://github.com/rstudio-education/arm-workshop-rsc2019/issues/8&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio-education/arm-workshop-rsc2019/issues/8&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;If you end up with TOML in your content files, run this R code: &lt;code&gt;hugo_convert(to = &#34;YAML&#34;, unsafe = TRUE)&lt;/code&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Trust me on this one- if you ever want to update your site this will make that process way harder.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -571,9 +571,9 @@ categories = []
     
     <item>
       <title>Read Data with Multiple Header Rows into R</title>
-      <link>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</link>
+      <link>/post/2018-02-23-read-multiple-header-rows/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2018-02-23-read-multiple-header-rows/</guid>
+      <guid>/post/2018-02-23-read-multiple-header-rows/</guid>
       <description>
 
 
@@ -595,7 +595,7 @@ categories = []
 &lt;svg style=&#34;height:0.8em;top:.04em;position:relative;fill:#ee5863;&#34; viewBox=&#34;0 0 512 512&#34;&gt;
 &lt;path d=&#34;M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z&#34;/&gt;
 &lt;/svg&gt;
-&lt;a href=&#34;data:text/csv;base64,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&#34; download=&#34;stickers.csv&#34;&gt;Download stickers.csv&lt;/a&gt;
+&lt;a href=&#34;data:text/csv;base64,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&#34; download=&#34;stickers.csv&#34;&gt;Download stickers.csv&lt;/a&gt;
 &lt;hr /&gt;
 &lt;div id=&#34;being-sticker-rich&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Being sticker rich&lt;/h1&gt;
@@ -622,7 +622,7 @@ stickers &amp;lt;- read_tsv(link)
 &lt;pre&gt;&lt;code&gt;# # A tibble: 402 x 18
 #    SubjectNumber Condition NumberStickers NumberEnvelopes Gender Agemonths
 #    &amp;lt;chr&amp;gt;         &amp;lt;chr&amp;gt;     &amp;lt;chr&amp;gt;          &amp;lt;chr&amp;gt;           &amp;lt;chr&amp;gt;      &amp;lt;dbl&amp;gt;
-#  1 [Included Sa… 1=12:1; … 1=12; 2=30     1=1 recipient;… 1=fem…        NA
+#  1 [Included Sa~ 1=12:1; ~ 1=12; 2=30     1=1 recipient;~ 1=fem~        NA
 #  2 1             1         1              1               1             36
 #  3 2             1         1              1               2             36
 #  4 3             1         1              1               2             36
@@ -632,7 +632,7 @@ stickers &amp;lt;- read_tsv(link)
 #  8 7             2         1              2               1             36
 #  9 8             2         1              2               2             36
 # 10 9             3         2              1               2             36
-# # … with 392 more rows, and 12 more variables: Ageyears &amp;lt;dbl&amp;gt;,
+# # ... with 392 more rows, and 12 more variables: Ageyears &amp;lt;dbl&amp;gt;,
 # #   Agegroups &amp;lt;chr&amp;gt;, `Subject&amp;#39;sEnvelope` &amp;lt;chr&amp;gt;, LeftEnvelope &amp;lt;chr&amp;gt;,
 # #   RightEnvelope &amp;lt;chr&amp;gt;,
 # #   `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &amp;lt;chr&amp;gt;,
@@ -642,38 +642,38 @@ stickers &amp;lt;- read_tsv(link)
 &lt;p&gt;Unfortunately, &lt;code&gt;dplyr::glimpse&lt;/code&gt; can’t help us much, because we have one variable name that is ridiculously long (&lt;code&gt;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&lt;/code&gt;). We’ll fix that with &lt;code&gt;dplyr::rename&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)
 glimpse(stickers)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;# Observations: 402
-# Variables: 18
-# $ SubjectNumber                                                                  &amp;lt;chr&amp;gt; …
-# $ Condition                                                                      &amp;lt;chr&amp;gt; …
-# $ NumberStickers                                                                 &amp;lt;chr&amp;gt; …
-# $ NumberEnvelopes                                                                &amp;lt;chr&amp;gt; …
-# $ Gender                                                                         &amp;lt;chr&amp;gt; …
-# $ Agemonths                                                                      &amp;lt;dbl&amp;gt; …
-# $ Ageyears                                                                       &amp;lt;dbl&amp;gt; …
-# $ Agegroups                                                                      &amp;lt;chr&amp;gt; …
-# $ `Subject&amp;#39;sEnvelope`                                                            &amp;lt;chr&amp;gt; …
-# $ LeftEnvelope                                                                   &amp;lt;chr&amp;gt; …
-# $ RightEnvelope                                                                  &amp;lt;chr&amp;gt; …
-# $ `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &amp;lt;chr&amp;gt; …
-# $ `PercentGiven(Outof100percent)`                                                &amp;lt;chr&amp;gt; …
-# $ Giveornot                                                                      &amp;lt;chr&amp;gt; …
-# $ LargerEnvelopeabs                                                              &amp;lt;chr&amp;gt; …
-# $ LargeEnvelopepercent                                                           &amp;lt;chr&amp;gt; …
-# $ SmallerEnvelopeabs                                                             &amp;lt;chr&amp;gt; …
-# $ SmallEnvelopepercent                                                           &amp;lt;chr&amp;gt; …&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Rows: 402
+# Columns: 18
+# $ SubjectNumber                                                                  &amp;lt;chr&amp;gt; ...
+# $ Condition                                                                      &amp;lt;chr&amp;gt; ...
+# $ NumberStickers                                                                 &amp;lt;chr&amp;gt; ...
+# $ NumberEnvelopes                                                                &amp;lt;chr&amp;gt; ...
+# $ Gender                                                                         &amp;lt;chr&amp;gt; ...
+# $ Agemonths                                                                      &amp;lt;dbl&amp;gt; ...
+# $ Ageyears                                                                       &amp;lt;dbl&amp;gt; ...
+# $ Agegroups                                                                      &amp;lt;chr&amp;gt; ...
+# $ `Subject&amp;#39;sEnvelope`                                                            &amp;lt;chr&amp;gt; ...
+# $ LeftEnvelope                                                                   &amp;lt;chr&amp;gt; ...
+# $ RightEnvelope                                                                  &amp;lt;chr&amp;gt; ...
+# $ `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &amp;lt;chr&amp;gt; ...
+# $ `PercentGiven(Outof100percent)`                                                &amp;lt;chr&amp;gt; ...
+# $ Giveornot                                                                      &amp;lt;chr&amp;gt; ...
+# $ LargerEnvelopeabs                                                              &amp;lt;chr&amp;gt; ...
+# $ LargeEnvelopepercent                                                           &amp;lt;chr&amp;gt; ...
+# $ SmallerEnvelopeabs                                                             &amp;lt;chr&amp;gt; ...
+# $ SmallEnvelopepercent                                                           &amp;lt;chr&amp;gt; ...&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;More options:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(stickers)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;# # A tibble: 6 x 18
 #   SubjectNumber Condition NumberStickers NumberEnvelopes Gender Agemonths
 #   &amp;lt;chr&amp;gt;         &amp;lt;chr&amp;gt;     &amp;lt;chr&amp;gt;          &amp;lt;chr&amp;gt;           &amp;lt;chr&amp;gt;      &amp;lt;dbl&amp;gt;
-# 1 [Included Sa… 1=12:1; … 1=12; 2=30     1=1 recipient;… 1=fem…        NA
+# 1 [Included Sa~ 1=12:1; ~ 1=12; 2=30     1=1 recipient;~ 1=fem~        NA
 # 2 1             1         1              1               1             36
 # 3 2             1         1              1               2             36
 # 4 3             1         1              1               2             36
 # 5 4             1         1              1               1             36
 # 6 5             1         1              1               2             36
-# # … with 12 more variables: Ageyears &amp;lt;dbl&amp;gt;, Agegroups &amp;lt;chr&amp;gt;,
+# # ... with 12 more variables: Ageyears &amp;lt;dbl&amp;gt;, Agegroups &amp;lt;chr&amp;gt;,
 # #   `Subject&amp;#39;sEnvelope` &amp;lt;chr&amp;gt;, LeftEnvelope &amp;lt;chr&amp;gt;, RightEnvelope &amp;lt;chr&amp;gt;,
 # #   `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &amp;lt;chr&amp;gt;,
 # #   `PercentGiven(Outof100percent)` &amp;lt;chr&amp;gt;, Giveornot &amp;lt;chr&amp;gt;,
@@ -689,7 +689,7 @@ glimpse(stickers)&lt;/code&gt;&lt;/pre&gt;
 # 4 399           1         1              1               2            137
 # 5 400           4         2              2               2            139
 # 6 401           3         2              1               1            143
-# # … with 12 more variables: Ageyears &amp;lt;dbl&amp;gt;, Agegroups &amp;lt;chr&amp;gt;,
+# # ... with 12 more variables: Ageyears &amp;lt;dbl&amp;gt;, Agegroups &amp;lt;chr&amp;gt;,
 # #   `Subject&amp;#39;sEnvelope` &amp;lt;chr&amp;gt;, LeftEnvelope &amp;lt;chr&amp;gt;, RightEnvelope &amp;lt;chr&amp;gt;,
 # #   `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &amp;lt;chr&amp;gt;,
 # #   `PercentGiven(Outof100percent)` &amp;lt;chr&amp;gt;, Giveornot &amp;lt;chr&amp;gt;,
@@ -739,7 +739,7 @@ sticker_names&lt;/code&gt;&lt;/pre&gt;
 # [15] &amp;quot;LargerEnvelopeabs&amp;quot;             &amp;quot;LargeEnvelopepercent&amp;quot;         
 # [17] &amp;quot;SmallerEnvelopeabs&amp;quot;            &amp;quot;SmallEnvelopepercent&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;glimpse(sticker_names)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;#  chr [1:18] &amp;quot;SubjectNumber&amp;quot; &amp;quot;Condition&amp;quot; &amp;quot;NumberStickers&amp;quot; ...&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;#  chr [1:18] &amp;quot;SubjectNumber&amp;quot; &amp;quot;Condition&amp;quot; &amp;quot;NumberStickers&amp;quot; &amp;quot;NumberEnvelopes&amp;quot; ...&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;step-2&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Step 2&lt;/h2&gt;
@@ -747,26 +747,26 @@ sticker_names&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;stickers &amp;lt;- link %&amp;gt;% 
   read_tsv(skip = 2, col_names = sticker_names)
 glimpse(stickers)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;# Observations: 401
-# Variables: 18
-# $ SubjectNumber                   &amp;lt;dbl&amp;gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1…
-# $ Condition                       &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3,…
-# $ NumberStickers                  &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,…
-# $ NumberEnvelopes                 &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1,…
-# $ Gender                          &amp;lt;dbl&amp;gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2,…
-# $ Agemonths                       &amp;lt;dbl&amp;gt; 36, 36, 36, 36, 36, 36, 36, 36, …
-# $ Ageyears                        &amp;lt;dbl&amp;gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,…
-# $ Agegroups                       &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
-# $ `Subject&amp;#39;sEnvelope`             &amp;lt;dbl&amp;gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 3…
-# $ LeftEnvelope                    &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18…
-# $ RightEnvelope                   &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA…
-# $ stickersgiven                   &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18…
-# $ `PercentGiven(Outof100percent)` &amp;lt;dbl&amp;gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.…
-# $ Giveornot                       &amp;lt;dbl&amp;gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1,…
-# $ LargerEnvelopeabs               &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 1, NA…
-# $ LargeEnvelopepercent            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.500000…
-# $ SmallerEnvelopeabs              &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA…
-# $ SmallEnvelopepercent            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.500000…&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Rows: 401
+# Columns: 18
+# $ SubjectNumber                   &amp;lt;dbl&amp;gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...
+# $ Condition                       &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3,...
+# $ NumberStickers                  &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,...
+# $ NumberEnvelopes                 &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1,...
+# $ Gender                          &amp;lt;dbl&amp;gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1,...
+# $ Agemonths                       &amp;lt;dbl&amp;gt; 36, 36, 36, 36, 36, 36, 36, 36, 36,...
+# $ Ageyears                        &amp;lt;dbl&amp;gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,...
+# $ Agegroups                       &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,...
+# $ `Subject&amp;#39;sEnvelope`             &amp;lt;dbl&amp;gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 30, ...
+# $ LeftEnvelope                    &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18, 1...
+# $ RightEnvelope                   &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, N...
+# $ stickersgiven                   &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18, 1...
+# $ `PercentGiven(Outof100percent)` &amp;lt;dbl&amp;gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.33,...
+# $ Giveornot                       &amp;lt;dbl&amp;gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1,...
+# $ LargerEnvelopeabs               &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 1, NA, N...
+# $ LargeEnvelopepercent            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000, ...
+# $ SmallerEnvelopeabs              &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, N...
+# $ SmallEnvelopepercent            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000, ...&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;fin&#34; class=&#34;section level1&#34;&gt;
@@ -812,45 +812,45 @@ stickers &amp;lt;- link %&amp;gt;%
   clean_names()&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;stickers&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;# # A tibble: 401 x 18
-#    subject_number condition number_stickers number_envelopes gender
-#             &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;           &amp;lt;dbl&amp;gt;            &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;
-#  1              1         1               1                1      1
-#  2              2         1               1                1      2
-#  3              3         1               1                1      2
-#  4              4         1               1                1      1
-#  5              5         1               1                1      2
-#  6              6         1               1                1      2
-#  7              7         2               1                2      1
-#  8              8         2               1                2      2
-#  9              9         3               2                1      2
-# 10             10         3               2                1      2
-# # … with 391 more rows, and 13 more variables: agemonths &amp;lt;dbl&amp;gt;,
-# #   ageyears &amp;lt;dbl&amp;gt;, agegroups &amp;lt;dbl&amp;gt;, subjects_envelope &amp;lt;dbl&amp;gt;,
-# #   left_envelope &amp;lt;dbl&amp;gt;, right_envelope &amp;lt;dbl&amp;gt;, stickersgiven &amp;lt;dbl&amp;gt;,
+#    subject_number condition number_stickers number_envelopes gender agemonths
+#             &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;           &amp;lt;dbl&amp;gt;            &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;
+#  1              1         1               1                1      1        36
+#  2              2         1               1                1      2        36
+#  3              3         1               1                1      2        36
+#  4              4         1               1                1      1        36
+#  5              5         1               1                1      2        36
+#  6              6         1               1                1      2        36
+#  7              7         2               1                2      1        36
+#  8              8         2               1                2      2        36
+#  9              9         3               2                1      2        36
+# 10             10         3               2                1      2        36
+# # ... with 391 more rows, and 12 more variables: ageyears &amp;lt;dbl&amp;gt;,
+# #   agegroups &amp;lt;dbl&amp;gt;, subjects_envelope &amp;lt;dbl&amp;gt;, left_envelope &amp;lt;dbl&amp;gt;,
+# #   right_envelope &amp;lt;dbl&amp;gt;, stickersgiven &amp;lt;dbl&amp;gt;,
 # #   percent_given_outof100percent &amp;lt;dbl&amp;gt;, giveornot &amp;lt;dbl&amp;gt;,
 # #   larger_envelopeabs &amp;lt;dbl&amp;gt;, large_envelopepercent &amp;lt;dbl&amp;gt;,
 # #   smaller_envelopeabs &amp;lt;dbl&amp;gt;, small_envelopepercent &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;glimpse(stickers)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;# Observations: 401
-# Variables: 18
-# $ subject_number                &amp;lt;dbl&amp;gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,…
-# $ condition                     &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3…
-# $ number_stickers               &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2…
-# $ number_envelopes              &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1…
-# $ gender                        &amp;lt;dbl&amp;gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1…
-# $ agemonths                     &amp;lt;dbl&amp;gt; 36, 36, 36, 36, 36, 36, 36, 36, 36…
-# $ ageyears                      &amp;lt;dbl&amp;gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3…
-# $ agegroups                     &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
-# $ subjects_envelope             &amp;lt;dbl&amp;gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 30,…
-# $ left_envelope                 &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18, …
-# $ right_envelope                &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, …
-# $ stickersgiven                 &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18, …
-# $ percent_given_outof100percent &amp;lt;dbl&amp;gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.33…
-# $ giveornot                     &amp;lt;dbl&amp;gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1…
-# $ larger_envelopeabs            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 1, NA, …
-# $ large_envelopepercent         &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000,…
-# $ smaller_envelopeabs           &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, …
-# $ small_envelopepercent         &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000,…&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Rows: 401
+# Columns: 18
+# $ subject_number                &amp;lt;dbl&amp;gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12...
+# $ condition                     &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3...
+# $ number_stickers               &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2...
+# $ number_envelopes              &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1...
+# $ gender                        &amp;lt;dbl&amp;gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 1...
+# $ agemonths                     &amp;lt;dbl&amp;gt; 36, 36, 36, 36, 36, 36, 36, 36, 36, 3...
+# $ ageyears                      &amp;lt;dbl&amp;gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3...
+# $ agegroups                     &amp;lt;dbl&amp;gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1...
+# $ subjects_envelope             &amp;lt;dbl&amp;gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 30, 12...
+# $ left_envelope                 &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18, 18,...
+# $ right_envelope                &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA,...
+# $ stickersgiven                 &amp;lt;dbl&amp;gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18, 18,...
+# $ percent_given_outof100percent &amp;lt;dbl&amp;gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.33, 0...
+# $ giveornot                     &amp;lt;dbl&amp;gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0...
+# $ larger_envelopeabs            &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 1, NA, NA,...
+# $ large_envelopepercent         &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000, 1....
+# $ smaller_envelopeabs           &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA,...
+# $ small_envelopepercent         &amp;lt;dbl&amp;gt; NA, NA, NA, NA, NA, NA, 0.5000000, 0....&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bonus-data-dictionary&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Bonus data dictionary&lt;/h1&gt;
@@ -862,26 +862,26 @@ stickers_dict &amp;lt;- read_tsv(link, n_max = 1) %&amp;gt;%
   gather(variable_name, variable_description)
 stickers_dict&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;# # A tibble: 18 x 2
-#    variable_name           variable_description                            
-#    &amp;lt;chr&amp;gt;                   &amp;lt;chr&amp;gt;                                           
-#  1 subject_number          [Included Sample Only]                          
-#  2 condition               1=12:1; 2=12:2, 3=30:1, 4=30:2                  
-#  3 number_stickers         1=12; 2=30                                      
-#  4 number_envelopes        1=1 recipient; 2=2 recipients                   
-#  5 gender                  1=female; 2=male                                
-#  6 agemonths               &amp;lt;NA&amp;gt;                                            
-#  7 ageyears                &amp;lt;NA&amp;gt;                                            
-#  8 agegroups               1=3-4yrs; 2=5-6yrs; 3=7-8yrs; 4=9-11yrs         
-#  9 subjects_envelope       How many stickers did the child keep for themse…
-# 10 left_envelope           1 recipient conditions: How many stickers the s…
-# 11 right_envelope          1 recipient conditions: N/A; 2 recipient condit…
-# 12 stickersgiven           Regardless of condition, the number of stickers…
-# 13 percent_given_outof100… Regardless of condition, the proportion of stic…
-# 14 giveornot               1=Donated 1 or more stickers to the recipient(s…
-# 15 larger_envelopeabs      Raw number of stickers (out of 30: Condition 2 …
-# 16 large_envelopepercent   Proportion of stickers (out of 100%; Condition …
-# 17 smaller_envelopeabs     Raw number of stickers (out of 30: Condition 2 …
-# 18 small_envelopepercent   Proportion of stickers (out of 100%; Condition …&lt;/code&gt;&lt;/pre&gt;
+#    variable_name           variable_description                                 
+#    &amp;lt;chr&amp;gt;                   &amp;lt;chr&amp;gt;                                                
+#  1 subject_number          [Included Sample Only]                               
+#  2 condition               1=12:1; 2=12:2, 3=30:1, 4=30:2                       
+#  3 number_stickers         1=12; 2=30                                           
+#  4 number_envelopes        1=1 recipient; 2=2 recipients                        
+#  5 gender                  1=female; 2=male                                     
+#  6 agemonths               &amp;lt;NA&amp;gt;                                                 
+#  7 ageyears                &amp;lt;NA&amp;gt;                                                 
+#  8 agegroups               1=3-4yrs; 2=5-6yrs; 3=7-8yrs; 4=9-11yrs              
+#  9 subjects_envelope       How many stickers did the child keep for themselves ~
+# 10 left_envelope           1 recipient conditions: How many stickers the subjec~
+# 11 right_envelope          1 recipient conditions: N/A; 2 recipient conditions:~
+# 12 stickersgiven           Regardless of condition, the number of stickers the ~
+# 13 percent_given_outof100~ Regardless of condition, the proportion of stickers ~
+# 14 giveornot               1=Donated 1 or more stickers to the recipient(s); 0=~
+# 15 larger_envelopeabs      Raw number of stickers (out of 30: Condition 2 or 4 ~
+# 16 large_envelopepercent   Proportion of stickers (out of 100%; Condition 2 or ~
+# 17 smaller_envelopeabs     Raw number of stickers (out of 30: Condition 2 or 4 ~
+# 18 small_envelopepercent   Proportion of stickers (out of 100%; Condition 2 or ~&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;useful-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Useful resources&lt;/h1&gt;
@@ -900,9 +900,9 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>R-Ladies Presentation Ninja</title>
-      <link>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</link>
+      <link>/post/2017-12-18-r-ladies-presentation-ninja/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2017-12-18-r-ladies-presentation-ninja/</guid>
+      <guid>/post/2017-12-18-r-ladies-presentation-ninja/</guid>
       <description>
 
 
@@ -961,8 +961,8 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;If you are new to &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;strong&gt;xaringan&lt;/strong&gt;&lt;/a&gt;, don’t miss the &lt;a href=&#34;https://github.com/yihui/xaringan/wiki&#34;&gt;wiki!&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Yihui’s &lt;a href=&#34;https://yihui.name/en/2017/10/xaringan-themes/&#34;&gt;technical instructions&lt;/a&gt; for contributors section of that blog post has been revised and is very detailed&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;If you are new to &lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;&lt;strong&gt;xaringan&lt;/strong&gt;&lt;/a&gt;, don’t miss the &lt;a href=&#34;https://github.com/yihui/xaringan/wiki&#34;&gt;wiki!&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Yihui’s &lt;a href=&#34;https://yihui.name/en/2017/10/xaringan-themes/&#34;&gt;technical instructions&lt;/a&gt; for contributors section of that blog post has been revised and is very detailed&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -970,9 +970,9 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/</link>
+      <link>/post/2017-06-12-up-and-running-with-blogdown/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/</guid>
+      <guid>/post/2017-06-12-up-and-running-with-blogdown/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1035,7 +1035,7 @@ stickers_dict&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;github-new-repo.png&#34; alt=&#34;Screenshot above: Creating a new repository in GitHub&#34; /&gt;
+&lt;img src=&#34;github-new-repo.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Screenshot above: Creating a new repository in GitHub&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
@@ -1088,7 +1088,7 @@ install_hugo()&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;Use the top menu buttons in RStudio to select &lt;code&gt;File -&amp;gt; New Project -&amp;gt; Existing Directory&lt;/code&gt;, then browse to the directory on your computer where your GitHub repo is and click on the &lt;strong&gt;Create Project&lt;/strong&gt; button.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;r-project-existing-directory.png&#34; alt=&#34;Screenshot above: Creating a new project in an existing directory in RStudio&#34; /&gt;
+&lt;img src=&#34;r-project-existing-directory.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Screenshot above: Creating a new project in an existing directory in RStudio&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
@@ -1268,9 +1268,9 @@ output:
 &lt;p&gt;&lt;img src=&#34;blogdown-signpost-5.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Deploying in Netlify through GitHub is smooth. Yihui and Amber give some &lt;a href=&#34;https://bookdown.org/yihui/blogdown/deployment.html&#34;&gt;beginner instructions&lt;/a&gt;, but Netlify is so easy, I recommend that you skip dragging your &lt;code&gt;public&lt;/code&gt; folder in and instead &lt;a href=&#34;https://bookdown.org/yihui/blogdown/netlify.html#netlify&#34;&gt;automate the process through GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;When you are ready to deploy, commit your changes and push to GitHub, then go online to &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Click on the &lt;strong&gt;Sign Up&lt;/strong&gt; button and sign up using your existing GitHub account (no need to create another account)&lt;/li&gt;
-&lt;li&gt;Log in, and select: &lt;code&gt;New site from Git -&amp;gt; Continuous Deployment: GitHub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When you are ready to deploy, commit your changes and push to GitHub, then go online to &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Click on the &lt;strong&gt;Sign Up&lt;/strong&gt; button and sign up using your existing GitHub account (no need to create another account)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Log in, and select: &lt;code&gt;New site from Git -&amp;gt; Continuous Deployment: GitHub&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;From there, Netlify will allow you to select from your existing GitHub repositories. You’ll pick the repo you’ve been working from with &lt;code&gt;blogdown&lt;/code&gt;, then you’ll configure your build. This involves specifying two important things: the build command and the publish directory (this should be &lt;code&gt;public&lt;/code&gt;).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;More about the build command from &lt;a href=&#34;https://www.netlify.com/docs/continuous-deployment/#common-configuration-directives&#34;&gt;Netlify&lt;/a&gt;: &lt;em&gt;“For Hugo hosting, &lt;code&gt;hugo&lt;/code&gt; will build and deploy with the version 0.17 of &lt;code&gt;hugo&lt;/code&gt;. You can specify a specific &lt;code&gt;hugo&lt;/code&gt; release like this: &lt;code&gt;hugo_0.15&lt;/code&gt;. Currently &lt;code&gt;0.13&lt;/code&gt;, &lt;code&gt;0.14&lt;/code&gt;, &lt;code&gt;0.15&lt;/code&gt;, &lt;code&gt;0.16&lt;/code&gt;, &lt;code&gt;0.17&lt;/code&gt;, &lt;code&gt;0.18&lt;/code&gt; and &lt;code&gt;0.19&lt;/code&gt; are supported. For version &lt;code&gt;0.20&lt;/code&gt; and above, you’ll need to create a Build environment variable called &lt;code&gt;HUGO_VERSION&lt;/code&gt; and set it to the version of your choice.”&lt;/em&gt; I opted for the former, and specified &lt;code&gt;hugo_0.19&lt;/code&gt;.&lt;/li&gt;
@@ -1280,7 +1280,7 @@ output:
 &lt;pre&gt;&lt;code&gt;$ hugo version
 Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-07:00&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;netlify-build-settings.png&#34; alt=&#34;Screenshot above: Basic build settings in Netlify&#34; /&gt;
+&lt;img src=&#34;netlify-build-settings.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Screenshot above: Basic build settings in Netlify&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Netlify will deploy your site and assign you a random subdomain name of the form &lt;code&gt;random-word-12345.netlify.com&lt;/code&gt;. Mine was particularly unfortunate, with the random word &lt;code&gt;garbage-collector-janice&lt;/code&gt;. You should know that you can change this; I changed mine to &lt;code&gt;apreshill.netlify.com&lt;/code&gt;.&lt;/p&gt;

@@ -30,7 +30,7 @@
   <meta name="description" content="Taking a sad script and making it better for model cross-validation.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/">
+  <link rel="alternate" hreflang="en-us" href="/post/2020-02-27-better-tidymodels/">
 
   
 
@@ -254,7 +254,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/">
+  <link rel="canonical" href="/post/2020-02-27-better-tidymodels/">
 
   
   
@@ -272,10 +272,10 @@
   <meta property="twitter:creator" content="@Kushagr95272583">
   
   <meta property="og:site_name" content="Kushagra Gupta">
-  <meta property="og:url" content="https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/">
+  <meta property="og:url" content="/post/2020-02-27-better-tidymodels/">
   <meta property="og:title" content="Take a Sad Script &amp; Make it Better: Tidymodels Edition | Kushagra Gupta">
-  <meta property="og:description" content="Taking a sad script and making it better for model cross-validation."><meta property="og:image" content="https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/featured.jpg">
-  <meta property="twitter:image" content="https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Taking a sad script and making it better for model cross-validation."><meta property="og:image" content="/post/2020-02-27-better-tidymodels/featured.jpg">
+  <meta property="twitter:image" content="/post/2020-02-27-better-tidymodels/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-02-27T00:00:00&#43;00:00">
@@ -304,12 +304,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/"
+    "@id": "/post/2020-02-27-better-tidymodels/"
   },
   "headline": "Take a Sad Script \u0026 Make it Better: Tidymodels Edition",
   
   "image": [
-    "https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/featured.jpg"
+    "/post/2020-02-27-better-tidymodels/featured.jpg"
   ],
   
   "datePublished": "2020-02-27T00:00:00Z",
@@ -320,7 +320,7 @@
     "name": "Kushagra Gupta",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://kushagragpt99.github.io/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Taking a sad script and making it better for model cross-validation."
@@ -654,7 +654,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    19 min read
+    20 min read
   </span>
   
 
@@ -751,7 +751,7 @@
 </ol>
 <p>Let&rsquo;s start with some 
 <a href="http://www.greenhumour.com/2018/04/penguins-of-world.html" target="_blank" rel="noopener">cute penguin art</a> by Rohan Chakravarty&hellip;</p>
-<p><a href="http://www.greenhumour.com/2018/04/penguins-of-world.html" target="_blank"><img src="penguins-of-the-world.JPG" width="270" style="display: block; margin: auto;" /></a></p>
+<p><a href="http://www.greenhumour.com/2018/04/penguins-of-world.html" target="_blank"><img src="penguins-of-the-world.JPG" style="display: block; margin: auto;" /></a></p>
 <p>My objective here is <strong>not</strong> to provide an introduction to using tidymodels, cross-validation, or to machine learning. If that is what you came for, check out the project button at the top of this post for my workshop materials for learners, and my 
 <a href="https://education.rstudio.com/blog/2020/02/conf20-intro-ml/" target="_blank" rel="noopener">associated blog post</a> on the RStudio education site.</p>
 <div class="alert alert-note">
@@ -815,13 +815,14 @@ tidypenguins &lt;- penguins %&gt;%
 
 glimpse(tidypenguins)
 #&gt; Rows: 333
-#&gt; Columns: 6
-#&gt; $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ade…
-#&gt; $ culmen_length_mm  &lt;dbl&gt; 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 38.…
-#&gt; $ culmen_depth_mm   &lt;dbl&gt; 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 21.…
-#&gt; $ flipper_length_mm &lt;int&gt; 181, 186, 195, 193, 190, 181, 195, 182, 191, 198, 1…
-#&gt; $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 380…
-#&gt; $ sex               &lt;fct&gt; MALE, FEMALE, FEMALE, FEMALE, MALE, FEMALE, MALE, F…
+#&gt; Columns: 7
+#&gt; $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, A...
+#&gt; $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 3...
+#&gt; $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 2...
+#&gt; $ flipper_length_mm &lt;int&gt; 181, 186, 195, 193, 190, 181, 195, 182, 191, 198,...
+#&gt; $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 3...
+#&gt; $ sex               &lt;fct&gt; male, female, female, female, male, female, male,...
+#&gt; $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2...
 </code></pre>
 <h2 id="penguins">Penguins</h2>
 <div class="figure">
@@ -923,7 +924,7 @@ lm_spec %&gt;%
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        292.
+#&gt; 1 rmse    standard        276.
 </code></pre>
 <h3 id="fitting-the-model-with-a-function">Fitting the model with a function</h3>
 <p>If you squint, you might see that I could make this into a function like below:</p>
@@ -949,7 +950,7 @@ get_rmse(model_spec = lm_spec, split = penguin_split)
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        292.
+#&gt; 1 rmse    standard        276.
 </code></pre>
 <p>I could also build up a tibble that includes the results, if I wanted to save the predicted values, for example:</p>
 <pre><code class="language-r">get_preds &lt;- function(model_spec, split){
@@ -977,6 +978,52 @@ penguin_preds &lt;- get_preds(model_spec = lm_spec, split = penguin_split)
   scico::scale_colour_scico_d(end = .8) +
   ggtitle(&quot;Residuals vs Fitted&quot;)
 #&gt; `geom_smooth()` using formula 'y ~ x'
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+#&gt; Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family not
+#&gt; found in Windows font database
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+#&gt; Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#&gt; font family not found in Windows font database
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
+
+#&gt; Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#&gt; family not found in Windows font database
 </code></pre>
 <p><img src="figs/unnamed-chunk-17-1.png" width="672" /></p>
 <pre><code class="language-r">
@@ -986,7 +1033,7 @@ penguin_preds %&gt;%
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        292.
+#&gt; 1 rmse    standard        276.
 </code></pre>
 <p>Or I could fit a regression tree model with a new model spec:</p>
 <pre><code class="language-r"># regression tree model spec
@@ -1003,7 +1050,7 @@ get_preds(model_spec = rt_spec,
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        301.
+#&gt; 1 rmse    standard        300.
 </code></pre>
 <p>Or a random forest:</p>
 <pre><code class="language-r"># random forest model spec
@@ -1020,7 +1067,7 @@ get_preds(model_spec = rf_spec,
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        294.
+#&gt; 1 rmse    standard        302.
 </code></pre>
 <p>But, unfortunately, I shouldn&rsquo;t be predicting with the test set over and over again like this. It isn&rsquo;t good practice to predict with the test set &gt; 1 time. What is a good predictive modeler to do? I should be saving (holding out) the test set and use it to generate predictions exactly once, at the very end — after I&rsquo;ve compared different models, selected my features, and tuned my hyperparameters. How do you do this? You do 
 <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html" target="_blank" rel="noopener">cross-validation</a> with the training set, and you leave the testing set for 
@@ -1037,7 +1084,7 @@ penguin_folds
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 2
 #&gt;    splits           id    
-#&gt;    &lt;named list&gt;     &lt;chr&gt; 
+#&gt;    &lt;list&gt;           &lt;chr&gt; 
 #&gt;  1 &lt;split [225/26]&gt; Fold01
 #&gt;  2 &lt;split [226/25]&gt; Fold02
 #&gt;  3 &lt;split [226/25]&gt; Fold03
@@ -1095,7 +1142,7 @@ get_fold_results(
 #&gt; # A tibble: 1 x 3
 #&gt;    rmse id     preds            
 #&gt;   &lt;dbl&gt; &lt;chr&gt;  &lt;list&gt;           
-#&gt; 1  349. Fold01 &lt;tibble [26 × 7]&gt;
+#&gt; 1  321. Fold01 &lt;tibble [26 x 8]&gt;
 </code></pre>
 <p>Next, I used purrr- but just once. The function <code>get_fold_results</code> is doing <strong>most</strong> of the work for us, but I needed purrr to map it across each fold.</p>
 <pre><code class="language-r">set.seed(0)
@@ -1107,16 +1154,16 @@ kfold_results
 #&gt; # A tibble: 10 x 3
 #&gt;     rmse id     preds            
 #&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;list&gt;           
-#&gt;  1  349. Fold01 &lt;tibble [26 × 7]&gt;
-#&gt;  2  304. Fold02 &lt;tibble [25 × 7]&gt;
-#&gt;  3  290. Fold03 &lt;tibble [25 × 7]&gt;
-#&gt;  4  313. Fold04 &lt;tibble [25 × 7]&gt;
-#&gt;  5  403. Fold05 &lt;tibble [25 × 7]&gt;
-#&gt;  6  383. Fold06 &lt;tibble [25 × 7]&gt;
-#&gt;  7  330. Fold07 &lt;tibble [25 × 7]&gt;
-#&gt;  8  374. Fold08 &lt;tibble [25 × 7]&gt;
-#&gt;  9  319. Fold09 &lt;tibble [25 × 7]&gt;
-#&gt; 10  298. Fold10 &lt;tibble [25 × 7]&gt;
+#&gt;  1  321. Fold01 &lt;tibble [26 x 8]&gt;
+#&gt;  2  376. Fold02 &lt;tibble [25 x 8]&gt;
+#&gt;  3  311. Fold03 &lt;tibble [25 x 8]&gt;
+#&gt;  4  314. Fold04 &lt;tibble [25 x 8]&gt;
+#&gt;  5  429. Fold05 &lt;tibble [25 x 8]&gt;
+#&gt;  6  301. Fold06 &lt;tibble [25 x 8]&gt;
+#&gt;  7  356. Fold07 &lt;tibble [25 x 8]&gt;
+#&gt;  8  327. Fold08 &lt;tibble [25 x 8]&gt;
+#&gt;  9  315. Fold09 &lt;tibble [25 x 8]&gt;
+#&gt; 10  312. Fold10 &lt;tibble [25 x 8]&gt;
 </code></pre>
 <p>Here we are still left with 10 RMSE values- one for each of the 10 folds. We don&rsquo;t care too much about by fold- the power is in the aggregate. Specifically, we mainly care about the central tendency and spread of these RMSE values. Let&rsquo;s finish by combining (or aggregating) these metrics.</p>
 <pre><code class="language-r">kfold_results %&gt;% 
@@ -1124,7 +1171,7 @@ kfold_results
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      336.    39.0
+#&gt; 1      336.    39.9
 </code></pre>
 <p>So, this works. But, can you imagine doing it again? Without errors? Can you imagine teaching it?</p>
 <p><img src="https://media.giphy.com/media/bmGmHZ5khMjN6/giphy.gif" alt=""></p>
@@ -1158,25 +1205,25 @@ penguin_res &lt;- penguin_folds %&gt;%
 penguin_res
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 7
-#&gt;    splits      id     train_set      fit_models  test_set     estimates     rmse
-#&gt;  * &lt;named lis&gt; &lt;chr&gt;  &lt;named list&gt;   &lt;named lis&gt; &lt;named list&gt; &lt;named list&gt; &lt;dbl&gt;
-#&gt;  1 &lt;split [22… Fold01 &lt;tibble [225 … &lt;fit[+]&gt;    &lt;tibble [26… &lt;tibble [26…  349.
-#&gt;  2 &lt;split [22… Fold02 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  304.
-#&gt;  3 &lt;split [22… Fold03 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  290.
-#&gt;  4 &lt;split [22… Fold04 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  313.
-#&gt;  5 &lt;split [22… Fold05 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  403.
-#&gt;  6 &lt;split [22… Fold06 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  383.
-#&gt;  7 &lt;split [22… Fold07 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  330.
-#&gt;  8 &lt;split [22… Fold08 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  374.
-#&gt;  9 &lt;split [22… Fold09 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  319.
-#&gt; 10 &lt;split [22… Fold10 &lt;tibble [226 … &lt;fit[+]&gt;    &lt;tibble [25… &lt;tibble [25…  298.
+#&gt;    splits       id     train_set     fit_models test_set     estimates      rmse
+#&gt;    &lt;list&gt;       &lt;chr&gt;  &lt;list&gt;        &lt;list&gt;     &lt;list&gt;       &lt;list&gt;        &lt;dbl&gt;
+#&gt;  1 &lt;split [225~ Fold01 &lt;tibble [225~ &lt;fit[+]&gt;   &lt;tibble [26~ &lt;tibble [26 ~  321.
+#&gt;  2 &lt;split [226~ Fold02 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  376.
+#&gt;  3 &lt;split [226~ Fold03 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  311.
+#&gt;  4 &lt;split [226~ Fold04 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  314.
+#&gt;  5 &lt;split [226~ Fold05 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  429.
+#&gt;  6 &lt;split [226~ Fold06 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  301.
+#&gt;  7 &lt;split [226~ Fold07 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  356.
+#&gt;  8 &lt;split [226~ Fold08 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  327.
+#&gt;  9 &lt;split [226~ Fold09 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  315.
+#&gt; 10 &lt;split [226~ Fold10 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  312.
 
 penguin_res %&gt;% 
   summarise(mean_rmse = mean(rmse), sd_rmse = sd(rmse))
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      336.    39.0
+#&gt; 1      336.    39.9
 </code></pre>
 <h3 id="the-purrr-mash-up">The purrr mash-up</h3>
 <p>Another way I worked out was largely after reviewing Max&rsquo;s slides from previous workshops. This is basically a mash-up of my previous two approaches, where we write laser-focused functions that each do one thing, then use purrr to apply those functions across the folds. This way is nice(r) for showing in slides as you can incrementally build up the results table. Let&rsquo;s see this sad script in action&hellip;</p>
@@ -1197,17 +1244,17 @@ penguin_purrr &lt;- penguin_folds %&gt;%
 penguin_purrr
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 3
-#&gt;    splits           id     rt_fits     
-#&gt;  * &lt;named list&gt;     &lt;chr&gt;  &lt;named list&gt;
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt;    
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt;    
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt;    
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt;    
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt;    
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt;    
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt;    
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt;    
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt;    
+#&gt;    splits           id     rt_fits 
+#&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;  
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt;
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt;
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt;
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt;
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt;
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt;
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt;
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt;
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt;
 #&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt;
 </code></pre>
 <h4 id="round-2">Round 2</h4>
@@ -1227,18 +1274,18 @@ penguin_purrr &lt;- penguin_purrr %&gt;%
 penguin_purrr
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 4
-#&gt;    splits           id     rt_fits      rt_preds         
-#&gt;  * &lt;named list&gt;     &lt;chr&gt;  &lt;named list&gt; &lt;named list&gt;     
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt;     &lt;tibble [26 × 7]&gt;
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;
+#&gt;    splits           id     rt_fits  rt_preds         
+#&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;   &lt;list&gt;           
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;
 </code></pre>
 <h4 id="aaaand-round-3">aaaand Round 3</h4>
 <pre><code class="language-r"># compare: compute metric for a split
@@ -1258,18 +1305,18 @@ penguin_purrr &lt;- penguin_purrr %&gt;%
 penguin_purrr
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 5
-#&gt;    splits           id     rt_fits      rt_preds          rt_rmse
-#&gt;  * &lt;named list&gt;     &lt;chr&gt;  &lt;named list&gt; &lt;named list&gt;        &lt;dbl&gt;
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt;     &lt;tibble [26 × 7]&gt;    349.
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    304.
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    290.
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    313.
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    403.
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    383.
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    330.
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    374.
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    319.
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    298.
+#&gt;    splits           id     rt_fits  rt_preds          rt_rmse
+#&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;   &lt;list&gt;              &lt;dbl&gt;
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    321.
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    376.
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    311.
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    314.
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    429.
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    301.
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    356.
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    327.
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    315.
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    312.
 </code></pre>
 <p>Finally, summarizing as I did before:</p>
 <pre><code class="language-r">penguin_purrr %&gt;% 
@@ -1277,7 +1324,7 @@ penguin_purrr
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      336.    39.0
+#&gt; 1      336.    39.9
 </code></pre>
 <p>In practice, if you did all these at once instead of incrementally, it would look like:</p>
 <pre><code class="language-r">set.seed(0)
@@ -1293,18 +1340,18 @@ penguin_folds %&gt;%
   mutate(rt_rmse = map_dbl(rt_preds, get_rmse))
 #&gt; #  10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 5
-#&gt;    splits           id     rt_fits      rt_preds          rt_rmse
-#&gt;  * &lt;named list&gt;     &lt;chr&gt;  &lt;named list&gt; &lt;named list&gt;        &lt;dbl&gt;
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt;     &lt;tibble [26 × 7]&gt;    349.
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    304.
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    290.
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    313.
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    403.
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    383.
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    330.
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    374.
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    319.
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt;     &lt;tibble [25 × 7]&gt;    298.
+#&gt;    splits           id     rt_fits  rt_preds          rt_rmse
+#&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;   &lt;list&gt;              &lt;dbl&gt;
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    321.
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    376.
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    311.
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    314.
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    429.
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    301.
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    356.
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    327.
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    315.
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    312.
 </code></pre>
 <p>When you put it like <em>that</em>, it doesn&rsquo;t look like so much work! But, this way hides how much work it takes to write those 3 custom functions: <code>get_fits()</code>, <code>get_preds()</code>, and <code>get_rmse()</code>. And we still had to use vanilla <code>map()</code>, <code>map2()</code>, <em>and</em> <code>map2_dbl()</code>.</p>
 <h2 id="make-it-better">Make it better</h2>
@@ -1331,20 +1378,21 @@ penguin_folds %&gt;%
 </code></pre>
 <p>Here is the beautiful output from that function:</p>
 <pre><code class="language-r">penguin_party
-#&gt; #  10-fold cross-validation using stratification 
+#&gt; # Resampling results
+#&gt; # 10-fold cross-validation using stratification 
 #&gt; # A tibble: 10 x 4
 #&gt;    splits           id     .metrics         .notes          
-#&gt;    &lt;named list&gt;     &lt;chr&gt;  &lt;list&gt;           &lt;list&gt;          
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;tibble [2 × 3]&gt; &lt;tibble [0 × 1]&gt;
+#&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;           &lt;list&gt;          
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;tibble [2 x 3]&gt; &lt;tibble [0 x 1]&gt;
 </code></pre>
 <p>Now, to see all the stuff inside this <code>penguin_party</code>, we can use tune&rsquo;s <code>collect_*</code> functions.</p>
 <pre><code class="language-r">penguin_party %&gt;% 
@@ -1352,8 +1400,8 @@ penguin_folds %&gt;%
 #&gt; # A tibble: 2 x 5
 #&gt;   .metric .estimator    mean     n std_err
 #&gt;   &lt;chr&gt;   &lt;chr&gt;        &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt;
-#&gt; 1 rmse    standard   336.       10 12.3   
-#&gt; 2 rsq     standard     0.829    10  0.0159
+#&gt; 1 rmse    standard   336.       10 12.6   
+#&gt; 2 rsq     standard     0.826    10  0.0191
 </code></pre>
 <p>To see the predictions, we need to add use 
 <a href="https://tidymodels.github.io/tune/reference/control_grid.html" target="_blank" rel="noopener"><code>control_resamples()</code></a>:</p>
@@ -1371,17 +1419,17 @@ penguin_folds %&gt;%
 #&gt; # A tibble: 251 x 4
 #&gt;    id     .pred  .row body_mass_g
 #&gt;    &lt;chr&gt;  &lt;dbl&gt; &lt;int&gt;       &lt;int&gt;
-#&gt;  1 Fold01 3417      4        3625
-#&gt;  2 Fold01 3417     11        3325
-#&gt;  3 Fold01 3971.    14        3950
-#&gt;  4 Fold01 3971.    41        3800
-#&gt;  5 Fold01 3417     54        3700
-#&gt;  6 Fold01 3971.    65        4300
-#&gt;  7 Fold01 3971.    70        4100
-#&gt;  8 Fold01 3971.    71        4725
-#&gt;  9 Fold01 3971.    76        3900
-#&gt; 10 Fold01 3417     85        3350
-#&gt; # … with 241 more rows
+#&gt;  1 Fold01 3400.     4        3450
+#&gt;  2 Fold01 3400.    11        3325
+#&gt;  3 Fold01 3400.    14        3800
+#&gt;  4 Fold01 3878.    41        3800
+#&gt;  5 Fold01 3400.    54        3550
+#&gt;  6 Fold01 3400.    65        3600
+#&gt;  7 Fold01 3400.    70        3300
+#&gt;  8 Fold01 4159.    71        4300
+#&gt;  9 Fold01 3400.    76        3725
+#&gt; 10 Fold01 3878.    85        4600
+#&gt; # ... with 241 more rows
 </code></pre>
 <p>Now, isn&rsquo;t that better?</p>
 <p><img src="https://media.giphy.com/media/daeKl3P4SissU/giphy.gif" alt=""><!-- --></p>
@@ -1414,7 +1462,7 @@ penguin_folds %&gt;%
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/&amp;text=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/2020-02-27-better-tidymodels/&amp;text=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1427,7 +1475,7 @@ penguin_folds %&gt;%
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/&amp;t=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/2020-02-27-better-tidymodels/&amp;t=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1440,7 +1488,7 @@ penguin_folds %&gt;%
       
       
       <li>
-        <a href="mailto:?subject=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition&amp;body=https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition&amp;body=/post/2020-02-27-better-tidymodels/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1453,7 +1501,7 @@ penguin_folds %&gt;%
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://kushagragpt99.github.io/post/2020-02-27-better-tidymodels/&amp;title=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/2020-02-27-better-tidymodels/&amp;title=Take%20a%20Sad%20Script%20&amp;amp;%20Make%20it%20Better:%20Tidymodels%20Edition" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1494,7 +1542,7 @@ penguin_folds %&gt;%
       
 
       <div class="media-body">
-        <h5 class="card-title"><a href="https://kushagragpt99.github.io/"></a></h5>
+        <h5 class="card-title"><a href="/"></a></h5>
         <h6 class="card-subtitle">Statistician | Coordinator Programming Club | Coordinator Stamatics</h6>
         <p class="card-text">I&rsquo;m a researcher, primarily interested in Bayesian statistics, with a knack for financial trading strategies who loves programming.</p>
         <ul class="network-icon" aria-hidden="true">

@@ -30,7 +30,7 @@
   <meta name="description" content="A guide to getting up and running with blogdown, GitHub, and Netlify">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/">
+  <link rel="alternate" hreflang="en-us" href="/post/2017-06-12-up-and-running-with-blogdown/">
 
   
 
@@ -254,7 +254,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/">
+  <link rel="canonical" href="/post/2017-06-12-up-and-running-with-blogdown/">
 
   
   
@@ -272,10 +272,10 @@
   <meta property="twitter:creator" content="@Kushagr95272583">
   
   <meta property="og:site_name" content="Kushagra Gupta">
-  <meta property="og:url" content="https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/">
+  <meta property="og:url" content="/post/2017-06-12-up-and-running-with-blogdown/">
   <meta property="og:title" content="Up &amp; Running with blogdown | Kushagra Gupta">
-  <meta property="og:description" content="A guide to getting up and running with blogdown, GitHub, and Netlify"><meta property="og:image" content="https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/featured.jpg">
-  <meta property="twitter:image" content="https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="A guide to getting up and running with blogdown, GitHub, and Netlify"><meta property="og:image" content="/post/2017-06-12-up-and-running-with-blogdown/featured.jpg">
+  <meta property="twitter:image" content="/post/2017-06-12-up-and-running-with-blogdown/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2017-06-12T00:00:00&#43;00:00">
@@ -304,12 +304,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/"
+    "@id": "/post/2017-06-12-up-and-running-with-blogdown/"
   },
   "headline": "Up \u0026 Running with blogdown",
   
   "image": [
-    "https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/featured.jpg"
+    "/post/2017-06-12-up-and-running-with-blogdown/featured.jpg"
   ],
   
   "datePublished": "2017-06-12T00:00:00Z",
@@ -325,7 +325,7 @@
     "name": "Kushagra Gupta",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://kushagragpt99.github.io/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "A guide to getting up and running with blogdown, GitHub, and Netlify"
@@ -815,7 +815,7 @@
 </ul></li>
 </ol>
 <div class="figure">
-<img src="github-new-repo.png" alt="Screenshot above: Creating a new repository in GitHub" />
+<img src="github-new-repo.png" alt="" />
 <p class="caption">Screenshot above: Creating a new repository in GitHub</p>
 </div>
 <ol start="2" style="list-style-type: decimal">
@@ -868,7 +868,7 @@ install_hugo()</code></pre>
 <li>Use the top menu buttons in RStudio to select <code>File -&gt; New Project -&gt; Existing Directory</code>, then browse to the directory on your computer where your GitHub repo is and click on the <strong>Create Project</strong> button.</li>
 </ol>
 <div class="figure">
-<img src="r-project-existing-directory.png" alt="Screenshot above: Creating a new project in an existing directory in RStudio" />
+<img src="r-project-existing-directory.png" alt="" />
 <p class="caption">Screenshot above: Creating a new project in an existing directory in RStudio</p>
 </div>
 <ol start="4" style="list-style-type: decimal">
@@ -1048,9 +1048,9 @@ output:
 <p><img src="blogdown-signpost-5.png" /></p>
 <p>Deploying in Netlify through GitHub is smooth. Yihui and Amber give some <a href="https://bookdown.org/yihui/blogdown/deployment.html">beginner instructions</a>, but Netlify is so easy, I recommend that you skip dragging your <code>public</code> folder in and instead <a href="https://bookdown.org/yihui/blogdown/netlify.html#netlify">automate the process through GitHub</a>.</p>
 <ol style="list-style-type: decimal">
-<li>When you are ready to deploy, commit your changes and push to GitHub, then go online to <a href="https://www.netlify.com">Netlify</a>.</li>
-<li>Click on the <strong>Sign Up</strong> button and sign up using your existing GitHub account (no need to create another account)</li>
-<li>Log in, and select: <code>New site from Git -&gt; Continuous Deployment: GitHub</code>.</li>
+<li><p>When you are ready to deploy, commit your changes and push to GitHub, then go online to <a href="https://www.netlify.com">Netlify</a>.</p></li>
+<li><p>Click on the <strong>Sign Up</strong> button and sign up using your existing GitHub account (no need to create another account)</p></li>
+<li><p>Log in, and select: <code>New site from Git -&gt; Continuous Deployment: GitHub</code>.</p></li>
 <li><p>From there, Netlify will allow you to select from your existing GitHub repositories. You’ll pick the repo you’ve been working from with <code>blogdown</code>, then you’ll configure your build. This involves specifying two important things: the build command and the publish directory (this should be <code>public</code>).</p>
 <ul>
 <li>More about the build command from <a href="https://www.netlify.com/docs/continuous-deployment/#common-configuration-directives">Netlify</a>: <em>“For Hugo hosting, <code>hugo</code> will build and deploy with the version 0.17 of <code>hugo</code>. You can specify a specific <code>hugo</code> release like this: <code>hugo_0.15</code>. Currently <code>0.13</code>, <code>0.14</code>, <code>0.15</code>, <code>0.16</code>, <code>0.17</code>, <code>0.18</code> and <code>0.19</code> are supported. For version <code>0.20</code> and above, you’ll need to create a Build environment variable called <code>HUGO_VERSION</code> and set it to the version of your choice.”</em> I opted for the former, and specified <code>hugo_0.19</code>.</li>
@@ -1060,7 +1060,7 @@ output:
 <pre><code>$ hugo version
 Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-07:00</code></pre>
 <div class="figure">
-<img src="netlify-build-settings.png" alt="Screenshot above: Basic build settings in Netlify" />
+<img src="netlify-build-settings.png" alt="" />
 <p class="caption">Screenshot above: Basic build settings in Netlify</p>
 </div>
 <p>Netlify will deploy your site and assign you a random subdomain name of the form <code>random-word-12345.netlify.com</code>. Mine was particularly unfortunate, with the random word <code>garbage-collector-janice</code>. You should know that you can change this; I changed mine to <code>apreshill.netlify.com</code>.</p>
@@ -1147,7 +1147,7 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/&amp;text=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/2017-06-12-up-and-running-with-blogdown/&amp;text=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1160,7 +1160,7 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/&amp;t=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/2017-06-12-up-and-running-with-blogdown/&amp;t=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1173,7 +1173,7 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
       
       
       <li>
-        <a href="mailto:?subject=Up%20&amp;amp;%20Running%20with%20blogdown&amp;body=https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Up%20&amp;amp;%20Running%20with%20blogdown&amp;body=/post/2017-06-12-up-and-running-with-blogdown/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1186,7 +1186,7 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://kushagragpt99.github.io/post/2017-06-12-up-and-running-with-blogdown/&amp;title=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/2017-06-12-up-and-running-with-blogdown/&amp;title=Up%20&amp;amp;%20Running%20with%20blogdown" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>

@@ -2,21 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MCMC | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/mcmc/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/mcmc/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/mcmc/</link>
+      <atom:link href="/tags/mcmc/index.xml" rel="self" type="application/rss+xml" />
     <description>MCMC</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>MCMC</title>
-      <link>https://kushagragpt99.github.io/tags/mcmc/</link>
+      <link>/tags/mcmc/</link>
     </image>
     
     <item>
+      <title>Markov Chain Monte Carlo</title>
+      <link>/talk/2020-mcmc/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/talk/2020-mcmc/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/talk/2020-mcmc/rosenbrock_huf89aabc5a006130cd2261868bbadf44c_985214_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;/talk/2020-mcmc/rosenbrock_huf89aabc5a006130cd2261868bbadf44c_985214_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1918&#34; height=&#34;905&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Markov chain Monte Carlo (MCMC) is a popular method of generating correlated samples from complex multi-dimensional distributions where i.i.d sampling is not possible. MCMC finds application in a wide variety of fields, Bayesian machine learning, optimization, and econometrics, to name a few. With the recent advancements in computing power, long runs of MCMC have become accessible to practitioners with parallel implementation of MCMC emerging as a popular choice. This trend has motivated research that answers some fundamental questions pertinent to sampling. In this talk, we will give an intuitive understanding of how and why the algorithm works and what are the best practices in MCMC. Additionally, we will talk about diagnostics that determine the quality of MCMC algorithms. Towards the end, we will address the problem of output analysis of parallel MCMC by discussing globally centered Monte Carlo error estimators.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Estimating Monte Carlo variance from multiple Markov chains</title>
-      <link>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</link>
+      <link>/publication/preprints/2020-replicated-batch-means/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/publication/preprints/2020-replicated-batch-means/</guid>
+      <guid>/publication/preprints/2020-replicated-batch-means/</guid>
       <description></description>
     </item>
     

@@ -30,7 +30,7 @@
   <meta name="description" content="A few troubleshooting strategies to save your sanity">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/">
+  <link rel="alternate" hreflang="en-us" href="/post/2019-03-04-hugo-troubleshooting/">
 
   
 
@@ -254,7 +254,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/">
+  <link rel="canonical" href="/post/2019-03-04-hugo-troubleshooting/">
 
   
   
@@ -272,10 +272,10 @@
   <meta property="twitter:creator" content="@Kushagr95272583">
   
   <meta property="og:site_name" content="Kushagra Gupta">
-  <meta property="og:url" content="https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/">
+  <meta property="og:url" content="/post/2019-03-04-hugo-troubleshooting/">
   <meta property="og:title" content="A Spoonful of Hugo: Troubleshooting Your Build | Kushagra Gupta">
-  <meta property="og:description" content="A few troubleshooting strategies to save your sanity"><meta property="og:image" content="https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/featured.jpg">
-  <meta property="twitter:image" content="https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="A few troubleshooting strategies to save your sanity"><meta property="og:image" content="/post/2019-03-04-hugo-troubleshooting/featured.jpg">
+  <meta property="twitter:image" content="/post/2019-03-04-hugo-troubleshooting/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-03-04T00:00:00&#43;00:00">
@@ -304,12 +304,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/"
+    "@id": "/post/2019-03-04-hugo-troubleshooting/"
   },
   "headline": "A Spoonful of Hugo: Troubleshooting Your Build",
   
   "image": [
-    "https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/featured.jpg"
+    "/post/2019-03-04-hugo-troubleshooting/featured.jpg"
   ],
   
   "datePublished": "2019-03-04T00:00:00Z",
@@ -325,7 +325,7 @@
     "name": "Kushagra Gupta",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://kushagragpt99.github.io/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu6ba2e65069bb10af995823e50131e372_4452_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "A few troubleshooting strategies to save your sanity"
@@ -747,7 +747,7 @@ Figure 1: Don’t be like this
 <pre class="r"><code>blogdown::hugo_version()</code></pre>
 <p>Then you can reference your <a href="https://themes.gohugo.io/">Hugo theme</a> to find the minimum version of Hugo required by your theme:</p>
 <div class="figure"><span id="fig:unnamed-chunk-3"></span>
-<img src="hugo-min-version.png" alt="Check your theme's minimum Hugo version" width="1073" />
+<img src="hugo-min-version.png" alt="Check your theme's minimum Hugo version"  />
 <p class="caption">
 Figure 2: Check your theme’s minimum Hugo version
 </p>
@@ -756,7 +756,7 @@ Figure 2: Check your theme’s minimum Hugo version
 <pre class="r"><code>blogdown:: update_hugo()</code></pre>
 <p>Check your version again post-update:</p>
 <pre class="r"><code>blogdown::hugo_version()</code></pre>
-<pre><code>## [1] &#39;0.55.6&#39;</code></pre>
+<pre><code>## [1] &#39;0.73.0&#39;</code></pre>
 <p>If you are using Netlify to build your site using Hugo, you’ll want this version to match that- the best way to do that is with a <a href="/post/2019-02-19-hugo-netlify-toml/">netlify.toml file</a>.</p>
 </div>
 <div id="change-the-baseurl" class="section level1">
@@ -777,7 +777,7 @@ if you do not have a domain, set &quot;baseurl&quot; to &quot;/&quot;</code></pr
 </blockquote>
 <p>The main error that would happen without the trailing slash in the past is that you would end up with a site where the theme’s CSS would be all wrong. This was probably because the theme designer used code like this buried in a layout file:</p>
 <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ .Site.BaseURL }}css/style.css&quot;/&gt;</code></pre>
-<p>Now, if you set <code>baseurl = &quot;http://mysite.com&quot;</code> but only rendered locally, things would look just peachy, because the default local server already included the trailing slash. So, the link in the html file would be<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
+<p>Now, if you set <code>baseurl = "http://mysite.com"</code> but only rendered locally, things would look just peachy, because the default local server already included the trailing slash. So, the link in the html file would be<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
 <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://localhost:1313/css/style.css&quot;&gt;</code></pre>
 <p>But, at build, the link in the html file would turn into:</p>
 <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://mysite.comcss/style.css&quot;&gt;</code></pre>
@@ -872,8 +872,8 @@ publishDate: &#39;2019-03-04&#39;</code></pre>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Yes that’s right, I don’t have a trailing slash- read on for why I can get away with this.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5" class="uri">https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Yes that’s right, I don’t have a trailing slash- read on for why I can get away with this.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5" class="uri">https://discourse.gohugo.io/t/how-not-to-specify-url-site/5691/5</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -905,7 +905,7 @@ publishDate: &#39;2019-03-04&#39;</code></pre>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/&amp;text=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/2019-03-04-hugo-troubleshooting/&amp;text=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -918,7 +918,7 @@ publishDate: &#39;2019-03-04&#39;</code></pre>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/&amp;t=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/2019-03-04-hugo-troubleshooting/&amp;t=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -931,7 +931,7 @@ publishDate: &#39;2019-03-04&#39;</code></pre>
       
       
       <li>
-        <a href="mailto:?subject=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build&amp;body=https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build&amp;body=/post/2019-03-04-hugo-troubleshooting/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -944,7 +944,7 @@ publishDate: &#39;2019-03-04&#39;</code></pre>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://kushagragpt99.github.io/post/2019-03-04-hugo-troubleshooting/&amp;title=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/2019-03-04-hugo-troubleshooting/&amp;title=A%20Spoonful%20of%20Hugo:%20Troubleshooting%20Your%20Build" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>

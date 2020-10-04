@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>netlify | Kushagra Gupta</title>
-    <link>https://kushagragpt99.github.io/tags/netlify/</link>
-      <atom:link href="https://kushagragpt99.github.io/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/netlify/</link>
+      <atom:link href="/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <description>netlify</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 20 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://kushagragpt99.github.io/img/avatar.jpeg</url>
+      <url>/img/avatar.jpeg</url>
       <title>netlify</title>
-      <link>https://kushagragpt99.github.io/tags/netlify/</link>
+      <link>/tags/netlify/</link>
     </image>
     
     <item>
       <title>A Spoonful of Hugo: The netlify.toml File</title>
-      <link>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</link>
+      <link>/post/2019-02-19-hugo-netlify-toml/</link>
       <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://kushagragpt99.github.io/post/2019-02-19-hugo-netlify-toml/</guid>
+      <guid>/post/2019-02-19-hugo-netlify-toml/</guid>
       <description>
 
 
@@ -24,7 +24,7 @@
 &lt;p&gt;“Just a spoonful of Hugo helps the blog go down.”
 - me, only somewhat kidding&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;https://kushagragpt99.github.io/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
+&lt;p&gt;You can read the previous post about my “Spoonful of Hugo” series &lt;a href=&#34;/post/2019-02-19-hugo-archetypes/&#34;&gt;here&lt;/a&gt;. In this series, I’m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site &lt;em&gt;UP&lt;/em&gt; (and even better- more efficient, more streamlined, more automated).&lt;/p&gt;
 &lt;p&gt;This is my second post in this series, and it is a relatively quick one. Just do this. This one is a no-brainer.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -54,7 +54,7 @@
 &lt;p&gt;Yes that is right- package version mismatches are the leading cause of build failure with Netlify. What does this look like for blogdown users? This means that you are running a version of Hugo locally that doesn’t match the version that Netlify is using to build your site. Most of the time, you are using a more recent version of Hugo than the one Netlify uses. This means that the files your theme relies on may be using newer Hugo functions that were introduced in later Hugo versions- functions that Netlify won’t be able to find working from an older Hugo version. You’ll get &lt;em&gt;all the build errors&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;You can check your local Hugo version by running this code in your R console:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.57.2&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;#39;0.73.0&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, we want Netlify to use this same version of Hugo when it builds your site. You can do this two ways:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Do this in your browser (👎)&lt;/li&gt;
@@ -107,7 +107,7 @@
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;the leading zero matters for Hugo versions, so 0.53 works but .53 will not. For versions &amp;gt;= 0.54.0, the trailing zero also matters, so 0.54.0 works but 0.54 will not.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;the leading zero matters for Hugo versions, so 0.53 works but .53 will not. For versions &amp;gt;= 0.54.0, the trailing zero also matters, so 0.54.0 works but 0.54 will not.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
