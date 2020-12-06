@@ -5,12 +5,21 @@
     <link>/tags/stats/</link>
       <atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <description>stats</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpeg</url>
       <title>stats</title>
       <link>/tags/stats/</link>
     </image>
+    
+    <item>
+      <title>Inference of Deterministic Computer Models</title>
+      <link>/project/comp_model/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/comp_model/</guid>
+      <description>&lt;p&gt;Many scientific phenomena are being investigated by complex computer models or codes, which require uncertainty quantification framework for inference. Our approach is to model the deterministic output of the models as the realization of a stochastic process. We are currently working on the identifiability of Lorenz’63 model, a commonly used chaotic system in climate science, and extending our method to cover a broad range of dynamic models. System identification remains a challenge in climate models because of uncertainties caused by parameterizations such as cloud physics, and we believe that our work will provide a possible solution. Parameter estimation for such systems is a challenging problem due to multiple factors like imperfect physics at high resolution, inadequate data, extremely high dimensionality, etc. We have developed a posterior decomposition strategy to overcome the severe interdependence between parameters which has dramatically improved the estimation quality.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Replicated Batch Means for Parallel MCMC</title>

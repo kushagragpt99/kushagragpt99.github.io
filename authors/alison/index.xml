@@ -48,7 +48,7 @@ Figure 1: Don’t be like this
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::hugo_version()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then you can reference your &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo theme&lt;/a&gt; to find the minimum version of Hugo required by your theme:&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;hugo-min-version.png&#34; alt=&#34;Check your theme&#39;s minimum Hugo version&#34;  /&gt;
+&lt;img src=&#34;hugo-min-version.png&#34; alt=&#34;Check your theme&#39;s minimum Hugo version&#34; width=&#34;1073&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Check your theme’s minimum Hugo version
 &lt;/p&gt;
@@ -307,7 +307,7 @@ options(
 &lt;/div&gt;
 &lt;div id=&#34;update-metadata&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Update Metadata&lt;/h1&gt;
-&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2020-11-01. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
+&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2020-12-06. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;update-metadata.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Check the box to rename the file if the date has changed. RStudio will tell you your file has been deleted- which is technically true since the folder was renamed, but don’t panic!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;file-deleted-warning.png&#34; /&gt;&lt;/p&gt;
