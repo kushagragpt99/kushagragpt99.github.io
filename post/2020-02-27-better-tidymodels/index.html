@@ -924,7 +924,7 @@ lm_spec %&gt;%
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        279.
+#&gt; 1 rmse    standard        269.
 </code></pre>
 <h3 id="fitting-the-model-with-a-function">Fitting the model with a function</h3>
 <p>If you squint, you might see that I could make this into a function like below:</p>
@@ -950,7 +950,7 @@ get_rmse(model_spec = lm_spec, split = penguin_split)
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        279.
+#&gt; 1 rmse    standard        269.
 </code></pre>
 <p>I could also build up a tibble that includes the results, if I wanted to save the predicted values, for example:</p>
 <pre><code class="language-r">get_preds &lt;- function(model_spec, split){
@@ -1033,7 +1033,7 @@ penguin_preds %&gt;%
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        279.
+#&gt; 1 rmse    standard        269.
 </code></pre>
 <p>Or I could fit a regression tree model with a new model spec:</p>
 <pre><code class="language-r"># regression tree model spec
@@ -1050,7 +1050,7 @@ get_preds(model_spec = rt_spec,
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        468.
+#&gt; 1 rmse    standard        291.
 </code></pre>
 <p>Or a random forest:</p>
 <pre><code class="language-r"># random forest model spec
@@ -1067,7 +1067,7 @@ get_preds(model_spec = rf_spec,
 #&gt; # A tibble: 1 x 3
 #&gt;   .metric .estimator .estimate
 #&gt;   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
-#&gt; 1 rmse    standard        326.
+#&gt; 1 rmse    standard        271.
 </code></pre>
 <p>But, unfortunately, I shouldn&rsquo;t be predicting with the test set over and over again like this. It isn&rsquo;t good practice to predict with the test set &gt; 1 time. What is a good predictive modeler to do? I should be saving (holding out) the test set and use it to generate predictions exactly once, at the very end — after I&rsquo;ve compared different models, selected my features, and tuned my hyperparameters. How do you do this? You do 
 <a href="https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html" target="_blank" rel="noopener">cross-validation</a> with the training set, and you leave the testing set for 
@@ -1142,7 +1142,7 @@ get_fold_results(
 #&gt; # A tibble: 1 x 3
 #&gt;    rmse id     preds            
 #&gt;   &lt;dbl&gt; &lt;chr&gt;  &lt;list&gt;           
-#&gt; 1  276. Fold01 &lt;tibble [26 x 8]&gt;
+#&gt; 1  241. Fold01 &lt;tibble [26 x 8]&gt;
 </code></pre>
 <p>Next, I used purrr- but just once. The function <code>get_fold_results</code> is doing <strong>most</strong> of the work for us, but I needed purrr to map it across each fold.</p>
 <pre><code class="language-r">set.seed(0)
@@ -1154,16 +1154,16 @@ kfold_results
 #&gt; # A tibble: 10 x 3
 #&gt;     rmse id     preds            
 #&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;list&gt;           
-#&gt;  1  276. Fold01 &lt;tibble [26 x 8]&gt;
-#&gt;  2  325. Fold02 &lt;tibble [25 x 8]&gt;
-#&gt;  3  307. Fold03 &lt;tibble [25 x 8]&gt;
-#&gt;  4  358. Fold04 &lt;tibble [25 x 8]&gt;
-#&gt;  5  306. Fold05 &lt;tibble [25 x 8]&gt;
-#&gt;  6  382. Fold06 &lt;tibble [25 x 8]&gt;
-#&gt;  7  276. Fold07 &lt;tibble [25 x 8]&gt;
-#&gt;  8  318. Fold08 &lt;tibble [25 x 8]&gt;
-#&gt;  9  290. Fold09 &lt;tibble [25 x 8]&gt;
-#&gt; 10  474. Fold10 &lt;tibble [25 x 8]&gt;
+#&gt;  1  241. Fold01 &lt;tibble [26 x 8]&gt;
+#&gt;  2  326. Fold02 &lt;tibble [25 x 8]&gt;
+#&gt;  3  354. Fold03 &lt;tibble [25 x 8]&gt;
+#&gt;  4  349. Fold04 &lt;tibble [25 x 8]&gt;
+#&gt;  5  250. Fold05 &lt;tibble [25 x 8]&gt;
+#&gt;  6  308. Fold06 &lt;tibble [25 x 8]&gt;
+#&gt;  7  352. Fold07 &lt;tibble [25 x 8]&gt;
+#&gt;  8  326. Fold08 &lt;tibble [25 x 8]&gt;
+#&gt;  9  357. Fold09 &lt;tibble [25 x 8]&gt;
+#&gt; 10  356. Fold10 &lt;tibble [25 x 8]&gt;
 </code></pre>
 <p>Here we are still left with 10 RMSE values- one for each of the 10 folds. We don&rsquo;t care too much about by fold- the power is in the aggregate. Specifically, we mainly care about the central tendency and spread of these RMSE values. Let&rsquo;s finish by combining (or aggregating) these metrics.</p>
 <pre><code class="language-r">kfold_results %&gt;% 
@@ -1171,7 +1171,7 @@ kfold_results
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      331.    60.4
+#&gt; 1      322.    43.6
 </code></pre>
 <p>So, this works. But, can you imagine doing it again? Without errors? Can you imagine teaching it?</p>
 <p><img src="https://media.giphy.com/media/bmGmHZ5khMjN6/giphy.gif" alt=""></p>
@@ -1207,23 +1207,23 @@ penguin_res
 #&gt; # A tibble: 10 x 7
 #&gt;    splits       id     train_set     fit_models test_set     estimates      rmse
 #&gt;    &lt;list&gt;       &lt;chr&gt;  &lt;list&gt;        &lt;list&gt;     &lt;list&gt;       &lt;list&gt;        &lt;dbl&gt;
-#&gt;  1 &lt;split [225~ Fold01 &lt;tibble [225~ &lt;fit[+]&gt;   &lt;tibble [26~ &lt;tibble [26 ~  276.
-#&gt;  2 &lt;split [226~ Fold02 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  325.
-#&gt;  3 &lt;split [226~ Fold03 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  307.
-#&gt;  4 &lt;split [226~ Fold04 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  358.
-#&gt;  5 &lt;split [226~ Fold05 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  306.
-#&gt;  6 &lt;split [226~ Fold06 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  382.
-#&gt;  7 &lt;split [226~ Fold07 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  276.
-#&gt;  8 &lt;split [226~ Fold08 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  318.
-#&gt;  9 &lt;split [226~ Fold09 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  290.
-#&gt; 10 &lt;split [226~ Fold10 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  474.
+#&gt;  1 &lt;split [225~ Fold01 &lt;tibble [225~ &lt;fit[+]&gt;   &lt;tibble [26~ &lt;tibble [26 ~  241.
+#&gt;  2 &lt;split [226~ Fold02 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  326.
+#&gt;  3 &lt;split [226~ Fold03 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  354.
+#&gt;  4 &lt;split [226~ Fold04 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  349.
+#&gt;  5 &lt;split [226~ Fold05 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  250.
+#&gt;  6 &lt;split [226~ Fold06 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  308.
+#&gt;  7 &lt;split [226~ Fold07 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  352.
+#&gt;  8 &lt;split [226~ Fold08 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  326.
+#&gt;  9 &lt;split [226~ Fold09 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  357.
+#&gt; 10 &lt;split [226~ Fold10 &lt;tibble [226~ &lt;fit[+]&gt;   &lt;tibble [25~ &lt;tibble [25 ~  356.
 
 penguin_res %&gt;% 
   summarise(mean_rmse = mean(rmse), sd_rmse = sd(rmse))
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      331.    60.4
+#&gt; 1      322.    43.6
 </code></pre>
 <h3 id="the-purrr-mash-up">The purrr mash-up</h3>
 <p>Another way I worked out was largely after reviewing Max&rsquo;s slides from previous workshops. This is basically a mash-up of my previous two approaches, where we write laser-focused functions that each do one thing, then use purrr to apply those functions across the folds. This way is nice(r) for showing in slides as you can incrementally build up the results table. Let&rsquo;s see this sad script in action&hellip;</p>
@@ -1307,16 +1307,16 @@ penguin_purrr
 #&gt; # A tibble: 10 x 5
 #&gt;    splits           id     rt_fits  rt_preds          rt_rmse
 #&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;   &lt;list&gt;              &lt;dbl&gt;
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    276.
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    325.
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    307.
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    358.
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    306.
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    382.
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    276.
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    318.
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    290.
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    474.
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    241.
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    326.
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    354.
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    349.
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    250.
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    308.
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    352.
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    326.
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    357.
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    356.
 </code></pre>
 <p>Finally, summarizing as I did before:</p>
 <pre><code class="language-r">penguin_purrr %&gt;% 
@@ -1324,7 +1324,7 @@ penguin_purrr
 #&gt; # A tibble: 1 x 2
 #&gt;   mean_rmse sd_rmse
 #&gt;       &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1      331.    60.4
+#&gt; 1      322.    43.6
 </code></pre>
 <p>In practice, if you did all these at once instead of incrementally, it would look like:</p>
 <pre><code class="language-r">set.seed(0)
@@ -1342,16 +1342,16 @@ penguin_folds %&gt;%
 #&gt; # A tibble: 10 x 5
 #&gt;    splits           id     rt_fits  rt_preds          rt_rmse
 #&gt;    &lt;list&gt;           &lt;chr&gt;  &lt;list&gt;   &lt;list&gt;              &lt;dbl&gt;
-#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    276.
-#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    325.
-#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    307.
-#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    358.
-#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    306.
-#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    382.
-#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    276.
-#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    318.
-#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    290.
-#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    474.
+#&gt;  1 &lt;split [225/26]&gt; Fold01 &lt;fit[+]&gt; &lt;tibble [26 x 8]&gt;    241.
+#&gt;  2 &lt;split [226/25]&gt; Fold02 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    326.
+#&gt;  3 &lt;split [226/25]&gt; Fold03 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    354.
+#&gt;  4 &lt;split [226/25]&gt; Fold04 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    349.
+#&gt;  5 &lt;split [226/25]&gt; Fold05 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    250.
+#&gt;  6 &lt;split [226/25]&gt; Fold06 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    308.
+#&gt;  7 &lt;split [226/25]&gt; Fold07 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    352.
+#&gt;  8 &lt;split [226/25]&gt; Fold08 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    326.
+#&gt;  9 &lt;split [226/25]&gt; Fold09 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    357.
+#&gt; 10 &lt;split [226/25]&gt; Fold10 &lt;fit[+]&gt; &lt;tibble [25 x 8]&gt;    356.
 </code></pre>
 <p>When you put it like <em>that</em>, it doesn&rsquo;t look like so much work! But, this way hides how much work it takes to write those 3 custom functions: <code>get_fits()</code>, <code>get_preds()</code>, and <code>get_rmse()</code>. And we still had to use vanilla <code>map()</code>, <code>map2()</code>, <em>and</em> <code>map2_dbl()</code>.</p>
 <h2 id="make-it-better">Make it better</h2>
@@ -1400,8 +1400,8 @@ penguin_folds %&gt;%
 #&gt; # A tibble: 2 x 5
 #&gt;   .metric .estimator    mean     n std_err
 #&gt;   &lt;chr&gt;   &lt;chr&gt;        &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt;
-#&gt; 1 rmse    standard   331.       10 19.1   
-#&gt; 2 rsq     standard     0.837    10  0.0122
+#&gt; 1 rmse    standard   322.       10 13.8   
+#&gt; 2 rsq     standard     0.847    10  0.0154
 </code></pre>
 <p>To see the predictions, we need to add use 
 <a href="https://tidymodels.github.io/tune/reference/control_grid.html" target="_blank" rel="noopener"><code>control_resamples()</code></a>:</p>
@@ -1419,16 +1419,16 @@ penguin_folds %&gt;%
 #&gt; # A tibble: 251 x 4
 #&gt;    id     .pred  .row body_mass_g
 #&gt;    &lt;chr&gt;  &lt;dbl&gt; &lt;int&gt;       &lt;int&gt;
-#&gt;  1 Fold01 3415.     4        3450
-#&gt;  2 Fold01 3415.    11        3700
-#&gt;  3 Fold01 3979.    14        4200
-#&gt;  4 Fold01 3415.    41        3500
-#&gt;  5 Fold01 3979.    54        4450
-#&gt;  6 Fold01 3415.    65        3350
-#&gt;  7 Fold01 3979.    70        4300
-#&gt;  8 Fold01 3415.    71        3400
-#&gt;  9 Fold01 3415.    76        3075
-#&gt; 10 Fold01 3415.    85        2900
+#&gt;  1 Fold01 3366.     4        3450
+#&gt;  2 Fold01 3366.    11        3325
+#&gt;  3 Fold01 3366.    14        3800
+#&gt;  4 Fold01 3982.    41        3800
+#&gt;  5 Fold01 3366.    54        3700
+#&gt;  6 Fold01 3366.    65        3550
+#&gt;  7 Fold01 3982.    70        4300
+#&gt;  8 Fold01 3366.    71        3700
+#&gt;  9 Fold01 3366.    76        3075
+#&gt; 10 Fold01 3982.    85        4075
 #&gt; # ... with 241 more rows
 </code></pre>
 <p>Now, isn&rsquo;t that better?</p>
@@ -1775,7 +1775,7 @@ penguin_folds %&gt;%
   
 
   <p class="powered-by">
-    © Kushagra Gupta 2020 &middot; 
+    © Kushagra Gupta 2021 &middot; 
 
     Made with <i class="far fa-heart" style="color: #06805E"></i>, <a href="https://github.com/kushagragpt99/kushagragpt99.github.io" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

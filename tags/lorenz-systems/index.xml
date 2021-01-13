@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lorenz systems | Kushagra Gupta</title>
+    <link>/tags/lorenz-systems/</link>
+      <atom:link href="/tags/lorenz-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lorenz systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2021</copyright><lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpeg</url>
+      <title>Lorenz systems</title>
+      <link>/tags/lorenz-systems/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian equation selection on sparse data for discovery of stochastic dynamical systems</title>
+      <link>/publication/preprints/2021-bayesian-equation-selection/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprints/2021-bayesian-equation-selection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

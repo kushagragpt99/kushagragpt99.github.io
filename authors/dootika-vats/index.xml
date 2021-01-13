@@ -5,7 +5,7 @@
     <link>/authors/dootika-vats/</link>
       <atom:link href="/authors/dootika-vats/index.xml" rel="self" type="application/rss+xml" />
     <description>Dootika Vats</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2021</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpeg</url>
       <title>Dootika Vats</title>
@@ -13,11 +13,11 @@
     </image>
     
     <item>
-      <title>Inference of Deterministic Computer Models</title>
+      <title>Bayesian equation selection with spike and slab priors</title>
       <link>/project/comp_model/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/project/comp_model/</guid>
-      <description>&lt;p&gt;Many scientific phenomena are being investigated by complex computer models or codes, which require uncertainty quantification framework for inference. Our approach is to model the deterministic output of the models as the realization of a stochastic process. We are currently working on the identifiability of Lorenz’63 model, a commonly used chaotic system in climate science, and extending our method to cover a broad range of dynamic models. System identification remains a challenge in climate models because of uncertainties caused by parameterizations such as cloud physics, and we believe that our work will provide a possible solution. Parameter estimation for such systems is a challenging problem due to multiple factors like imperfect physics at high resolution, inadequate data, extremely high dimensionality, etc. We have developed a posterior decomposition strategy to overcome the severe interdependence between parameters which has dramatically improved the estimation quality.&lt;/p&gt;
+      <description>&lt;p&gt;Often the underlying system of differential equations driving a stochastic dynamical system is assumed to be known, with inference conditioned on this assumption. We present a Bayesian framework for discovering this system of differential equations under assumptions that align with real-life scenarios, including the availability of relatively sparse data. Further, we discuss computational strategies that are critical in teasing out the important details about the dynamical system and algorithmic innovations to solve for acute parameter interdependence in the absence of rich data. This gives a complete Bayesian pathway for model identification via a variable selection paradigm and parameter estimation of the corresponding model using only the observed data. We present detailed computations and analysis of the Lorenz-96, Lorenz-63, and the Orstein-Uhlenbeck system using the Bayesian framework we propose.&lt;/p&gt;
 </description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>/publication_types/3/</link>
       <atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2020</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Kushagra Gupta 2021</copyright><lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpeg</url>
       <title>3</title>
       <link>/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Bayesian equation selection on sparse data for discovery of stochastic dynamical systems</title>
+      <link>/publication/preprints/2021-bayesian-equation-selection/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprints/2021-bayesian-equation-selection/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Estimating Monte Carlo variance from multiple Markov chains</title>
