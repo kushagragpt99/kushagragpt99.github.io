@@ -611,7 +611,7 @@ lm_spec %&amp;gt;%
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        313.
+#&amp;gt; 1 rmse    standard        291.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;fitting-the-model-with-a-function&#34;&gt;Fitting the model with a function&lt;/h3&gt;
 &lt;p&gt;If you squint, you might see that I could make this into a function like below:&lt;/p&gt;
@@ -637,7 +637,7 @@ get_rmse(model_spec = lm_spec, split = penguin_split)
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        313.
+#&amp;gt; 1 rmse    standard        291.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I could also build up a tibble that includes the results, if I wanted to save the predicted values, for example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;get_preds &amp;lt;- function(model_spec, split){
@@ -720,7 +720,7 @@ penguin_preds %&amp;gt;%
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        313.
+#&amp;gt; 1 rmse    standard        291.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Or I could fit a regression tree model with a new model spec:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# regression tree model spec
@@ -737,7 +737,7 @@ get_preds(model_spec = rt_spec,
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        346.
+#&amp;gt; 1 rmse    standard        314.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Or a random forest:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# random forest model spec
@@ -754,7 +754,7 @@ get_preds(model_spec = rf_spec,
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;   .metric .estimator .estimate
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;          &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard        322.
+#&amp;gt; 1 rmse    standard        297.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;But, unfortunately, I shouldn&amp;rsquo;t be predicting with the test set over and over again like this. It isn&amp;rsquo;t good practice to predict with the test set &amp;gt; 1 time. What is a good predictive modeler to do? I should be saving (holding out) the test set and use it to generate predictions exactly once, at the very end — after I&amp;rsquo;ve compared different models, selected my features, and tuned my hyperparameters. How do you do this? You do 
 &lt;a href=&#34;https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cross-validation&lt;/a&gt; with the training set, and you leave the testing set for 
@@ -829,7 +829,7 @@ get_fold_results(
 #&amp;gt; # A tibble: 1 x 3
 #&amp;gt;    rmse id     preds            
 #&amp;gt;   &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           
-#&amp;gt; 1  301. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
+#&amp;gt; 1  290. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Next, I used purrr- but just once. The function &lt;code&gt;get_fold_results&lt;/code&gt; is doing &lt;strong&gt;most&lt;/strong&gt; of the work for us, but I needed purrr to map it across each fold.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(0)
@@ -841,16 +841,16 @@ kfold_results
 #&amp;gt; # A tibble: 10 x 3
 #&amp;gt;     rmse id     preds            
 #&amp;gt;    &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;           
-#&amp;gt;  1  301. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
-#&amp;gt;  2  337. Fold02 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  3  250. Fold03 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  4  330. Fold04 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  5  352. Fold05 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  6  333. Fold06 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  7  255. Fold07 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  8  275. Fold08 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt;  9  287. Fold09 &amp;lt;tibble [25 x 8]&amp;gt;
-#&amp;gt; 10  325. Fold10 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  1  290. Fold01 &amp;lt;tibble [26 x 8]&amp;gt;
+#&amp;gt;  2  395. Fold02 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  3  367. Fold03 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  4  310. Fold04 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  5  260. Fold05 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  6  274. Fold06 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  7  333. Fold07 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  8  259. Fold08 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt;  9  343. Fold09 &amp;lt;tibble [25 x 8]&amp;gt;
+#&amp;gt; 10  314. Fold10 &amp;lt;tibble [25 x 8]&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Here we are still left with 10 RMSE values- one for each of the 10 folds. We don&amp;rsquo;t care too much about by fold- the power is in the aggregate. Specifically, we mainly care about the central tendency and spread of these RMSE values. Let&amp;rsquo;s finish by combining (or aggregating) these metrics.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;kfold_results %&amp;gt;% 
@@ -858,7 +858,7 @@ kfold_results
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      305.    36.2
+#&amp;gt; 1      314.    45.7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So, this works. But, can you imagine doing it again? Without errors? Can you imagine teaching it?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/bmGmHZ5khMjN6/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -894,23 +894,23 @@ penguin_res
 #&amp;gt; # A tibble: 10 x 7
 #&amp;gt;    splits       id     train_set     fit_models test_set     estimates      rmse
 #&amp;gt;    &amp;lt;list&amp;gt;       &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;        &amp;lt;list&amp;gt;     &amp;lt;list&amp;gt;       &amp;lt;list&amp;gt;        &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225~ Fold01 &amp;lt;tibble [225~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [26~ &amp;lt;tibble [26 ~  301.
-#&amp;gt;  2 &amp;lt;split [226~ Fold02 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  337.
-#&amp;gt;  3 &amp;lt;split [226~ Fold03 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  250.
-#&amp;gt;  4 &amp;lt;split [226~ Fold04 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  330.
-#&amp;gt;  5 &amp;lt;split [226~ Fold05 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  352.
-#&amp;gt;  6 &amp;lt;split [226~ Fold06 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  333.
-#&amp;gt;  7 &amp;lt;split [226~ Fold07 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  255.
-#&amp;gt;  8 &amp;lt;split [226~ Fold08 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  275.
-#&amp;gt;  9 &amp;lt;split [226~ Fold09 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  287.
-#&amp;gt; 10 &amp;lt;split [226~ Fold10 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  325.
+#&amp;gt;  1 &amp;lt;split [225~ Fold01 &amp;lt;tibble [225~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [26~ &amp;lt;tibble [26 ~  290.
+#&amp;gt;  2 &amp;lt;split [226~ Fold02 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  395.
+#&amp;gt;  3 &amp;lt;split [226~ Fold03 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  367.
+#&amp;gt;  4 &amp;lt;split [226~ Fold04 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  310.
+#&amp;gt;  5 &amp;lt;split [226~ Fold05 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  260.
+#&amp;gt;  6 &amp;lt;split [226~ Fold06 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  274.
+#&amp;gt;  7 &amp;lt;split [226~ Fold07 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  333.
+#&amp;gt;  8 &amp;lt;split [226~ Fold08 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  259.
+#&amp;gt;  9 &amp;lt;split [226~ Fold09 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  343.
+#&amp;gt; 10 &amp;lt;split [226~ Fold10 &amp;lt;tibble [226~ &amp;lt;fit[+]&amp;gt;   &amp;lt;tibble [25~ &amp;lt;tibble [25 ~  314.
 
 penguin_res %&amp;gt;% 
   summarise(mean_rmse = mean(rmse), sd_rmse = sd(rmse))
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      305.    36.2
+#&amp;gt; 1      314.    45.7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;the-purrr-mash-up&#34;&gt;The purrr mash-up&lt;/h3&gt;
 &lt;p&gt;Another way I worked out was largely after reviewing Max&amp;rsquo;s slides from previous workshops. This is basically a mash-up of my previous two approaches, where we write laser-focused functions that each do one thing, then use purrr to apply those functions across the folds. This way is nice(r) for showing in slides as you can incrementally build up the results table. Let&amp;rsquo;s see this sad script in action&amp;hellip;&lt;/p&gt;
@@ -994,16 +994,16 @@ penguin_purrr
 #&amp;gt; # A tibble: 10 x 5
 #&amp;gt;    splits           id     rt_fits  rt_preds          rt_rmse
 #&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;   &amp;lt;list&amp;gt;              &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    301.
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    337.
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    250.
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    330.
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    352.
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    333.
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    255.
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    275.
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    287.
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    325.
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    290.
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    395.
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    367.
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    310.
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    260.
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    274.
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    333.
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    259.
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    343.
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    314.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finally, summarizing as I did before:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;penguin_purrr %&amp;gt;% 
@@ -1011,7 +1011,7 @@ penguin_purrr
 #&amp;gt; # A tibble: 1 x 2
 #&amp;gt;   mean_rmse sd_rmse
 #&amp;gt;       &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1      305.    36.2
+#&amp;gt; 1      314.    45.7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;In practice, if you did all these at once instead of incrementally, it would look like:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(0)
@@ -1029,16 +1029,16 @@ penguin_folds %&amp;gt;%
 #&amp;gt; # A tibble: 10 x 5
 #&amp;gt;    splits           id     rt_fits  rt_preds          rt_rmse
 #&amp;gt;    &amp;lt;list&amp;gt;           &amp;lt;chr&amp;gt;  &amp;lt;list&amp;gt;   &amp;lt;list&amp;gt;              &amp;lt;dbl&amp;gt;
-#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    301.
-#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    337.
-#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    250.
-#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    330.
-#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    352.
-#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    333.
-#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    255.
-#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    275.
-#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    287.
-#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    325.
+#&amp;gt;  1 &amp;lt;split [225/26]&amp;gt; Fold01 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [26 x 8]&amp;gt;    290.
+#&amp;gt;  2 &amp;lt;split [226/25]&amp;gt; Fold02 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    395.
+#&amp;gt;  3 &amp;lt;split [226/25]&amp;gt; Fold03 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    367.
+#&amp;gt;  4 &amp;lt;split [226/25]&amp;gt; Fold04 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    310.
+#&amp;gt;  5 &amp;lt;split [226/25]&amp;gt; Fold05 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    260.
+#&amp;gt;  6 &amp;lt;split [226/25]&amp;gt; Fold06 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    274.
+#&amp;gt;  7 &amp;lt;split [226/25]&amp;gt; Fold07 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    333.
+#&amp;gt;  8 &amp;lt;split [226/25]&amp;gt; Fold08 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    259.
+#&amp;gt;  9 &amp;lt;split [226/25]&amp;gt; Fold09 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    343.
+#&amp;gt; 10 &amp;lt;split [226/25]&amp;gt; Fold10 &amp;lt;fit[+]&amp;gt; &amp;lt;tibble [25 x 8]&amp;gt;    314.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;When you put it like &lt;em&gt;that&lt;/em&gt;, it doesn&amp;rsquo;t look like so much work! But, this way hides how much work it takes to write those 3 custom functions: &lt;code&gt;get_fits()&lt;/code&gt;, &lt;code&gt;get_preds()&lt;/code&gt;, and &lt;code&gt;get_rmse()&lt;/code&gt;. And we still had to use vanilla &lt;code&gt;map()&lt;/code&gt;, &lt;code&gt;map2()&lt;/code&gt;, &lt;em&gt;and&lt;/em&gt; &lt;code&gt;map2_dbl()&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;make-it-better&#34;&gt;Make it better&lt;/h2&gt;
@@ -1087,8 +1087,8 @@ penguin_folds %&amp;gt;%
 #&amp;gt; # A tibble: 2 x 5
 #&amp;gt;   .metric .estimator    mean     n std_err
 #&amp;gt;   &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;        &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;   &amp;lt;dbl&amp;gt;
-#&amp;gt; 1 rmse    standard   305.       10 11.5   
-#&amp;gt; 2 rsq     standard     0.869    10  0.0141
+#&amp;gt; 1 rmse    standard   314.       10 14.5   
+#&amp;gt; 2 rsq     standard     0.849    10  0.0172
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To see the predictions, we need to add use 
 &lt;a href=&#34;https://tidymodels.github.io/tune/reference/control_grid.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;control_resamples()&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
@@ -1106,16 +1106,16 @@ penguin_folds %&amp;gt;%
 #&amp;gt; # A tibble: 251 x 4
 #&amp;gt;    id     .pred  .row body_mass_g
 #&amp;gt;    &amp;lt;chr&amp;gt;  &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;       &amp;lt;int&amp;gt;
-#&amp;gt;  1 Fold01 3986.     4        3650
-#&amp;gt;  2 Fold01 3986.    11        3600
-#&amp;gt;  3 Fold01 3400.    14        3800
-#&amp;gt;  4 Fold01 3986.    41        4400
-#&amp;gt;  5 Fold01 3400.    54        3700
-#&amp;gt;  6 Fold01 3986.    65        4300
-#&amp;gt;  7 Fold01 3400.    70        2900
-#&amp;gt;  8 Fold01 3986.    71        4100
-#&amp;gt;  9 Fold01 3400.    76        3750
-#&amp;gt; 10 Fold01 3986.    85        3775
+#&amp;gt;  1 Fold01 3446.     4        3625
+#&amp;gt;  2 Fold01 3446.    11        3400
+#&amp;gt;  3 Fold01 4015.    14        3800
+#&amp;gt;  4 Fold01 3446.    41        2850
+#&amp;gt;  5 Fold01 3446.    54        3550
+#&amp;gt;  6 Fold01 4015.    65        4450
+#&amp;gt;  7 Fold01 3446.    70        3725
+#&amp;gt;  8 Fold01 4015.    71        4725
+#&amp;gt;  9 Fold01 4015.    76        3900
+#&amp;gt; 10 Fold01 3446.    85        3350
 #&amp;gt; # ... with 241 more rows
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, isn&amp;rsquo;t that better?&lt;/p&gt;
@@ -1646,7 +1646,7 @@ options(
 &lt;/div&gt;
 &lt;div id=&#34;update-metadata&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Update Metadata&lt;/h1&gt;
-&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2021-01-13. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
+&lt;p&gt;If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2021-11-05. The cool thing that was already built-in to blogdown is the “Update Metadata” Addin. With your blog post open (it should be called &lt;code&gt;index.Rmd&lt;/code&gt;)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, click on Addins and select “Update Metadata”. You should see a window like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;update-metadata.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Check the box to rename the file if the date has changed. RStudio will tell you your file has been deleted- which is technically true since the folder was renamed, but don’t panic!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;file-deleted-warning.png&#34; /&gt;&lt;/p&gt;
@@ -2045,7 +2045,7 @@ The problem was part of the machine learning competition in inter IIT tech meet,
 &lt;svg style=&#34;height:0.8em;top:.04em;position:relative;fill:#ee5863;&#34; viewBox=&#34;0 0 512 512&#34;&gt;
 &lt;path d=&#34;M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z&#34;/&gt;
 &lt;/svg&gt;
-&lt;a href=&#34;data:text/csv;base64,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&#34; download=&#34;stickers.csv&#34;&gt;Download stickers.csv&lt;/a&gt;
+&lt;a href=&#34;data:text/csv;base64,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&#34; download=&#34;stickers.csv&#34;&gt;Download stickers.csv&lt;/a&gt;
 &lt;hr /&gt;
 &lt;div id=&#34;being-sticker-rich&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Being sticker rich&lt;/h1&gt;
